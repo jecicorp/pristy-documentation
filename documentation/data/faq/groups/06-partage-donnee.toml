@@ -1,0 +1,12 @@
+id = "partage-donnee"
+name = "Partage de données"
+
+[[items]]
+
+question = "Introduction"
+answer = "Dans l'application bendoc vous pouvez partager vos espaces de travail, vos dossiers et fichiers avec vos collègues et/ou collaborateurs. Il vous suffit de cliquer sur le bouton partager en selectionnant ce que vous souhaitez partager. Ajoutez un membre et donner lui des droits de lecture, edition ou de gestionnaire sur vos espaces de travail, dossiers et fichiers que vous venez de partager. Vous pouvez également supprimer un partage si besoin."
+
+[[items]]
+
+question = "Fenêtre de partage"
+answer = "La fenêtre de partage s'ouvre avec le bouton partager. Vous pouvez rechercher une personne à ajouter ainsi que voir la liste des personnes à qui vous avez déjà partagé votre espace de travail, dossier ou fichier."
