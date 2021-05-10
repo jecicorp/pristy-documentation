@@ -2,7 +2,7 @@
 baseurl = "http://example.org/documentation"
 languageCode = "en-US"
 title = "Bendoc documentation utilisateur"
-theme = "hugo-faq-theme"
+theme = "bigspring"
 
 # Do not build files for websites. Need them? Set to false
 disableRSS = true
