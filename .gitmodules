@@ -1,0 +1,3 @@
+[submodule "bigspring"]
+				path = bendoc/themes/bigspring
+				url = ../bendoc-doc-hugo-theme.git
