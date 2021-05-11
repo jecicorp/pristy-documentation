@@ -1,0 +1,36 @@
+stages:
+  - build
+  - push
+
+default:
+  tags:
+  - docker
+  - jeci
+
+variables:
+  GIT_SUBMODULE_STRATEGY: recursive
+
+build_stg:
+  stage: build
+  image:
+    name: klakegg/hugo:0.82.0-ext-alpine
+    entrypoint: ["/bin/sh", "-c"]
+  script:
+  - hugo -e staging -s documentation
+  artifacts:
+    paths:
+    - bendoc/documentation
+
+push_stg:
+  stage: push
+  image:
+    name: alpine:3.13
+  script:
+    - echo "Testing artifact"
+    - test -f "bendoc/documentation/index.html"
+    - apk add lftp
+    - lftp -e "open $FTP_HOST; user $FTP_USERNAME $FTP_PASSWORD; mirror -X .* -X .*/ --reverse --verbose --delete bendoc/documentation/ www/documentation/; bye"
+  only:
+    refs:
+      - staging
+
