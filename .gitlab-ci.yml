@@ -13,7 +13,7 @@ variables:
 build_stg:
   stage: build
   image:
-    name: klakegg/hugo:0.82.0-ext-alpine
+    name: klakegg/hugo:0.82.0-busybox
     entrypoint: ["/bin/sh", "-c"]
   script:
   - hugo -e staging -s documentation
