@@ -1,8 +1,8 @@
 # Site settings
-baseurl = "http://example.org/"
+baseurl = "http://example.org/documentation"
 languageCode = "en-US"
-title = "Simple FAQ Theme for Hugo"
-theme = "hugo-faq-theme"
+title = "Bendoc documentation utilisateur"
+theme = "bigspring"
 
 # Do not build files for websites. Need them? Set to false
 disableRSS = true
@@ -13,34 +13,38 @@ disable404 = true
 SectionPagesMenu = "main"
 
 	[[menu.main]]
-		name = "Basics"
+		name = "Compte utilisateur"
 		weight = 10
-		url = "#basics"
+		url = "#compte-utilisateur"
 	[[menu.main]]
-		name = "Mobile"
+		name = "Création et import"
 		weight = 20
-		url = "#mobile"
+		url = "#creation-import"
 	[[menu.main]]
-		name = "Account"
+		name = "Panneau latéral"
 		weight = 30
-		url = "#account"
+		url = "#panneau-lateral"
 	[[menu.main]]
-		name = "Payments"
+		name = "Bandeau d'actions"
 		weight = 40
-		url = "#payments"
+		url = "#bandeau-action"
 	[[menu.main]]
-		name = "Privacy"
+		name = "Prévisu et édition"
 		weight = 50
-		url = "#privacy"
+		url = "#previsu-edition"
 	[[menu.main]]
-		name = "Delivery"
+		name = "Partage de données"
 		weight = 60
-		url = "#delivery"
+		url = "#partage-donnee"
+	[[menu.main]]
+		name = "Barre de recherche"
+		weight = 70
+		url = "#barre-recherche"
 
 [params]
-	
+
 	# Custom styling
-	# To customize the styling of this theme, uncomment and edit the following line to point 
-	# to your site's css in the assets/ directory. 
+	# To customize the styling of this theme, uncomment and edit the following line to point
+	# to your site's css in the assets/ directory.
 
 	custom_css = ["css/blue.css"]

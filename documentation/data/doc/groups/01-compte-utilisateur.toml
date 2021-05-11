@@ -1,0 +1,17 @@
+id = "compte-utilisateur"
+name = "Compte utilisateur"
+
+[[items]]
+
+functionality = "Création de compte"
+usage = "Vous ne pouvez pas creer votre compte vous même par le biais de l'application. Vous devez vous adresser à votre administrateur pour qu'il vous creer un compte."
+
+[[items]]
+
+functionality = "Se connecter"
+usage = "Pour vous connecter à Bendoc, vous devez vous rendre sur l'url suivant : https://votre-entreprise.bendoc.ovh. Pour avoir accès à votre compte, demandez votre login et mot de passe à votre administrateur. Vous pourrez ensuite vous connecter à l'application en cliquant sur Se connecter. Une fois connecté à l'application vous avez accès à vos fichiers, dossiers et espaces de travail y compris ceux partagés avec vous par autrui."
+
+[[items]]
+
+functionality = "Changer ses informations"
+usage = "Vous ne pouvez pas changer vos informations personnelles directement dans l'application Bendoc. Vous pouvez uniquement consulter votre prénom et/ou nom s'il y en a un, votre adresse mail, votre avatar par défaut ainsi que votre poste en haut à droit de l'application. Cependant, si vous souhaitez les changer, il vous faudra passer par un administrateur."

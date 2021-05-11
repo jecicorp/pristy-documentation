@@ -1,0 +1,38 @@
+id = "bandeau-action"
+name = "Bandeau d'actions"
+
+[[items]]
+
+functionality = "Introduction"
+usage = "Le bandeau d'actions est la barre par défaut au dessus de l'emplacement des fichiers, dossiers et espaces de travail au centre de l'application. Les actions qu'il contient apparaissent à gauche dans la barre en fonction de l'élément sélectionné."
+
+[[items]]
+
+functionality = "Information"
+usage = "Le bouton d'information correspond à un i dans un cercle qui vous permet de trouver des renseignement sur un fichier, dossier ou un espace de travail que vous trouverez respectivement ci-dessous. Fichier : le nom, le créateur, la date de création, la taille, le modificateur, la date de modification, le type (ex : Microsoft Word), l'auteur. Dossier : le nom, le créateur, la date de création, le modificateur, la date de modification. Espace de travail : le nom, l'id, la visibilité, la description."
+
+[[items]]
+
+functionality = "Quitter"
+usage = "Le bouton quitter correspond à un carré avec une flèche à gauche qui rentre vers l'intérieur. Ce bouton vous permet de quitter un espace de travail créé par vous ou partagé par vos collègues et/ou collaborateurs."
+
+
+[[items]]
+
+functionality = "Télécharger"
+usage = "Le bouton télécharger correspond à une flèche pointant le bas avec un trait horizontal en dessous. Ce bouton est disponible uniquement sur les fichiers et dossiers. Il vous permet de télécharger tout le contenu d'un élément sélectionné."
+
+[[items]]
+
+functionality = "Afficher"
+usage = "Le bouton télécharger correspond à un oeil. Ce bouton est disponible uniquement sur les fichiers. Il vous permet de passer en prévisualisation de document avec Collabora online, ce qui réduit le temps de chargement du document dans l'application."
+
+[[items]]
+
+functionality = "Publier"
+usage = "Le bouton publier correspond à un carré avec une flèche en haut poitant l'extérieur. Ce bouton est disponible uniquement sur les fichiers. Il vous permet de publier l'élément sélectionné via un lien de partage que vous pouvez envoyer à vos collègues et/ou collaborateurs."
+
+[[items]]
+
+functionality = "Plus ..."
+usage = "Le bouton plus correspond à trois points aligné verticalement. Il contient toutes les actions pour un élément sélectionné. Pour les espaces de travail les actions sont partager, supprimer, enlever ou ajouter aux favoris. Pour les dossiers les actions présentes sont partager, modifier, enlever ou ajouter aux favoris, déplacer, copier, supprimer. Pour les fichiers les actions disponible sont partager, modifier avec collabora online, editer hors ligne, importer une nouvelle version, enlever ou ajouter aux favoris, déplacer, copier, supprimer et gérer les versions."
