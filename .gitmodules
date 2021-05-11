@@ -1,3 +1,3 @@
 [submodule "documentation/themes/bigspring"]
 	path = documentation/themes/bigspring
-	url = git@gitlab.beezim.fr:jeci/bendoc/bendoc-doc-hugo-theme.git
+	url = https://gitlab.beezim.fr/jeci/bendoc/bendoc-doc-hugo-theme.git
