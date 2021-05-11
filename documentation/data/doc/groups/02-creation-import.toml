@@ -20,3 +20,8 @@ usage = "Pour créer un dossier, vous pouvez créer un dossier vide du nom de vo
 
 functionality = "Créer d'un espace de travail"
 usage = "Pour créer un espace de travail, vous pouvez créer un espace de travail vide du nom de votre choix. Vous ne pouvez pas en importer un existant. Vous devez vous trouver dans Mes espaces de travail, Fichiers personnels ou bien Espaces favoris."
+
+[[items]]
+
+functionality = "Glisser & déposer"
+usage = "Pour créer un fichier ou un dossier, vous pouvez également glisser/déposer vos fichiers et/ou dossiers sur bendoc dans la zone prévue à cet effet. Cette zone se situe au milieu de l'application à gauche du panneau latéral, généralement en dessous de vos fichiers et dossiers visibles."
