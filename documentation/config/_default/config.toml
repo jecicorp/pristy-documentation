@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "http://bendoc.fr/documentation"
+baseurl = "http://bendoc.fr/documentation/"
 languageCode = "fr_FR"
 title = "Bendoc - Documentation utilisateur"
 theme = "bigspring"

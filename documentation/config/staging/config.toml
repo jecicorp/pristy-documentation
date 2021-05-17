@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "http://bendoc.fr/public/documentation"
+baseurl = "http://bendoc.fr/public/documentation/"
 languageCode = "fr_FR"
 title = "Bendoc Staging- Documentation utilisateur"
 theme = "bigspring"
