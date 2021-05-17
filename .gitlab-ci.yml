@@ -16,10 +16,6 @@ build_stg:
     name: klakegg/hugo:0.82.0-ext-alpine
     entrypoint: ["/bin/sh", "-c"]
   script:
-    - cat .git/modules/bigspring/config
-    - cd documentation/themes/bigspring
-    - git fetch
-    - cd ../../..
     - hugo -e staging -s documentation
   artifacts:
     paths:
