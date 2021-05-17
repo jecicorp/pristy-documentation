@@ -19,7 +19,7 @@ build_stg:
     - hugo -e staging -s documentation
   artifacts:
     paths:
-    - bendoc/documentation
+    - documentation/public
 
 push_stg:
   stage: push
@@ -27,9 +27,9 @@ push_stg:
     name: alpine:3.13
   script:
     - echo "Testing artifact"
-    - test -f "bendoc/documentation/index.html"
+    - test -f "documentation/public/index.html"
     - apk add lftp
-    - lftp -e "open $FTP_HOST; user $FTP_USERNAME $FTP_PASSWORD; mirror -X .* -X .*/ --reverse --verbose --delete bendoc/documentation/ www/documentation/; bye"
+    - lftp -e "open $FTP_HOST; user $FTP_USERNAME $FTP_PASSWORD; mirror -X .* -X .*/ --reverse --verbose --delete documentation/public www/documentation/; bye"
   only:
     refs:
       - staging
