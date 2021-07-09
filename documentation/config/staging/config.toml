@@ -1,7 +1,7 @@
 # Site settings
-baseurl = "http://example.org/documentation"
-languageCode = "en-US"
-title = "Bendoc documentation utilisateur"
+baseurl = "http://bendoc.fr/public/documentation/"
+languageCode = "fr_FR"
+title = "Bendoc Staging- Documentation utilisateur"
 theme = "bigspring"
 
 # Do not build files for websites. Need them? Set to false

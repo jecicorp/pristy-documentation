@@ -1,0 +1,50 @@
+# Site settings
+baseurl = "http://bendoc.fr/documentation/"
+languageCode = "fr_FR"
+title = "Bendoc - Documentation utilisateur"
+theme = "bigspring"
+
+# Do not build files for websites. Need them? Set to false
+disableRSS = true
+disableSitemap = true
+disable404 = true
+
+# Menu
+SectionPagesMenu = "main"
+
+	[[menu.main]]
+		name = "Compte utilisateur"
+		weight = 10
+		url = "#compte-utilisateur"
+	[[menu.main]]
+		name = "Création et import"
+		weight = 20
+		url = "#creation-import"
+	[[menu.main]]
+		name = "Panneau latéral"
+		weight = 30
+		url = "#panneau-lateral"
+	[[menu.main]]
+		name = "Bandeau d'actions"
+		weight = 40
+		url = "#bandeau-action"
+	[[menu.main]]
+		name = "Prévisu et édition"
+		weight = 50
+		url = "#previsu-edition"
+	[[menu.main]]
+		name = "Partage de données"
+		weight = 60
+		url = "#partage-donnee"
+	[[menu.main]]
+		name = "Barre de recherche"
+		weight = 70
+		url = "#barre-recherche"
+
+[params]
+
+	# Custom styling
+	# To customize the styling of this theme, uncomment and edit the following line to point
+	# to your site's css in the assets/ directory.
+
+	custom_css = ["css/blue.css"]

@@ -29,7 +29,7 @@ push_stg:
     - echo "Testing artifact"
     - test -f "documentation/public/index.html"
     - apk add lftp
-    - lftp -e "open $FTP_HOST; user $FTP_USERNAME $FTP_PASSWORD; mirror -X .* -X .*/ --reverse --verbose --delete documentation/public www/documentation/; bye"
+    - lftp -e "open $FTP_HOST; user $FTP_USERNAME $FTP_PASSWORD; mirror -X .* -X .*/ --reverse --verbose --delete documentation/public/ www/public/documentation/; bye"
   only:
     refs:
       - staging
