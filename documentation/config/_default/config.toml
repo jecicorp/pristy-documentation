@@ -1,7 +1,7 @@
 # Site settings
-baseurl = "http://bendoc.fr/documentation/"
+baseurl = "http://pristy.net/documentation/"
 languageCode = "fr_FR"
-title = "Bendoc - Documentation utilisateur"
+title = "Pristy - Documentation utilisateur"
 theme = "bigspring"
 
 # Do not build files for websites. Need them? Set to false

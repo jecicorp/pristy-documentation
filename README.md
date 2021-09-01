@@ -1,4 +1,4 @@
-# Bendoc User Documentation
+# Pristy User Documentation
 
 ## Démarrage
 

@@ -4,7 +4,7 @@ name = "Partage de données"
 [[items]]
 
 functionality = "Introduction"
-usage = "Dans l'application bendoc vous pouvez partager vos espaces de travail, vos dossiers et fichiers avec vos collègues et/ou collaborateurs. Il vous suffit de cliquer sur le bouton partager en selectionnant ce que vous souhaitez partager. Ajoutez un membre et donner lui des droits de lecture, edition ou de gestionnaire sur vos espaces de travail, dossiers et fichiers que vous venez de partager. Vous pouvez également supprimer un partage si besoin."
+usage = "Dans l'application Pristy vous pouvez partager vos espaces de travail, vos dossiers et fichiers avec vos collègues et/ou collaborateurs. Il vous suffit de cliquer sur le bouton partager en selectionnant ce que vous souhaitez partager. Ajoutez un membre et donner lui des droits de lecture, edition ou de gestionnaire sur vos espaces de travail, dossiers et fichiers que vous venez de partager. Vous pouvez également supprimer un partage si besoin."
 
 [[items]]
 
