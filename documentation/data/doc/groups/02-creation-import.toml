@@ -4,7 +4,7 @@ name = "Création et import"
 [[items]]
 
 functionality = "Introduction"
-usage = "Pour pouvoir créer et importer n'importe quelle donnée, le bouton qui nous intéresse se trouve en haut à gauche de l'application bendoc, se nomme Nouveau et est de couleur verte."
+usage = "Pour pouvoir créer et importer n'importe quelle donnée, le bouton qui nous intéresse se trouve en haut à gauche de l'application Pristy, se nomme Nouveau et est de couleur verte."
 
 [[items]]
 
@@ -24,4 +24,4 @@ usage = "Pour créer un espace de travail, vous pouvez créer un espace de trava
 [[items]]
 
 functionality = "Glisser & déposer"
-usage = "Pour créer un fichier ou un dossier, vous pouvez également glisser/déposer vos fichiers et/ou dossiers sur bendoc dans la zone prévue à cet effet. Cette zone se situe au milieu de l'application à gauche du panneau latéral, généralement en dessous de vos fichiers et dossiers visibles."
+usage = "Pour créer un fichier ou un dossier, vous pouvez également glisser/déposer vos fichiers et/ou dossiers sur Pristy dans la zone prévue à cet effet. Cette zone se situe au milieu de l'application à gauche du panneau latéral, généralement en dessous de vos fichiers et dossiers visibles."
