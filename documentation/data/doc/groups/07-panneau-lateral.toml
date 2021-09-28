@@ -3,7 +3,7 @@ name = "Panneau latéral"
 
 [[items]]
 
-functionality = "Introduction"
+functionality = "Panneau latéral"
 usage = "Le panneau latéral est la zone à gauche de l'application qui ne change jamais. Vous aurez accès à Espaces de travail, Espaces favoris, Fichiers personnels, Mes publications, Fichiers récents, Favoris, Corbeille où que vous soyez dans Pristy."
 
 [[items]]
