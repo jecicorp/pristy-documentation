@@ -1,6 +1,6 @@
 stages:
   - build
-  - push
+  - deploy
 
 default:
   tags:
@@ -10,27 +10,41 @@ default:
 variables:
   GIT_SUBMODULE_STRATEGY: recursive
 
-build_stg:
+.build:
   stage: build
   image:
     name: klakegg/hugo:0.82.0-ext-alpine
     entrypoint: ["/bin/sh", "-c"]
-  script:
-    - hugo -e staging -s documentation
   artifacts:
     paths:
     - documentation/public
 
-push_stg:
-  stage: push
+.deploy:
+  stage: deploy
   image:
-    name: alpine:3.13
+    name: docker.io/jeci/centos_deployer:latest
+  before_script:
+    - eval $(ssh-agent -s)
+    - ssh-add <(echo "$SSH_PRIVATE_KEY")
+    - mkdir -p ~/.ssh
+    - 'echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config'
+
+build_stg:
+  extends: .build
   script:
-    - echo "Testing artifact"
-    - test -f "documentation/public/index.html"
-    - apk add lftp
-    - lftp -e "open $FTP_HOST; user $FTP_USERNAME $FTP_PASSWORD; mirror -X .* -X .*/ --reverse --verbose --delete documentation/public/ www/public/documentation/; bye"
+  - hugo -e deploy -s documentation
   only:
     refs:
       - staging
 
+deploy_stg:
+  extends: .deploy
+  script:
+    - echo "Deploy to miharu.jeci.xyz"
+    - rsync -avz $PWD/documentation/public/ "$USER_DEPLOY@miharu.jeci.xyz:/var/www/auth2proxy/stg-pristy-doc/"
+  environment:
+    name: pristy-fr-stg
+    url: https://stg-pristy-doc.jeci.tech
+  only:
+    refs:
+      - staging
