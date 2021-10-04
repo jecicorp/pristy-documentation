@@ -14,7 +14,7 @@ SectionPagesMenu = "main"
 
 	[[menu.main]]
 		name = "Compte utilisateur"
-		weight = 10
+		weight = 30
 		url = "#compte-utilisateur"
 	[[menu.main]]
 		name = "Création et import"
@@ -22,24 +22,32 @@ SectionPagesMenu = "main"
 		url = "#creation-import"
 	[[menu.main]]
 		name = "Panneau latéral"
-		weight = 30
+		weight = 70
 		url = "#panneau-lateral"
 	[[menu.main]]
 		name = "Bandeau d'actions"
-		weight = 40
+		weight = 80
 		url = "#bandeau-action"
 	[[menu.main]]
-		name = "Prévisu et édition"
+		name = "Prévisualisation et édition"
 		weight = 50
 		url = "#previsu-edition"
 	[[menu.main]]
 		name = "Partage de données"
-		weight = 60
+		weight = 10
 		url = "#partage-donnee"
 	[[menu.main]]
 		name = "Barre de recherche"
-		weight = 70
+		weight = 60
 		url = "#barre-recherche"
+	[[menu.main]]
+		name = "Gestion utilisateurs et groupes"
+		weight = 40
+		url = "#gestion-utilisateurs-groupes"
+	[[menu.main]]
+		name = "Autres questions"
+		weight = 90
+		url = "#aide-support"
 
 [params]
 

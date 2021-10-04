@@ -1,0 +1,14 @@
+id = "aide-support"
+name = "Autres questions"
+
+[[items]]
+
+functionality = "Questions diverses"
+usage = "Notre FAQ est disponible sur notre site internet pour répondre à toutes vos questions diverses. Si votre question ne s'y trouve pas vous pouvez contacter le support."
+lien = "https://pristy.fr/fr/faq/"
+
+[[items]]
+
+functionality = "Contacter le support"
+usage = "Pour contacter le support vous pouvez vous rendre sur le site internet puis la page contact. Vous pouvez également nous contacter via mail infos@jeci.fr ou bien par téléphone : +33 9 72 38 21 92"
+lien = "https://pristy.fr/fr/"

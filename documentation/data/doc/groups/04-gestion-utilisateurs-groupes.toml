@@ -1,0 +1,27 @@
+id = "gestion-utilisateurs-groupes"
+name = "Gestion utilisateurs et groupes"
+
+[[items]]
+
+functionality = "Création de compte utilisateur"
+usage = "Vous ne pouvez pas creer votre compte vous même par le biais de l'application. Vous devez vous adresser à votre administrateur pour qu'il vous creer un compte."
+
+[[items]]
+
+functionality = "Suppression de compte utilisateur"
+usage = "Vous ne pouvez pas supprimer votre compte ou le compte d'un tier via l'application. Vous pouvez vous adresser à votre administrateur pour qu'il supprime le compte en question."
+
+[[items]]
+
+functionality = "Création de groupe"
+usage = "Vous ne pouvez pas créer de groupes vous même via Pristy. Vous devez donc vous adresser à votre administrateur pour qu'il créer votre/vos groupes."
+
+[[items]]
+
+functionality = "Suppression de groupe"
+usage = "La suppression d'un ou plusieurs groupes par le biais de l'application n'est pas possible. Vous pouvez demander à votre administrateur de le/les supprimer pour vous."
+
+[[items]]
+
+functionality = "Ajouter un utilisateur à un groupe"
+usage = "L'ajout d'un ou plusieurs utilisateur à un ou plusieurs groupes n'est pas possible via Pristy. Cependant il peut se faire par votre administrateur à la demande."
