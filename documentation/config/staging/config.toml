@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "http://pristy.net/public/documentation/"
+baseurl = "https://stg-pristy-doc.jeci.tech/"
 languageCode = "fr_FR"
 title = "Pristy Staging- Documentation utilisateur"
 theme = "bigspring"
