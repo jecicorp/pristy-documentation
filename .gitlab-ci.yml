@@ -32,7 +32,7 @@ variables:
 build_stg:
   extends: .build
   script:
-  - hugo -e deploy -s documentation
+  - hugo -e staging -s documentation
   only:
     refs:
       - staging
