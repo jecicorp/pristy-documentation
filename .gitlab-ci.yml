@@ -37,6 +37,14 @@ build_stg:
     refs:
       - staging
 
+build_prod:
+  extends: .build
+  script:
+  - hugo -e production -s documentation
+  only:
+    refs:
+      - prod
+
 deploy_stg:
   extends: .deploy
   script:
@@ -48,3 +56,15 @@ deploy_stg:
   only:
     refs:
       - staging
+
+deploy_prod:
+  extends: .deploy
+  script:
+    - echo "Deploy to miharu.jeci.xyz"
+    - rsync -avz $PWD/documentation/public/ "$USER_DEPLOY@miharu.jeci.xyz:/var/www/pristy.fr/documentation"
+  environment:
+    name: pristy-fr-prod
+    url: https://pristy.net/documentation
+  only:
+    refs:
+      - prod
