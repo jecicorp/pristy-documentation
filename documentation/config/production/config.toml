@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://pristy.fr/documentation"
+baseurl = "https://pristy.fr/documentation/"
 languageCode = "fr_FR"
 title = "Pristy - Documentation utilisateur"
 theme = "bigspring"
