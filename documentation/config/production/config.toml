@@ -14,7 +14,7 @@ SectionPagesMenu = "main"
 
 	[[menu.main]]
 		name = "Compte utilisateur"
-		weight = 10
+		weight = 30
 		url = "#compte-utilisateur"
 	[[menu.main]]
 		name = "Création et import"
