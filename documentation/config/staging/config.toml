@@ -1,7 +1,7 @@
 # Site settings
 baseurl = "https://stg-pristy-doc.jeci.tech/"
 languageCode = "fr_FR"
-title = "Pristy Staging- Documentation utilisateur"
+title = "Documentation utilisateur"
 theme = "bigspring"
 
 # Do not build files for websites. Need them? Set to false
