@@ -50,6 +50,7 @@ SectionPagesMenu = "main"
 		url = "#aide-support"
 
 [params]
+	scroll = true
 
 	# Custom styling
 	# To customize the styling of this theme, uncomment and edit the following line to point
