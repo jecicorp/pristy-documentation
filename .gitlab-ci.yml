@@ -7,17 +7,16 @@ default:
   - docker
   - jeci
 
-variables:
-  GIT_SUBMODULE_STRATEGY: recursive
-
 .build:
   stage: build
   image:
-    name: klakegg/hugo:0.82.0-ext-alpine
+    name: python:alpine
     entrypoint: ["/bin/sh", "-c"]
+  script:
+  - pip install -r requirements.txt
   artifacts:
     paths:
-    - documentation/public
+      - site/
 
 .deploy:
   stage: deploy
@@ -32,7 +31,7 @@ variables:
 build_stg:
   extends: .build
   script:
-  - hugo -e staging -s documentation
+  - mkdocs build
   only:
     refs:
       - staging
@@ -40,7 +39,7 @@ build_stg:
 build_prod:
   extends: .build
   script:
-  - hugo -e production -s documentation
+  - mkdocs build
   only:
     refs:
       - prod
@@ -49,7 +48,7 @@ deploy_stg:
   extends: .deploy
   script:
     - echo "Deploy to miharu.jeci.xyz"
-    - rsync -avz $PWD/documentation/public/ "$USER_DEPLOY@miharu.jeci.xyz:/var/www/auth2proxy/stg-pristy-doc/"
+    - rsync -avz $PWD/site/ "$USER_DEPLOY@miharu.jeci.xyz:/var/www/auth2proxy/stg-pristy-doc/"
   environment:
     name: pristy-fr-stg
     url: https://stg-pristy-doc.jeci.tech
@@ -61,7 +60,7 @@ deploy_prod:
   extends: .deploy
   script:
     - echo "Deploy to miharu.jeci.xyz"
-    - rsync -avz $PWD/documentation/public/ "$USER_DEPLOY@miharu.jeci.xyz:/var/www/pristy.fr/documentation/"
+    - rsync -avz $PWD/site/ "$USER_DEPLOY@miharu.jeci.xyz:/var/www/pristy.fr/documentation/"
   environment:
     name: pristy-fr-prod
     url: https://pristy.net/documentation
