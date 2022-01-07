@@ -1,0 +1,87 @@
+site_name: Pristy Documentation
+site_author: Jeci SARL
+site_description: Documentation pour les utilisateurs de Pristy
+copyright: licensed under CC BY 4.0
+
+repo_url: https://gitlab.beezim.fr/pristy/pristy-documentation
+edit_uri: edit/staging/docs/
+
+# https://squidfunk.github.io/mkdocs-material/
+theme:
+  name: 'material'
+  language: 'fr'
+  icon:
+    repo: fontawesome/brands/gitlab
+
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.top
+    - search.suggest
+    - search.share
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: amber
+      accent: pink
+      toggle:
+        icon: material/weather-sunny
+        name: Passer au mode foncé
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: amber
+      accent: pink
+      toggle:
+        icon: material/weather-night
+        name: Passer au mode clair
+extra:
+  search:
+    language: 'fr, en'
+  social:
+    # https://materialdesignicons.com/
+    # ls ./.venv/lib/python3.9/site-packages/material/.icons/material/
+    - icon: 'material/github'
+      link: 'https://github.com/JeciCorp'
+    - icon: 'material/twitter'
+      link: 'https://twitter.com/JeciCorp'
+    - icon: 'material/linkedin'
+      link: 'https://www.linkedin.com/company/jeci/'
+
+#nav:
+#- 'index.md'
+#- 'Systeme'
+
+plugins:
+  - search:
+      lang:
+        - fr
+        - en
+
+# https://squidfunk.github.io/mkdocs-material/extensions/admonition/
+# https://squidfunk.github.io/mkdocs-material/extensions/codehilite/
+# https://squidfunk.github.io/mkdocs-material/extensions/pymdown/
+markdown_extensions:
+  - smarty
+  - meta
+  - sane_lists
+  - admonition
+  - codehilite
+  - toc:
+      permalink: ⚓︎
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+
+use_directory_urls: true
