@@ -1,3 +1,0 @@
-# Pristy
-
-Page 1
