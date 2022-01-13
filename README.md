@@ -3,13 +3,25 @@
 ## Démarrage
 
 ```
-git submodule init
-git submodule update
-hugo -s documentation server
+mkdocs serve
 ```
-Accès à la documentation sur http://localhost:1313/documentation
+Accès à la documentation sur http://127.0.0.1:8000/
 
+ou
 
-## Langues
+```
+mkdocs serve --dirtyreload
+```
+Pour un build plus rapide, mais avec risque de liens non fonctionnels.
 
-Uniquement disponible en français.
+### Sur Docker
+
+```
+docker run --rm -it -p 8000:8000 -v ${PWD}:/docs squidfunk/mkdocs-material
+```
+Accès via : http://localhost:8000/
+
+## navigation
+
+Dans mkdocs.yml sous la section nav.
+https://www.mkdocs.org/user-guide/writing-your-docs/#configure-pages-and-navigation
