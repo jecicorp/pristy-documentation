@@ -3,8 +3,10 @@ site_author: Jeci SARL
 site_description: Documentation pour les utilisateurs de Pristy
 copyright: licensed under CC BY 4.0
 
-repo_url: https://gitlab.beezim.fr/pristy/pristy-documentation
+repo_url: https://gitlab.beezim.fr/jeci/pristy/pristy-documentation
 edit_uri: edit/staging/docs/
+repo_name: Documentation on gitlab
+
 
 # https://squidfunk.github.io/mkdocs-material/
 theme:
@@ -12,13 +14,20 @@ theme:
   language: 'fr'
   icon:
     repo: fontawesome/brands/gitlab
+  favicon: assets/favicon.ico
+  logo: assets/logo-pristy-square.png
+  font:
+    text: Open Sans
 
   features:
     - navigation.instant
     - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.top
     - search.suggest
     - search.share
+    - toc.integrate
+
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
@@ -46,10 +55,36 @@ extra:
       link: 'https://twitter.com/JeciCorp'
     - icon: 'material/linkedin'
       link: 'https://www.linkedin.com/company/jeci/'
+  alternate:
+    #Fonction pour ajouter un switch de language
+    - name: French
+      link:
+      lang: fr
+    - name: English
+      link: /en/
+      lang: en
 
-#nav:
-#- 'index.md'
-#- 'Systeme'
+#Navigation du site
+#https://www.mkdocs.org/user-guide/writing-your-docs/#configure-pages-and-navigation
+nav:
+  - Accueil:
+    - 'index.md'
+    - Plan du site: 'plan-du-site.md'
+  - 'Prise en main':
+    - 'acces-compte.md'
+    - 'panneau-lateral.md'
+    - 'bandeau-actions.md'
+  - 'Gérer son contenu':
+    - 'creation-import.md'
+    - 'partager.md'
+    - 'rechercher.md'
+    - 'edition-en-ligne.md'
+  - Fonction premium:
+    - 'premium/save-as.md'
+    - 'premium/OCR.md'
+  - Divers:
+    - 'format-pris-en-charge.md'
+    - 'plan-du-site.md'
 
 plugins:
   - search:
@@ -82,6 +117,12 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tilde
-
+  - attr_list
+  - md_in_html
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
 
 use_directory_urls: true
