@@ -71,6 +71,7 @@ nav:
     - 'index.md'
     - Plan du site: 'plan-du-site.md'
   - 'Prise en main':
+    - 'se-reperer.md'
     - 'acces-compte.md'
     - 'panneau-lateral.md'
     - 'bandeau-actions.md'
@@ -79,9 +80,9 @@ nav:
     - 'partager.md'
     - 'rechercher.md'
     - 'edition-en-ligne.md'
-  - Fonction premium:
-    - 'premium/save-as.md'
-    - 'premium/OCR.md'
+  - Fonction options:
+    - 'options/save-as.md'
+    - 'options/OCR.md'
   - Divers:
     - 'format-pris-en-charge.md'
     - 'plan-du-site.md'

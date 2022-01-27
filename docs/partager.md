@@ -1,3 +1,8 @@
+---
+title: Partager
+description:
+---
+
 # Partager
 Les fonctions de partage peuvent parraître complexes de prime abord : pas de panique, après avoir lu cette section tout sera, normalement,plus clair.
 

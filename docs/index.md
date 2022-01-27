@@ -1,3 +1,8 @@
+---
+title: Documentation Pristy
+description: Vous trouverez ici toute la documentation, manuel utilisateur, pour l'utilisation de Pristy. Vous êtes débutants ? On part du début. Vous êtes avancé, il y a des conseils qui peuvent vous être utiles. 
+---
+
 # Pristy
 
 Bienvenu sur la documentation de Pristy.

@@ -1,11 +1,11 @@
 ---
-tags:
-  - espace de travail
-  - import
-
+title: Création et import
+description:
 ---
-
 # Création et import
+
+!!! tips "Métaphore pour mieux comprendre"
+    Il faut imaginer les espaces de travail comme une bibliothèque (le lieu), chaque espace de travail est une bibliothèque (le meuble), chaque dossier est un rayon de bibliothèque, et chaque fichier est un livre.
 
 ## Espace de travail
 
