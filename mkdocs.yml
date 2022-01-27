@@ -5,7 +5,7 @@ copyright: licensed under CC BY 4.0
 
 repo_url: https://gitlab.beezim.fr/jeci/pristy/pristy-documentation
 edit_uri: edit/staging/docs/
-repo_name: Documentation on gitlab
+repo_name: Documentation sur gitlab
 
 
 # https://squidfunk.github.io/mkdocs-material/
@@ -14,7 +14,7 @@ theme:
   language: 'fr'
   icon:
     repo: fontawesome/brands/gitlab
-  favicon: assets/favicon.ico
+  favicon: assets/images/favicon.ico
   logo: assets/logo-pristy-square.png
   font:
     text: Open Sans

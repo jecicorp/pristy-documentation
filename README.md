@@ -25,3 +25,15 @@ Accès via : http://localhost:8000/
 
 Dans mkdocs.yml sous la section nav.
 https://www.mkdocs.org/user-guide/writing-your-docs/#configure-pages-and-navigation
+
+
+# Mise à jour de contenu :
+Penser à mettre à jour le menu dans
+'''~/mkdocs.yalm/#nav'''
+Et à mettre à jout le plan du site
+'''~/docs/plan-du-site/'''
+
+#Notes
+
+- le logo soit être placé dans le dossier 'assets' qui doit être dans le dossier 'docs'
+- le favicon doit se trouvé dans le dossier 'images' du dossier 'assets'
