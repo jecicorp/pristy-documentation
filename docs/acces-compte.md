@@ -1,8 +1,7 @@
 ---
 title: Se connecter à Pristy
-
+description: Explication des fonctions de connexion, de déconnexion et du changement de langue de l'interface.
 ---
-
 
 # Accès au compte
 
@@ -20,7 +19,7 @@ Si vous avez tous cela, vous pouvez suivre les instructions suivant pour vous co
 
 ??? example "En vidéo : connexion"
       <video width="100%" controls>
-      <source src="https://jeci.pristy.net/alfresco/api/-default-/public/alfresco/versions/1/shared-links/UsjlKfyURxGZuNY3ytG27Q/content?attachment=false" type="video/mp4">
+      <source src="https://jeci.pristy.net/alfresco/api/-default-/public/alfresco/versions/1/shared-links/UsjlKfyURxGZuNY3ytG27Q/content?attachment=false" type="video/webm">
       Votre navigateur ne supporte pas le tag vidéo.
       </video>
 
@@ -38,7 +37,7 @@ Par sécurité, votre session est automatiquement déconnectée régulièrement.
 
 ??? example "En vidéo : déconnexion"
       <figure> <video width="100%" controls>
-      <source src="https://jeci.pristy.net/alfresco/api/-default-/public/alfresco/versions/1/shared-links/49-qwcrhTiOdPbO7QLkc0A/content?attachment=false" type="video/mp4">
+      <source src="https://jeci.pristy.net/alfresco/api/-default-/public/alfresco/versions/1/shared-links/49-qwcrhTiOdPbO7QLkc0A/content?attachment=false" type="video/webm">
       Votre navigateur ne supporte pas le tag vidéo.
       </video>
       <figcaption> Déconnexion de Pristy</figcaption>
@@ -58,7 +57,7 @@ Pour changer la langue de l'interface utilisateur :
 
 ??? example "En vidéo : changer la langue de l'interface"
       <figure> <video width="100%" controls>
-      <source src="https://jeci.pristy.net/alfresco/api/-default-/public/alfresco/versions/1/shared-links/ZRj_LZNfQpWRtxxSzEPTKw/content?attachment=false" type="video/mp4">
+      <source src="https://jeci.pristy.net/alfresco/api/-default-/public/alfresco/versions/1/shared-links/ZRj_LZNfQpWRtxxSzEPTKw/content?attachment=false" type="video/webm">
       Votre navigateur ne supporte pas le tag vidéo.
       </video>
       <figcaption> Changer la langue de l'interface utilisateur de Pristy</figcaption>
