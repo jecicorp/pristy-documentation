@@ -211,7 +211,7 @@ Dans Corbeille, vous retrouverez tous les fichiers, dossiers et espaces de trava
             <figcaption>Vider la corbeille</figcaption>
             </figure>
 
-??? success "Conseil du pro : utiliser le Clic droit"
+??? info "Conseil du pro : utiliser le Clic droit"
     <figure markdown>![Action disponible : clic droit dans la corbeille](https://jeci.pristy.net/alfresco/api/-default-/public/alfresco/versions/1/shared-links/cl2qwTI7QyuSlWVXhzPETw/content?attachment=false)
     <!--Clic_droit_Corbeille-->
     <figcaption>Action disponible : clic droit dans la corbeille</figcaption>

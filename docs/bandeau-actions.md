@@ -19,7 +19,7 @@ Les actions possibles sont différentes :
       Si vous voulez faire une modification sur un fichier unique vous pouvez simplement faire un clic-droit dessus et vous trouverez le même menu déroulant, qu'en sélectionnant le fichier et en cliquant sur l'icone 3 petit points du bandeau d'action, mais avec **quelques clics en moins**.
 
       En vidéo : Action clic droit / bandeau d'actions
-            <figure> <video width="100%" controls>
+            <figure> <video width="90%" controls>
             <source src="https://jeci.pristy.net/alfresco/api/-default-/public/alfresco/versions/1/shared-links/FPj_PA0dTnqVJPlhmOJruA/content?attachment=false" type="video/webm">
             Votre navigateur ne supporte pas le tag vidéo.
             </video>
@@ -69,6 +69,12 @@ Les autres rôles ont accès à tout ou partie de ses actions.
     - [**Gérer les versions**](#gestion-de-version) (si plusieurs versions sont disponibles)
 
 ## Volet de détail
+
+!!! check inline end "Accessible avec le rôle"
+      - [x] Gestionnaire
+      - [x] Collaborateur / Éditeur
+      - [x] Lecteur
+
 - Sélectionner un dossier ou un fichier
 - Cliquer sur le "i" ans le bandeau de sélection
 
@@ -107,6 +113,11 @@ Sur la droit un volet de détail s'ouvre il contient le nom du fichier, son titr
 
 ## Supprimer
 
+!!! check inline end "Accessible avec le rôle"
+      - [x] Gestionnaire
+      - [ ] Collaborateur / Éditeur
+      - [ ] Lecteur
+
 - Sélectionner le(s) dossier(s) ou le(s) fichier(s)
 - Cliquer sur l'icône des 3 petits point du bandeau d'action
 - Choisir "Supprimer"
@@ -130,6 +141,12 @@ Le document n'est pas réellement supprimer, il est déplacer dans la [Corbeille
 Consulter la section [Supprimer un espace de travail](../creation-import/#supprimer-un-espace-de-travail) pour voir comment supprimer un espace de travail plus en détail.
 
 ## Favori
+
+!!! check inline end "Accessible avec le rôle"
+      - [x] Gestionnaire
+      - [x] Collaborateur / Éditeur
+      - [x] Lecteur
+
 Vous pouvez ajouter en favoris des espaces, des documents et des fichiers.
 - Sélectionner l'espace, le(s) dossier(s) ou le(s) fichier(s)
 - Cliquer sur l'icone des 3 petits point du bandeau d'action
@@ -152,19 +169,19 @@ Vos fichiers favoris sont regroupés dans [Favoris](../panneau-lateral/#favoris)
 
 ## Télécharger
 
+!!! check inline end "Accessible avec le rôle"
+      - [x] Gestionnaire
+      - [x] Collaborateur / Éditeur
+      - [x] Lecteur
+
 Vous pouvez télécharger les dossiers et les fichiers.
 
-Méthode bandeau d'action :
-
 - Sélectionner le(s) dossier(s) ou le(s) fichier(s)
-- Cliquer sur l'icone fleche vers le bas
-        <figure markdown>![Emplacement action télécharger](https://jeci.pristy.net/alfresco/api/-default-/public/alfresco/versions/1/shared-links/Xs4L7tO0TXmWDmZdieg5GQ/content?attachment=false){ width=80% }
-        <!--Bandeau_daction_Telecharger-->
-        <figcaption>Emplacement de l'action télécharger</figcaption>
-        </figure>
-
-- Choisir l'emplacement du téléchargement
-
+- Cliquer sur l'icone fleche vers le bas.
+    <figure markdown>![Emplacement action télécharger](https://jeci.pristy.net/alfresco/api/-default-/public/alfresco/versions/1/shared-links/Xs4L7tO0TXmWDmZdieg5GQ/content?attachment=false){ width=80% }
+    <!--Bandeau_daction_Telecharger-->
+    <figcaption>Emplacement de l'action télécharger</figcaption>
+    </figure>
 ??? example "En vidéo : Télécharger"
       <figure> <video width="100%" controls>
       <source src="https://jeci.pristy.net/alfresco/api/-default-/public/alfresco/versions/1/shared-links/XXvMP7SjS1qy_hRTt-dG7g/content?attachment=false" type="video/webm">
@@ -173,13 +190,13 @@ Méthode bandeau d'action :
       <!--04_03_Telecharger-->
       <figcaption>Télécharger</figcaption>
       </figure>
+<br>
+!!! info "Conseils gain de temps :"
+      Vous pouvez aussi faire un clic droit sur le(s) dossier(s) et fichier(s) puis cliquer sur "Télecharger".
 
-Vous pouvez aussi faire un clic droit sur le(s) dossier(s) et fichier(s) puis cliquer sur "Télecharger".
-
-Vous pouvez télécharger plusieurs dossiers ou fichiers en même temps. Dans ce cas là le dossier zip télécharger sera appelé "archive".
-
-??? example "En vidéo : Télécharger plusieurs fichiers"
-      <figure> <video width="100%" controls>
+??? tip "Conseils : télécharger plusieurs fichiers ou dossiers"
+      Vous pouvez télécharger plusieurs dossiers ou fichiers en même temps. Dans ce cas là le dossier zip télécharger sera appelé "archive".
+      <figure> <video width="90%" controls>
       <source src="https://jeci.pristy.net/alfresco/api/-default-/public/alfresco/versions/1/shared-links/svKKCZfwTbmHLFpGyICW3A/content?attachment=false" type="video/webm">
       Votre navigateur ne supporte pas le tag vidéo.
       </video>
@@ -187,9 +204,12 @@ Vous pouvez télécharger plusieurs dossiers ou fichiers en même temps. Dans ce
       <figcaption>Télécharger plusieurs fichiers</figcaption>
       </figure>
 
-Rôle : Tous les rôles
-
 ## Déplacer du contenu
+
+!!! check inline end "Accessible avec le rôle"
+        - [x] Gestionnaire
+        - [ ] Collaborateur / Éditeur
+        - [ ] Lecteur
 
 Vous pouvez déplacer des dossiers et des fichiers dans d'autres dossiers ou espaces de travail.
 
@@ -197,77 +217,74 @@ Vous pouvez déplacer des dossiers et des fichiers dans d'autres dossiers ou esp
 - Cliquer sur l'icone des 3 petits point du bandeau d'action
 - Choisir "Déplacer"
 
-Vous pouvez aussi faire un clic droit sur le dossier puis cliquer sur "Déplacer".
+!!! info "Conseils gain de temps :"
+      Vous pouvez aussi faire un clic droit sur le dossier puis cliquer sur "Déplacer".
 
-Ensuite vous pouvez soit :
+##### Ensuite vous pouvez soit :
 
 - Choisir le dossier de destination
-VIDEO : 04_04_01_Deplacer_dans_dossier_simple
-??? example "En vidéo : "
-      <figure> <video width="100%" controls>
-      <source src="https://jeci.pristy.net/alfresco/api/-default-/public/alfresco/versions/1/shared-links/ID/content?attachment=false" type="video/webm">
-      Votre navigateur ne supporte pas le tag vidéo.
-      </video>
-      <!--Nom_du_fichier-->
-      <figcaption></figcaption>
-      </figure>
-
 - Choisir l'espace de travail de destination
-VIDEO :
-04_04_02_Deplacer_autre_espace
-??? example "En vidéo : "
-      <figure> <video width="100%" controls>
-      <source src="https://jeci.pristy.net/alfresco/api/-default-/public/alfresco/versions/1/shared-links/ID/content?attachment=false" type="video/webm">
-      Votre navigateur ne supporte pas le tag vidéo.
-      </video>
-      <!--Nom_du_fichier-->
-      <figcaption></figcaption>
-      </figure>
-04_04_02_Deplacer_vers_nouvel_espace
-??? example "En vidéo : "
-      <figure> <video width="100%" controls>
-      <source src="https://jeci.pristy.net/alfresco/api/-default-/public/alfresco/versions/1/shared-links/ID/content?attachment=false" type="video/webm">
-      Votre navigateur ne supporte pas le tag vidéo.
-      </video>
-      <!--Nom_du_fichier-->
-      <figcaption></figcaption>
-      </figure>
-
 - Chercher le dossier de destination dans la barre de recherche.
-VIDEO :
-04_04_03_Deplacer_avec_recherche_1
-??? example "En vidéo : "
-      <figure> <video width="100%" controls>
-      <source src="https://jeci.pristy.net/alfresco/api/-default-/public/alfresco/versions/1/shared-links/ID/content?attachment=false" type="video/webm">
+
+??? example "En vidéo : dossier de destination"
+      <figure> <video width="90%" controls>
+      <source src="https://jeci.pristy.net/alfresco/api/-default-/public/alfresco/versions/1/shared-links/oPuNJjFTTMmFbkCOMl106w/content?attachment=false" type="video/webm">
       Votre navigateur ne supporte pas le tag vidéo.
       </video>
-      <!--Nom_du_fichier-->
-      <figcaption></figcaption>
-      </figure>
-04_04_03_Deplacer_avec_recherche_2
-??? example "En vidéo : "
-      <figure> <video width="100%" controls>
-      <source src="https://jeci.pristy.net/alfresco/api/-default-/public/alfresco/versions/1/shared-links/ID/content?attachment=false" type="video/webm">
-      Votre navigateur ne supporte pas le tag vidéo.
-      </video>
-      <!--Nom_du_fichier-->
-      <figcaption></figcaption>
+      <!--04_04_01_Deplacer_dans_dossier_simple-->
+      <figcaption>Choisir le dossier de destination</figcaption>
       </figure>
 
-Vous pouvez deplacer plusieurs dossiers ou fichiers en même temps.
-VIDEO : 04_04_04_Deplacer_2dossiers
-??? example "En vidéo : "
-      <figure> <video width="100%" controls>
-      <source src="https://jeci.pristy.net/alfresco/api/-default-/public/alfresco/versions/1/shared-links/ID/content?attachment=false" type="video/webm">
+??? example "En vidéo : déplacer vers un autre espace de travail"
+      <figure> <video width="80%" controls>
+      <source src="https://jeci.pristy.net/alfresco/api/-default-/public/alfresco/versions/1/shared-links/S3DMEkeLRYW1NRyBxvhqdQ/content?attachment=false" type="video/webm">
       Votre navigateur ne supporte pas le tag vidéo.
       </video>
-      <!--Nom_du_fichier-->
-      <figcaption></figcaption>
+      <!--04_04_02_Deplacer_autre_espace-->
+      <figcaption>Déplace un dossier</figcaption>
       </figure>
 
-Rôle nécessaire : Gestionnaire ? :a:
+      <figure> <video width="80%" controls>
+      <source src="https://jeci.pristy.net/alfresco/api/-default-/public/alfresco/versions/1/shared-links/TJCNddqRSCa5LbF8kkI8vQ/content?attachment=false" type="video/webm">
+      Votre navigateur ne supporte pas le tag vidéo.
+      </video>
+      <!--04_04_02_Deplacer_vers_nouvel_espace-->
+      <figcaption>Déplacer plusieurs dossier</figcaption>
+      </figure>
+
+??? example "En vidéo : déplacer avec la recherche"
+      <figure> <video width="80%" controls>
+      <source src="https://jeci.pristy.net/alfresco/api/-default-/public/alfresco/versions/1/shared-links/E4tqYabDTiiptpUcBSxixw/content?attachment=false" type="video/webm">
+      Votre navigateur ne supporte pas le tag vidéo.
+      </video>
+      <!--04_04_03_Deplacer_avec_recherche_1-->
+      <figcaption>déplacer avec la recherche</figcaption>
+      </figure>
+
+      <figure> <video width="80%" controls>
+      <source src="https://jeci.pristy.net/alfresco/api/-default-/public/alfresco/versions/1/shared-links/NCWi60MgTouWu8wIrMon1w/content?attachment=false" type="video/webm">
+      Votre navigateur ne supporte pas le tag vidéo.
+      </video>
+      <!--04_04_03_Deplacer_avec_recherche_2-->
+      <figcaption>déplacer avec la recherche</figcaption>
+      </figure>
+
+??? tip "Déplacer plusieurs dossiers ou fichiers "
+      Vous pouvez déplacer plusieurs dossiers ou fichiers en même temps.
+      <figure> <video width="100%" controls>
+      <source src="https://jeci.pristy.net/alfresco/api/-default-/public/alfresco/versions/1/shared-links/DmccpMNtRY2SrBCcEJWa7A/content?attachment=false" type="video/webm">
+      Votre navigateur ne supporte pas le tag vidéo.
+      </video>
+      <!--04_04_04_Deplacer_2dossiers-->
+      <figcaption>Déplacer 2 dossiers</figcaption>
+      </figure>
 
 ## Copier
+
+!!! check inline end "Accessible avec le rôle"
+        - [x] Gestionnaire
+        - [x] Collaborateur / Éditeur
+        - [x] Lecteur
 
 Vous pouvez copier des dossiers et des fichiers dans d'autres dossiers ou espace de travail
 
@@ -275,21 +292,30 @@ Vous pouvez copier des dossiers et des fichiers dans d'autres dossiers ou espace
 - Cliquer sur l'icone des 3 petits point du bandeau d'action
 - Choisir "Copier"
 
-Vous pouvez aussi faire un clic droit sur le dossier puis cliquer sur "Copier".
+!!! info "Conseils gain de temps :"
+      Vous pouvez aussi faire un clic droit sur le dossier puis cliquer sur "Copier".
 
-Ensuite vous pouvez soit :
+##### Ensuite vous pouvez soit :
 
 - Choisir le dossier de destination
-VIDEO : :a: 04_5
 - Choisir l'espace de travail de destination
-VIDEO : :a:
 - Chercher le dossier de destination dans la barre de recherche.
-VIDEO : :a:
 
+??? example "À VENIR > En vidéo : "
+    Contenu à venir, en attendant consulter la section [Déplacer du contenu](#ensuite-vous-pouvez-soit)
+  <!---   
+      <figure> <video width="100%" controls>
+        <source src="https://jeci.pristy.net/alfresco/api/-default-/public/alfresco/versions/1/shared-links/ID/content?attachment=false" type="video/webm">
+      Votre navigateur ne supporte pas le tag vidéo.
+      </video>
+      <figcaption></figcaption>
+      </figure>
+-->
 Vous pouvez copier plusieurs dossiers ou fichiers en même temps.
 VIDEO : :a:
 
-**Attention si vous copier le dossier dans un emplacement où il se situe déjà, un nouveau dossier ne sera pas créer** mais les fichiers seront à l'intérieur seront eux dupliqués. :warning:
+!!! danger "Attention"
+      **Attention si vous copier le dossier dans un emplacement où il se situe déjà, un nouveau dossier ne sera pas créer** mais les fichiers seront à l'intérieur seront eux dupliqués. :warning:
 
 La copie d'un fichier copié dans un emplacement où il se situe déjà sera renommer avec "-1" à la fin du nom.
 
