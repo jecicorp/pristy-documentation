@@ -217,7 +217,7 @@ Vous pouvez déplacer des dossiers et des fichiers dans d'autres dossiers ou esp
 - Cliquer sur l'icone des 3 petits point du bandeau d'action
 - Choisir "Déplacer"
 
-!!! info "Conseils gain de temps :"
+!!! summary "À savoir :"
       Vous pouvez aussi faire un clic droit sur le dossier puis cliquer sur "Déplacer".
 
 ##### Ensuite vous pouvez soit :
@@ -269,7 +269,7 @@ Vous pouvez déplacer des dossiers et des fichiers dans d'autres dossiers ou esp
       <figcaption>déplacer avec la recherche</figcaption>
       </figure>
 
-??? tip "Déplacer plusieurs dossiers ou fichiers "
+??? summary "À savoir : déplacer plusieurs dossiers ou fichiers "
       Vous pouvez déplacer plusieurs dossiers ou fichiers en même temps.
       <figure> <video width="100%" controls>
       <source src="https://jeci.pristy.net/alfresco/api/-default-/public/alfresco/versions/1/shared-links/DmccpMNtRY2SrBCcEJWa7A/content?attachment=false" type="video/webm">
@@ -292,7 +292,7 @@ Vous pouvez copier des dossiers et des fichiers dans d'autres dossiers ou espace
 - Cliquer sur l'icone des 3 petits point du bandeau d'action
 - Choisir "Copier"
 
-!!! info "Conseils gain de temps :"
+!!! summary "À savoir"
       Vous pouvez aussi faire un clic droit sur le dossier puis cliquer sur "Copier".
 
 ##### Ensuite vous pouvez soit :
@@ -301,8 +301,12 @@ Vous pouvez copier des dossiers et des fichiers dans d'autres dossiers ou espace
 - Choisir l'espace de travail de destination
 - Chercher le dossier de destination dans la barre de recherche.
 
-??? example "À VENIR > En vidéo : "
-    Contenu à venir, en attendant consulter la section [Déplacer du contenu](#ensuite-vous-pouvez-soit)
+
+!!! summary "À savoir"
+      Vous pouvez copier plusieurs dossiers ou fichiers en même temps.
+
+!!! example "Exemple en vidéo à venir"
+    En attendant consulter la section [Déplacer du contenu](#ensuite-vous-pouvez-soit)
   <!---   
       <figure> <video width="100%" controls>
         <source src="https://jeci.pristy.net/alfresco/api/-default-/public/alfresco/versions/1/shared-links/ID/content?attachment=false" type="video/webm">
@@ -311,21 +315,18 @@ Vous pouvez copier des dossiers et des fichiers dans d'autres dossiers ou espace
       <figcaption></figcaption>
       </figure>
 -->
-Vous pouvez copier plusieurs dossiers ou fichiers en même temps.
-VIDEO : :a:
+
 
 !!! danger "Attention"
-      **Attention si vous copier le dossier dans un emplacement où il se situe déjà, un nouveau dossier ne sera pas créer** mais les fichiers seront à l'intérieur seront eux dupliqués. :warning:
+      :warning: Attention si vous copier le dossier dans un emplacement où il se situe déjà, **un nouveau dossier ne sera pas créer mais les fichiers seront à l'intérieur seront eux dupliqués**.
 
-La copie d'un fichier copié dans un emplacement où il se situe déjà sera renommer avec "-1" à la fin du nom.
-
-Rôle nécessaire : Gestionnaire ? :a:
+      La copie d'un fichier copié dans un emplacement où il se situe déjà sera renommer avec "-1" à la fin du nom.
 
 ## Obtenir le lien
 Cette action vous permet d'obtenir un lien pour partager votre document en lecture seul à n'importe qui.
 
 - Sélectionner un fichier
-- Cliquer sur l'icone "Obtenir le lien" (logo lien) sur le bandeau d'action
+- Cliquer sur l'icône "Obtenir le lien" (logo lien) sur le bandeau d'action
 
 Vous pouvez aussi faire un clic droit sur le dossier puis cliquer sur "Obtenir le lien".
 
