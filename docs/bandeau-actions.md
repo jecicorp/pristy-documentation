@@ -544,6 +544,11 @@ Quand vous avez fini vos modifications, glisser le nouveau document, comme pour 
 
 ## Gestion de version
 
+<figure markdown>![Fenetre versions](https://jeci.pristy.net/alfresco/api/-default-/public/alfresco/versions/1/shared-links/jls0ggLBRnSfwYpbt7h77w/content?attachment=false){width=100%}
+<!--Fenetre_Versions-->
+<figcaption>Fenetre versions</figcaption>
+</figure>
+
 ### Ajouter une version
 
 !!! check inline end "Accessible avec le rôle"

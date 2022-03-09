@@ -23,7 +23,7 @@ Le panneau latéral vous donne accès **où que vous soyez dans Pristy** à vos 
       <source src="https://jeci.pristy.net/alfresco/api/-default-/public/alfresco/versions/1/shared-links//iVYrWw_jRte01rgTuj8jkQ/content?attachment=false" type="video/webm">
       Votre navigateur ne supporte pas le tag vidéo.
       </video>
-      <!--VIDEO 02_0_Panneau_lateral-->
+      <!--02_0_Panneau_lateral-->
       <figcaption>Panneau latéral</figcaption>
       </figure>
 
@@ -35,7 +35,7 @@ Pour agrandir ou réduire le panneau, cliquer sur l'icône hamburger (trois trai
       <source src="https://jeci.pristy.net/alfresco/api/-default-/public/alfresco/versions/1/shared-links/h8vme-DPSOqO6SKOFWpJXw/content?attachment=false" type="video/webm">
       Votre navigateur ne supporte pas le tag vidéo.
       </video>
-      <!--VIDEO 02_B_Reduire_panneau-->
+      <!--02_B_Reduire_panneau-->
       <figcaption> Réduire le panneau latéral </figcaption>
       </figure>
 
@@ -52,7 +52,7 @@ Vous pouvez les trier par nom et voir vos droits ainsi que sa visibilité sur ce
       <source src="https://jeci.pristy.net/alfresco/api/-default-/public/alfresco/versions/1/shared-links/546Eas8GQVOoX-kStruK_Q/content?attachment=false" type="video/webm">
       Votre navigateur ne supporte pas le tag vidéo.
       </video>
-      <!--VIDEO 02_01_Espace_travail-->
+      <!--02_01_Espace_travail-->
       <figcaption> Espaces de travail</figcaption>
       </figure>
 
@@ -84,7 +84,7 @@ Vous avez aussi la possibilité de tri, de voir la visibilité et les droits com
       <source src="https://jeci.pristy.net/alfresco/api/-default-/public/alfresco/versions/1/shared-links/YfNii_bARWCYjym3N_FYMg/content?attachment=false" type="video/webm">
       Votre navigateur ne supporte pas le tag vidéo.
       </video>
-      <!--VIDEO 02_02_Espace_favoris-->
+      <!--02_02_Espace_favoris-->
       <figcaption>Espaces favoris</figcaption>
       </figure>
 
@@ -102,7 +102,7 @@ C'est ici que vous avez accès à tous vos fichiers et dossiers qui ne sont pas 
       <source src="https://jeci.pristy.net/alfresco/api/-default-/public/alfresco/versions/1/shared-links/zC-3nWyMQEWA9HYf0HEUbA/content?attachment=false" type="video/webm">
       Votre navigateur ne supporte pas le tag vidéo.
       </video>
-      <!--VIDEO 02_03_Fichiers_personnels-->
+      <!--02_03_Fichiers_personnels-->
       <figcaption>Fichiers personnels</figcaption>
       </figure>
 !!! note
@@ -118,7 +118,7 @@ C'est ici que vous avez accès à tous vos fichiers et dossiers qui ne sont pas 
       <source src="https://jeci.pristy.net/alfresco/api/-default-/public/alfresco/versions/1/shared-links/lI1ZBaE5SrqN_8B5jeJZsA/content?attachment=false" type="video/webm">
       Votre navigateur ne supporte pas le tag vidéo.
       </video>
-      <!--VIDEO 02_04_Mes_publications-->
+      <!--02_04_Mes_publications-->
       <figcaption>Mes publications</figcaption>
       </figure>
 
@@ -133,7 +133,7 @@ Vous retrouvez ici tous les éléments que vous avez importés ou modifiés au c
       <source src="https://jeci.pristy.net/alfresco/api/-default-/public/alfresco/versions/1/shared-links/WygEWYJiT-uMg-djQWEk8w/content?attachment=false" type="video/webm">
       Votre navigateur ne supporte pas le tag vidéo.
       </video>
-      <!--VIDEO 02_05_Fichiers_recents-->
+      <!--02_05_Fichiers_recents-->
       <figcaption>Fichiers récents</figcaption>
       </figure>
 
@@ -146,7 +146,7 @@ Ici, vous retrouverez tous les fichiers et dossiers favoris. C'est-à-dire ceux 
       <source src="https://jeci.pristy.net/alfresco/api/-default-/public/alfresco/versions/1/shared-links/D_LkUVbSTXWuuJONKsJ4bQ/content?attachment=false" type="video/webm">
       Votre navigateur ne supporte pas le tag vidéo.
       </video>
-      <!--VIDEO 02_06_Favoris-->
+      <!--02_06_Favoris-->
       <figcaption>Favoris</figcaption>
       </figure>
 
