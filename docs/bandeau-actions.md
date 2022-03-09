@@ -545,6 +545,12 @@ Quand vous avez fini vos modifications, glisser le nouveau document, comme pour 
 ## Gestion de version
 
 ### Ajouter une version
+
+!!! check inline end "Accessible avec le rôle"
+        - [x] Gestionnaire
+        - [x] Collaborateur / Éditeur
+        - [ ] Lecteur
+
 Vous avez fait une mise à jour sur un fichier, plutôt que de l'ajouter à votre dossier, vous pouver ajouter une nouvelle version.
 
 Par exemple vous présenter un document pendant une réunion, une fois les notes et corrections intégrer vous pouvez mettre à jour le document de travail.
@@ -559,15 +565,37 @@ Le lien et le nom du document reste inchangé pour tous les utilisateurs et le c
 - Ajouter un commentaire pour noter dans les grandes lignes quelles changements on été apportés (par exemple : corrections suite à la réunion) (facultatif)
 
 
-VIDEO :
-04_11_01_Nouvelle_version
+??? example "En vidéo : Ajouter une version"
+      <figure> <video width="100%" controls>
+      <source src="https://jeci.pristy.net/alfresco/api/-default-/public/alfresco/versions/1/shared-links/gffJhnOPTVaSPPz-bti00g/content?attachment=false" type="video/webm">
+      Votre navigateur ne supporte pas le tag vidéo.
+      </video>
+      <!--04_11_01_Nouvelle_version-->
+      <figcaption>Ajouter une version</figcaption>
+      </figure>
+
+!!! tip "À savoir : glisser le document"
+      Vous pouvez aussi glisser la nouvelle version sur le document à mettre à jour.
+
 
 Vous pouvez également changer de version pendant que vous consulter le document. Suivre la même méthode
 
-VIDEO :
-04_11_01_Nouvelle_version_depuis_visionneuse
+??? example "En vidéo : Ajouter une version depuis la visionneuse"
+      <figure> <video width="100%" controls>
+      <source src="https://jeci.pristy.net/alfresco/api/-default-/public/alfresco/versions/1/shared-links/LxaaBR_6QseBLzIlJzC7fQ/content?attachment=false" type="video/webm">
+      Votre navigateur ne supporte pas le tag vidéo.
+      </video>
+      <!--04_11_01_Nouvelle_version_depuis_visionneuse-->
+      <figcaption>Ajouter une version depuis la visionneuse</figcaption>
+      </figure>
 
 ### Restaurer une version
+
+!!! check inline end "Accessible avec le rôle"
+        - [x] Gestionnaire
+        - [ ] Collaborateur / Éditeur
+        - [ ] Lecteur
+
 Si vous voulez retrouver le contenu précédent vous pouvez restaurer une version antérieure.
 
 - Sélectionner le document
@@ -576,9 +604,23 @@ Si vous voulez retrouver le contenu précédent vous pouvez restaurer une versio
 - Une fenêtre s'ouvre, cliquer sur les trois petits points à côté de la version choisie
 - Cliquer sur "Restaurer"
 
-VIDEO 04_11_02_Restaurer_version
+
+??? example "En vidéo : Restaurer une version"
+      <figure> <video width="100%" controls>
+      <source src="https://jeci.pristy.net/alfresco/api/-default-/public/alfresco/versions/1/shared-links/gA6IXTdFS0GbC9xCTYF3HQ/content?attachment=false" type="video/webm">
+      Votre navigateur ne supporte pas le tag vidéo.
+      </video>
+      <!--04_11_02_Restaurer_version-->
+      <figcaption>Restaurer une version</figcaption>
+      </figure>
 
 ### Télécharger une version
+
+!!! check inline end "Accessible avec le rôle"
+        - [x] Gestionnaire
+        - [x] Collaborateur / Éditeur
+        - [x] Lecteur
+
 Vous pouvez télécharger une ancienne version.
 
 - Sélectionner le document
@@ -587,10 +629,23 @@ Vous pouvez télécharger une ancienne version.
 - Une fenêtre s'ouvre, cliquer sur les trois petits points à côté de la version choisie
 - Cliquer sur "Télécharger"
 
-VIDEO 04_11_03_Telecharger_version
+??? example "En vidéo : Télécharger une ancienne version"
+      <figure> <video width="100%" controls>
+      <source src="https://jeci.pristy.net/alfresco/api/-default-/public/alfresco/versions/1/shared-links/d2JUCp8zSSGq6fxxBcdxXw/content?attachment=false" type="video/webm">
+      Votre navigateur ne supporte pas le tag vidéo.
+      </video>
+      <!--04_11_03_Telecharger_version-->
+      <figcaption>Télécharger une ancienne version</figcaption>
+      </figure>
 
 
 ### Supprimer une version
+
+!!! check inline end "Accessible avec le rôle"
+        - [x] Gestionnaire
+        - [ ] Collaborateur / Éditeur
+        - [ ] Lecteur
+
 Vous pouvez supprimer une ancienne version.
 Attention cette action est irrévocable.
 
@@ -601,9 +656,23 @@ Attention cette action est irrévocable.
 - Cliquer sur "Supprimer"
 - Valider la supression en cliquant sur "Oui"
 
-VIDEO 04_11_04_Supprimer_version
+??? example "En vidéo : Supprimer une version"
+      <figure> <video width="100%" controls>
+      <source src="https://jeci.pristy.net/alfresco/api/-default-/public/alfresco/versions/1/shared-links/07aIiYGBRKGuovz7MTA7aw/content?attachment=false" type="video/webm">
+      Votre navigateur ne supporte pas le tag vidéo.
+      </video>
+      <!--04_11_04_Supprimer_version-->
+      <figcaption>Supprimer une version</figcaption>
+      </figure>
+---
+!!! summary inline "En lien avec cette page :"
 
-{ .annotate }
+    - [Se repérer dans Pristy](../se-reperer/)
+    - [Espace de travail](../panneau-lateral/#espaces-de-travail)
+    - [Corbeille](../panneau-lateral/#corbeille)
 
-1. **Conseil :**
-Si vous voulez faire une modification sur un fichier unique vous pouvez simplement faire un clic-droit dessus et vous trouverez le même menu déroulant, qu'en sélectionnant le fichier et en cliquant sur l'icone 3 petit points du bandeau d'action, mais avec **quelques clics en moins**.
+!!! info inline end "Pour aller plus loin :"
+
+    - [Gérer son contenu](../creation-import/creation-import)
+    - [Partager](../creation-import/partager/)
+    - [Rechercher](../creation-import/rechercher/)
