@@ -323,23 +323,45 @@ Vous pouvez copier des dossiers et des fichiers dans d'autres dossiers ou espace
       La copie d'un fichier copié dans un emplacement où il se situe déjà sera renommer avec "-1" à la fin du nom.
 
 ## Obtenir le lien
-Cette action vous permet d'obtenir un lien pour partager votre document en lecture seul à n'importe qui.
+
+!!! check inline end "Accessible avec le rôle"
+        - [x] Gestionnaire
+        - [x] Collaborateur / Éditeur
+        - [x] Lecteur
+
+Cette action vous permet d'obtenir un lien pour partager votre document en lecture seul à **n'importe qui**, même une personne non utilisatrice de Pristy.
 
 - Sélectionner un fichier
 - Cliquer sur l'icône "Obtenir le lien" (logo lien) sur le bandeau d'action
 
+IMAGE
+<figure markdown>![](https://jeci.pristy.net/alfresco/api/-default-/public/alfresco/versions/1/shared-links/fGewzFBLSxaI4ozV4DKCPA/content?attachment=false){width=80%}
+<!--Bandeau_daction_Obtenir_lien-->
+<figcaption>Logo obtenir le lien</figcaption>
+</figure>
+
 Vous pouvez aussi faire un clic droit sur le dossier puis cliquer sur "Obtenir le lien".
 
-VIDEO 04_06_Obtenir_lien
-IMAGE Bandeau_daction_Obtenir_lien
+??? example "En vidéo : "
+      <figure> <video width="100%" controls>
+      <source src="https://jeci.pristy.net/alfresco/api/-default-/public/alfresco/versions/1/shared-links/DjdBYSw-TAWkvzgm_Cf5dw/content?attachment=false" type="video/webm">
+      Votre navigateur ne supporte pas le tag vidéo.
+      </video>
+      <!--04_06_Obtenir_lien-->
+      <figcaption></figcaption>
+      </figure>
 
-Vous pouvez limiter ce partage dans le temps.
-VIDEO :a:
 
-IMAGE Fenetre_Obtenir_lien
+!!! summary "À savoir"
+      Vous pouvez limiter ce partage de lien dans le temps.
+      <figure markdown>![Obtenir le lien](https://jeci.pristy.net/alfresco/api/-default-/public/alfresco/versions/1/shared-links/wJu3tAINQ0iXaOXQj1eerw/content?attachment=false){width=80%}
+      <!--Fenetre_Obtenir_lien-->
+      <figcaption>Obteni le lien, choisir une date d'expiration du lien</figcaption>
+      </figure>
 
-Conseil : pour partager un fichier à un utilisateur de l'espace de travail afin qu'il y est accès au sein dossier. Ou pour partager un dossier, sélectionner l'url dans la barre d'url est copier le, puis coller le dans un échange, ou par tout autre moyen que vous jugez utiles.
-VIDEO :a:
+!!! tip "Conseils :"
+      Pour partager un fichier à un utilisateur de l'espace de travail afin qu'il y est accès au sein dossier. Ou pour partager un dossier, sélectionner l'url dans la barre d'url est copier le, puis coller le dans un échange, ou par tout autre moyen que vous jugez utiles.
+
 
 
 Voir aussi [Partager](#5-Partager)
@@ -348,51 +370,86 @@ Voir aussi [Mes publications](#Mes-publications)
 
 ## Envoyer un mail
 
+!!! check inline end "Accessible avec le rôle"
+        - [x] Gestionnaire
+        - [x] Collaborateur / Éditeur
+        - [x] Lecteur
+
 Cette action vous permet d'envoyer un lien par mail depuis l'appllication pour partager votre document en lecture seul à n'importe qui.
 
 - Sélectionner un fichier
 - Cliquer sur l'icone "Envoyer un mail" (logo mail) sur le bandeau d'action
 
 Vous pouvez aussi faire un clic droit sur le dossier puis cliquer sur "Envoyer un mail".
-VIDEO 04_7 :a:
 
-IMAGE Bandeau_daction_Envoyer_mail
+<figure markdown>![Envoyer lien par mail](https://jeci.pristy.net/alfresco/api/-default-/public/alfresco/versions/1/shared-links/99omz8kgSnG-hn-wi8XoCw/content?attachment=false){width=80%}
+<!--Bandeau_daction_Envoyer_mail-->
+<figcaption>Envoyer lien par mail</figcaption>
+</figure>
 
-Vous pouvez aussi ajouter le document partager en pièce jointe en cliquant sur la case "Ajouter le document en pièce jointe"
+!!! summary "À savoir : ajouter le document en pièce jointe"
+      Vous pouvez aussi ajouter le document partager en pièce jointe en cliquant sur la case "Ajouter le document en pièce jointe"
 
-VIDEO :a:
+??? example "À VENIR > En vidéo : "
+    Contenu à venir
+  <!---   
+      <figure> <video width="100%" controls>
+        <source src="https://jeci.pristy.net/alfresco/api/-default-/public/alfresco/versions/1/shared-links/ID/content?attachment=false" type="video/webm">
+      Votre navigateur ne supporte pas le tag vidéo.
+      </video>
+      <figcaption></figcaption>
+      </figure>
+-->
 
-Conseil : pour partager un fichier à un utilisateur de l'espace de travail afin qu'il y est accès au sein dossier. Ou pour partager un dossier, sélectionner l'url dans la barre d'url est copier le, puis coller le dans un échange, ou par tout autre moyen que vous jugez utiles.
-VIDEO :a:
+??? tip "Conseils :"
+      Pour partager un fichier à un utilisateur de l'espace de travail afin qu'il y est accès au sein dossier. Ou pour partager un dossier, sélectionner l'url dans la barre d'url est copier le, puis coller le dans le corps de texte du mail.
 
 ## Afficher
+
+!!! check inline end "Accessible avec le rôle"
+        - [x] Gestionnaire
+        - [x] Collaborateur / Éditeur
+        - [x] Lecteur
 
 Il a la même action que de cliquer sur le nom du fichier, il permet d'afficher le document.
 
 Si le document est un format modifiable il permet d'accéder directement à l'édition en ligne.
-Ce n'était pas le cas dans les versions précédentes, si la fonction d'aperçu de document modifiable vous interesse, n'hésitez pas à nous écrire. (?)
 
-VIDEO : 04_08_ :a:
-IMAGE : Bandeau_daction_Afficher
-Rôle nécessaire :
+<figure markdown>![Afficher](https://jeci.pristy.net/alfresco/api/-default-/public/alfresco/versions/1/shared-links/uHtpgN35T9qxMdszOSenLw/content?attachment=false){width=80%}
+<!--Bandeau_daction_Afficher-->
+<figcaption>Afficher le document</figcaption>
+</figure>
+
+
+
 
 ## Modifier avec Collabora Online
-(uniquement pour les formats modifiables)
+*(uniquement pour les formats modifiables)*
 
-Si le document est un format modifiable dans Collabora il permet d'accéder directement à l'édition en ligne, dans Collabora Online, notre éditeur en ligne intégrer.
+Si le document est un format modifiable dans Collabora il permet d'accéder directement à l'[édition en ligne](../edition-en-ligne), dans Collabora Online, notre suite bureautique en ligne intégrer.
 
-Voir [Édition en ligne](#7-Édition-en-ligne)
+<figure markdown>![Bandeau_daction_Modifier_en_ligne](https://jeci.pristy.net/alfresco/api/-default-/public/alfresco/versions/1/shared-links/9bTx8ZOJRUK1pLRxhY5UBw/content?attachment=false){width=80%}
+<!--Bandeau_daction_Modifier_en_ligne-->
+<figcaption>Modifier en ligne</figcaption>
+</figure>
 
-VIDEO : 04_09_ :a:
+<figure markdown>![Preview_DOCX](https://jeci.pristy.net/alfresco/api/-default-/public/alfresco/versions/1/shared-links/z9NsR_zlS5a_OJob7Eqc-g/content?attachment=false){width=80%}
+<!--Preview_DOCX-->
+<figcaption>Previsualisation du format DOCX</figcaption>
+</figure>
 
-IMAGE :
-Bandeau_daction_Modifier_en_ligne
-Preview_DOCX
+
+***Voir aussi : [Édition en ligne](../edition-en-ligne)***
 
 
 ## Modifier du contenu
 
 ### Modifier l'espace de travail
+
+!!! check inline end "Accessible avec le rôle"
+        - [x] Gestionnaire
+        - [ ] Collaborateur / Éditeur
+        - [ ] Lecteur
 
 Le nom, la visibilité et la description d'un espace de travail peuvent être modifié.
 Il faut être gestionnaire de l'espace pour effectuer ces modifications.
@@ -402,13 +459,33 @@ Il faut être gestionnaire de l'espace pour effectuer ces modifications.
 - En bas à droite du panneau d'information cliquer sur "Modifier"
 - Effectuer les modifications et cliquer "Mettre à jour"
 
-VIDEO
-04_10_01_Modifier_espace
-04_10_01_Modifier_espace_ajout_description
+??? example "En vidéo : Modifier l'espace de travail"
+      <figure> <video width="100%" controls>
+      <source src="https://jeci.pristy.net/alfresco/api/-default-/public/alfresco/versions/1/shared-links/aoH4ShSrQ7m5aP6Cg04Wtg/content?attachment=false" type="video/webm">
+      Votre navigateur ne supporte pas le tag vidéo.
+      </video>
+      <!--04_10_01_Modifier_espace-->
+      <figcaption>Modifier l'espace de travail</figcaption>
+      </figure>
+
+??? example "En vidéo : Ajouter la description à l'espace de travail"
+      <figure> <video width="100%" controls>
+      <source src="https://jeci.pristy.net/alfresco/api/-default-/public/alfresco/versions/1/shared-links/Or5Ef01kStC87ksi-hVDkw/content?attachment=false" type="video/webm">
+      Votre navigateur ne supporte pas le tag vidéo.
+      </video>
+      <!--04_10_01_Modifier_espace_ajout_description-->
+      <figcaption>Ajouter la description à l'espace de travail</figcaption>
+      </figure>
+
 
 ### Modifier un dossier ou un fichier
 
-Le nom, le titre, l'auteur et la description des dossiers et des ficheirs peuvent être modifié.
+!!! check inline end "Accessible avec le rôle"
+        - [x] Gestionnaire
+        - [x] Collaborateur / Éditeur
+        - [ ] Lecteur
+
+Le nom, le titre, l'auteur et la description des dossiers et des fichiers peuvent être modifié.
 Il faut être gestionnaire ou collaborateur de l'espace pour effectuer ces modifications.
 
 - Sélectionner le document
@@ -416,8 +493,14 @@ Il faut être gestionnaire ou collaborateur de l'espace pour effectuer ces modif
 - En bas à droite du panneau d'information cliquer sur l'icone crayon
 - Effectuer les modfications et cliquer "Enregistrer les modif."
 
-VIDEO
-04_10_02_Modifier_metadonne
+??? example "En vidéo : Modifier les métadonnés"
+      <figure> <video width="100%" controls>
+      <source src="https://jeci.pristy.net/alfresco/api/-default-/public/alfresco/versions/1/shared-links/VLWFJBjPRGOjrTJqLBjQAg/content?attachment=false" type="video/webm">
+      Votre navigateur ne supporte pas le tag vidéo.
+      </video>
+      <!--04_10_02_Modifier_metadonne-->
+      <figcaption>Modifier les métadonnés</figcaption>
+      </figure>
 
 ## Éditer hors-ligne
 
