@@ -4,19 +4,19 @@ description: Informations sur les fonctions disponibles dans le bandeau d'action
 ---
 
 # Bandeau d'action
-Le bandeau d'action est la barre grise situé entre l'entête de la page (qui contient, le logo pristy ou celui de votre entreprise, la section de recherche et le votre nom utilisateur) et vos documents.
+Le bandeau d'action est la barre grise située entre l'entête de la page (qui contient, le logo Pristy ou celui de votre entreprise, la section de recherche et le votre nom utilisateur) et vos documents.
 *Pour visualiser l'emplacement du bandeau d'action consulter : [Se repérer dans Pristy](../acces-compte/#se-reperer-dans-pristy)*
 
-Pour actionner le bandeau il faut sélectionner un ou plusieurs documents ou fichiers.
+Pour actionner le bandeau, il faut sélectionner un ou plusieurs documents ou fichiers.
 
 Les actions possibles sont différentes :
 
 * en fonction de la nature du fichier : un dossier, un document non modifiable (pdf, image, etc.), un document modifiable (classeur, document texte)
 * en fonction du rôle attribué dans l'espace de travail
-* en fonction du nombre de fichiers selectionné
+* en fonction du nombre de fichiers sélectionné
 
 !!! tip "Conseil"
-      Si vous voulez faire une modification sur un fichier unique vous pouvez simplement faire un clic-droit dessus et vous trouverez le même menu déroulant, qu'en sélectionnant le fichier et en cliquant sur l'icone 3 petit points du bandeau d'action, mais avec **quelques clics en moins**.
+      Si vous voulez faire une modification sur un fichier unique vous pouvez simplement faire un clic-droit dessus et vous trouverez le même menu déroulant, qu'en sélectionnant le fichier et en cliquant sur l'icône 3 petits points du bandeau d'action, mais avec **quelques clics en moins**.
 
       En vidéo : Action clic droit / bandeau d'actions
             <figure> <video width="90%" controls>
@@ -29,13 +29,13 @@ Les actions possibles sont différentes :
 
 
 Voici une présentation de tous les boutons d'actions disponibles.
-Par soucis de lisibilité, toutes les actions sont décrites avec le rôle aux droits de modification les plus élevés : le gestionnaire.
+Par souci de lisibilité, toutes les actions sont décrites avec le rôle aux droits de modification les plus élevés : le gestionnaire.
 Les autres rôles ont accès à tout ou partie de ses actions.
 
-*Ces limitations sont listés dans la section : [Action limité par le rôle attribué à l'espace de travail.](../partager/#action-limite-par-le-role-attribue-a-lespace-de-travail)*
+*Ces limitations sont listées dans la section : [Action limitée par le rôle attribué à l'espace de travail.](../partager/#action-limite-par-le-role-attribue-a-lespace-de-travail)*
 
-## Bandeau - action disponibles en fonction de la nature des fichiers
-**En gras : les actions disponible seulement pour cette nature de fichier**
+## Bandeau – action disponible en fonction de la nature des fichiers
+**En gras : les actions disponibles seulement pour cette nature de fichier**
 
 - Espace de travail :
     - [Informations (détails)](#volet-de-detail)
@@ -60,7 +60,7 @@ Les autres rôles ont accès à tout ou partie de ses actions.
     - [**Envoyer un mail**](#envoyer-un-mail)
     - [**Afficher**](#afficher)
     - [**Modifier avec Collabora Online**](#modifier-avec-collabora-online) (uniquement pour les formats modifiables)
-    - [**Editer hors-ligne**](#editer-hors-ligne)
+    - [**Éditer hors-ligne**](#editer-hors-ligne)
     - [**Importer une nouvelle version**](#gestion-de-version)
     - [Favori](#favori)
     - [Déplacer](#deplacer-du-contenu)
@@ -82,7 +82,7 @@ ou
 
 - Cliquer sur le document (mais pas sur son nom).
 
-Sur la droit un volet de détail s'ouvre il contient le nom du fichier, son titre, et d'autres métadonnées en fonction de son type.
+Sur la droite un volet de détail s'ouvre, il contient le nom du fichier, son titre, et d'autres métadonnées en fonction de son type.
 
 ??? example "En vidéo : Volet de détails"
       <figure> <video width="100%" controls>
@@ -93,7 +93,7 @@ Sur la droit un volet de détail s'ouvre il contient le nom du fichier, son titr
       <figcaption> Volet de détails</figcaption>
       </figure>
 
-??? info "Aperçu de la visualitation"
+??? info "Aperçu de la visualisation"
     <figure markdown>![Volet détail ouvert : espace de travail](https://jeci.pristy.net/alfresco/api/-default-/public/alfresco/versions/1/shared-links/CkXXL8m2STytXGDOtJp9jQ/content?attachment=false){width=80%}
     <!--Menu_detail_Espace-->
     <figcaption>Volet détail ouvert : espace de travail</figcaption>
@@ -136,7 +136,7 @@ Sur la droit un volet de détail s'ouvre il contient le nom du fichier, son titr
       </figure>
 
 
-Le document n'est pas réellement supprimer, il est déplacer dans la [Corbeille](../panneau-lateral/#corbeille) : pour le supprimer définitivement, il faut vider la [Corbeille](../panneau-lateral/#corbeille), rendez-vous dans cette section pour en savoir plus.
+Le document n'est pas réellement supprimé, il est déplacé dans la [Corbeille](../panneau-lateral/#corbeille) : pour le supprimer définitivement, il faut vider la [Corbeille](../panneau-lateral/#corbeille), rendez-vous dans cette section pour en savoir plus.
 
 Consulter la section [Supprimer un espace de travail](../creation-import/#supprimer-un-espace-de-travail) pour voir comment supprimer un espace de travail plus en détail.
 
@@ -152,9 +152,9 @@ Vous pouvez ajouter en favoris des espaces, des documents et des fichiers.
 - Cliquer sur l'icone des 3 petits point du bandeau d'action
 - Choisir "Favori"
 
-Vos espaces favoris sont regroupés dans [Espaces favoris](../panneau-lateral/#espaces-favoris), situé sur la [Panneau latéral](../panneau-lateral)
+Vos espaces favoris sont regroupés dans [Espaces favoris](../panneau-lateral/#espaces-favoris), situé sur le [Panneau latéral](../panneau-lateral)
 
-Vos fichiers favoris sont regroupés dans [Favoris](../panneau-lateral/#favoris), situé sur la [Panneau latéral](../panneau-lateral)
+Vos fichiers favoris sont regroupés dans [Favoris](../panneau-lateral/#favoris), situé sur le [Panneau latéral](../panneau-lateral)
 
 ??? example "En vidéo : Ajouter des favoris"
       <figure> <video width="100%" controls>
@@ -177,7 +177,7 @@ Vos fichiers favoris sont regroupés dans [Favoris](../panneau-lateral/#favoris)
 Vous pouvez télécharger les dossiers et les fichiers.
 
 - Sélectionner le(s) dossier(s) ou le(s) fichier(s)
-- Cliquer sur l'icone fleche vers le bas.
+- Cliquer sur l'icône flèche vers le bas.
     <figure markdown>![Emplacement action télécharger](https://jeci.pristy.net/alfresco/api/-default-/public/alfresco/versions/1/shared-links/Xs4L7tO0TXmWDmZdieg5GQ/content?attachment=false){ width=80% }
     <!--Bandeau_daction_Telecharger-->
     <figcaption>Emplacement de l'action télécharger</figcaption>
@@ -192,10 +192,10 @@ Vous pouvez télécharger les dossiers et les fichiers.
       </figure>
 <br>
 !!! info "Conseils gain de temps :"
-      Vous pouvez aussi faire un clic droit sur le(s) dossier(s) et fichier(s) puis cliquer sur "Télecharger".
+      Vous pouvez aussi faire un clic droit sur le(s) dossier(s) et fichier(s) puis cliquer sur "Télécharger".
 
 ??? tip "Conseils : télécharger plusieurs fichiers ou dossiers"
-      Vous pouvez télécharger plusieurs dossiers ou fichiers en même temps. Dans ce cas là le dossier zip télécharger sera appelé "archive".
+      Vous pouvez télécharger plusieurs dossiers ou fichiers en même temps. Dans ce cas-là le dossier zip téléchargé sera appelé "archive".
       <figure> <video width="90%" controls>
       <source src="https://jeci.pristy.net/alfresco/api/-default-/public/alfresco/versions/1/shared-links/svKKCZfwTbmHLFpGyICW3A/content?attachment=false" type="video/webm">
       Votre navigateur ne supporte pas le tag vidéo.
@@ -214,7 +214,7 @@ Vous pouvez télécharger les dossiers et les fichiers.
 Vous pouvez déplacer des dossiers et des fichiers dans d'autres dossiers ou espaces de travail.
 
 - Sélectionner le(s) dossier(s) ou fichier(s)
-- Cliquer sur l'icone des 3 petits point du bandeau d'action
+- Cliquer sur l'icône des 3 petits point du bandeau d'action
 - Choisir "Déplacer"
 
 !!! summary "À savoir :"
@@ -269,7 +269,7 @@ Vous pouvez déplacer des dossiers et des fichiers dans d'autres dossiers ou esp
       <figcaption>déplacer avec la recherche</figcaption>
       </figure>
 
-??? summary "À savoir : déplacer plusieurs dossiers ou fichiers "
+??? summary "À savoir : déplacer plusieurs dossiers ou fichiers"
       Vous pouvez déplacer plusieurs dossiers ou fichiers en même temps.
       <figure> <video width="100%" controls>
       <source src="https://jeci.pristy.net/alfresco/api/-default-/public/alfresco/versions/1/shared-links/DmccpMNtRY2SrBCcEJWa7A/content?attachment=false" type="video/webm">
@@ -289,7 +289,7 @@ Vous pouvez déplacer des dossiers et des fichiers dans d'autres dossiers ou esp
 Vous pouvez copier des dossiers et des fichiers dans d'autres dossiers ou espace de travail
 
 - Sélectionner le(s) dossier(s) ou fichier(s)
-- Cliquer sur l'icone des 3 petits point du bandeau d'action
+- Cliquer sur l'icône des 3 petits point du bandeau d'action
 - Choisir "Copier"
 
 !!! summary "À savoir"
@@ -306,7 +306,7 @@ Vous pouvez copier des dossiers et des fichiers dans d'autres dossiers ou espace
       Vous pouvez copier plusieurs dossiers ou fichiers en même temps.
 
 !!! example "Exemple en vidéo à venir"
-    En attendant consulter la section [Déplacer du contenu](#ensuite-vous-pouvez-soit)
+    En attendant de consulter la section [Déplacer du contenu](#ensuite-vous-pouvez-soit)
   <!---   
       <figure> <video width="100%" controls>
         <source src="https://jeci.pristy.net/alfresco/api/-default-/public/alfresco/versions/1/shared-links/ID/content?attachment=false" type="video/webm">
@@ -318,9 +318,9 @@ Vous pouvez copier des dossiers et des fichiers dans d'autres dossiers ou espace
 
 
 !!! danger "Attention"
-      :warning: Attention si vous copier le dossier dans un emplacement où il se situe déjà, **un nouveau dossier ne sera pas créer mais les fichiers seront à l'intérieur seront eux dupliqués**.
+      :warning: Attention si vous copiez le dossier dans un emplacement dans lequel il se situe déjà, **un nouveau dossier ne sera pas créé, mais les fichiers seront à l'intérieur seront eux dupliqués**.
 
-      La copie d'un fichier copié dans un emplacement où il se situe déjà sera renommer avec "-1" à la fin du nom.
+      La copie d'un fichier copié dans un emplacement où il se situe déjà sera renommé avec "-1" à la fin du nom.
 
 ## Obtenir le lien
 
@@ -329,7 +329,7 @@ Vous pouvez copier des dossiers et des fichiers dans d'autres dossiers ou espace
         - [x] Collaborateur / Éditeur
         - [x] Lecteur
 
-Cette action vous permet d'obtenir un lien pour partager votre document en lecture seul à **n'importe qui**, même une personne non utilisatrice de Pristy.
+Cette action vous permet d'obtenir un lien pour partager votre document en lecture seul à **n'importe qui**, même une personne non-utilisatrice de Pristy.
 
 - Sélectionner un fichier
 - Cliquer sur l'icône "Obtenir le lien" (logo lien) sur le bandeau d'action
@@ -342,13 +342,13 @@ IMAGE
 
 Vous pouvez aussi faire un clic droit sur le dossier puis cliquer sur "Obtenir le lien".
 
-??? example "En vidéo : "
+??? example "En vidéo : Obtenir le lien"
       <figure> <video width="100%" controls>
       <source src="https://jeci.pristy.net/alfresco/api/-default-/public/alfresco/versions/1/shared-links/DjdBYSw-TAWkvzgm_Cf5dw/content?attachment=false" type="video/webm">
       Votre navigateur ne supporte pas le tag vidéo.
       </video>
       <!--04_06_Obtenir_lien-->
-      <figcaption></figcaption>
+      <figcaption>Obtenir le lien</figcaption>
       </figure>
 
 
@@ -356,11 +356,11 @@ Vous pouvez aussi faire un clic droit sur le dossier puis cliquer sur "Obtenir l
       Vous pouvez limiter ce partage de lien dans le temps.
       <figure markdown>![Obtenir le lien](https://jeci.pristy.net/alfresco/api/-default-/public/alfresco/versions/1/shared-links/wJu3tAINQ0iXaOXQj1eerw/content?attachment=false){width=80%}
       <!--Fenetre_Obtenir_lien-->
-      <figcaption>Obteni le lien, choisir une date d'expiration du lien</figcaption>
+      <figcaption>Obtenir le lien, choisir une date d'expiration du lien</figcaption>
       </figure>
 
 !!! tip "Conseils :"
-      Pour partager un fichier à un utilisateur de l'espace de travail afin qu'il y est accès au sein dossier. Ou pour partager un dossier, sélectionner l'url dans la barre d'url est copier le, puis coller le dans un échange, ou par tout autre moyen que vous jugez utiles.
+      Pour partager un fichier à un utilisateur de l'espace de travail afin qu'il y ait accès au sein dossier. Ou pour partager un dossier, sélectionner l'url dans la barre d'url est copié le, puis coller le dans un échange, ou par tout autre moyen que vous jugez utiles.
 
 
 
@@ -375,10 +375,10 @@ Voir aussi [Mes publications](#Mes-publications)
         - [x] Collaborateur / Éditeur
         - [x] Lecteur
 
-Cette action vous permet d'envoyer un lien par mail depuis l'appllication pour partager votre document en lecture seul à n'importe qui.
+Cette action vous permet d'envoyer un lien par mail depuis l'application pour partager votre document en lecture seul à n'importe qui.
 
 - Sélectionner un fichier
-- Cliquer sur l'icone "Envoyer un mail" (logo mail) sur le bandeau d'action
+- Cliquer sur l'icône "Envoyer un mail" (logo mail) sur le bandeau d'action
 
 Vous pouvez aussi faire un clic droit sur le dossier puis cliquer sur "Envoyer un mail".
 
@@ -402,7 +402,7 @@ Vous pouvez aussi faire un clic droit sur le dossier puis cliquer sur "Envoyer u
 -->
 
 ??? tip "Conseils :"
-      Pour partager un fichier à un utilisateur de l'espace de travail afin qu'il y est accès au sein dossier. Ou pour partager un dossier, sélectionner l'url dans la barre d'url est copier le, puis coller le dans le corps de texte du mail.
+      Pour partager un fichier à un utilisateur de l'espace de travail afin qu'il y ait accès au sein dossier. Ou pour partager un dossier, sélectionner l'url dans la barre d'url est copié le, puis coller le dans le corps de texte du mail.
 
 ## Afficher
 
@@ -413,7 +413,7 @@ Vous pouvez aussi faire un clic droit sur le dossier puis cliquer sur "Envoyer u
 
 Il a la même action que de cliquer sur le nom du fichier, il permet d'afficher le document.
 
-Si le document est un format modifiable il permet d'accéder directement à l'édition en ligne.
+Si le document est un format modifiable, il permet d'accéder directement à l'édition en ligne.
 
 <figure markdown>![Afficher](https://jeci.pristy.net/alfresco/api/-default-/public/alfresco/versions/1/shared-links/uHtpgN35T9qxMdszOSenLw/content?attachment=false){width=80%}
 <!--Bandeau_daction_Afficher-->
@@ -435,7 +435,7 @@ Si le document est un format modifiable dans Collabora il permet d'accéder dire
 
 <figure markdown>![Preview_DOCX](https://jeci.pristy.net/alfresco/api/-default-/public/alfresco/versions/1/shared-links/z9NsR_zlS5a_OJob7Eqc-g/content?attachment=false){width=80%}
 <!--Preview_DOCX-->
-<figcaption>Previsualisation du format DOCX</figcaption>
+<figcaption>Prévisualisation du format DOCX</figcaption>
 </figure>
 
 
@@ -451,7 +451,7 @@ Si le document est un format modifiable dans Collabora il permet d'accéder dire
         - [ ] Collaborateur / Éditeur
         - [ ] Lecteur
 
-Le nom, la visibilité et la description d'un espace de travail peuvent être modifié.
+Le nom, la visibilité et la description d'un espace de travail peuvent être modifiés.
 Il faut être gestionnaire de l'espace pour effectuer ces modifications.
 
 - Sélectionner l'espace de travail
@@ -485,21 +485,21 @@ Il faut être gestionnaire de l'espace pour effectuer ces modifications.
         - [x] Collaborateur / Éditeur
         - [ ] Lecteur
 
-Le nom, le titre, l'auteur et la description des dossiers et des fichiers peuvent être modifié.
+Le nom, le titre, l'auteur et la description des dossiers et des fichiers peuvent être modifiés.
 Il faut être gestionnaire ou collaborateur de l'espace pour effectuer ces modifications.
 
 - Sélectionner le document
 - Cliquer sur le i dans le bandeau d'action (il peut être déjà ouvert, dans ce cas passé à l'action suivante)
-- En bas à droite du panneau d'information cliquer sur l'icone crayon
-- Effectuer les modfications et cliquer "Enregistrer les modif."
+- En bas à droite du panneau d'information cliquer sur l'icône crayon
+- Effectuer les modifications et cliquer "Enregistrer les modif."
 
-??? example "En vidéo : Modifier les métadonnés"
+??? example "En vidéo : Modifier les métadonnées"
       <figure> <video width="100%" controls>
       <source src="https://jeci.pristy.net/alfresco/api/-default-/public/alfresco/versions/1/shared-links/VLWFJBjPRGOjrTJqLBjQAg/content?attachment=false" type="video/webm">
       Votre navigateur ne supporte pas le tag vidéo.
       </video>
       <!--04_10_02_Modifier_metadonne-->
-      <figcaption>Modifier les métadonnés</figcaption>
+      <figcaption>Modifier les métadonnées</figcaption>
       </figure>
 
 ## Éditer hors-ligne
@@ -512,20 +512,20 @@ Il faut être gestionnaire ou collaborateur de l'espace pour effectuer ces modif
 Vous pouvez éditer un fichier hors-ligne.
 
 - Sélectionner le document
-- Cliquer sur l'icone des 3 petits points sur le bandeau d'action
+- Cliquer sur l'icône des 3 petits points sur le bandeau d'action
 - Cliquer sur "Éditer hors-ligne"
 
 Vous pouvez aussi faire un clic droit sur le document et cliquer sur "Éditer hors-ligne"
 
-Le document sera alors vérouillé pour tous les utilisateurs. Votre nom sera indiquer.
+Le document sera alors verrouillé pour tous les utilisateurs. Votre nom sera indiqué.
 
 Quand vous avez fini vos modifications, glisser le nouveau document, comme pour [ajouter une nouvelle version](#Ajouter-une-version).
 
 ??? tip "Conseils : Annuler l'édition"
-      Si vous ne faite finalement pas de modification, vous pouvez "Annuler l'édition" sans réimporter le document.
+      Si vous ne faites finalement pas de modification, vous pouvez "Annuler l'édition" sans réimporter le document.
 
       - Sélectionner le document
-      - Cliquer sur l'icone des 3 petits points sur le bandeau d'action
+      - Cliquer sur l'icône des 3 petits points sur le bandeau d'action
       - Cliquer sur "Annuler l'édition"
 
       Vous pouvez aussi faire un clic droit sur le document et cliquer sur "Annuler l'édition"
@@ -551,18 +551,18 @@ Quand vous avez fini vos modifications, glisser le nouveau document, comme pour 
         - [x] Collaborateur / Éditeur
         - [ ] Lecteur
 
-Vous avez fait une mise à jour sur un fichier, plutôt que de l'ajouter à votre dossier, vous pouver ajouter une nouvelle version.
+Vous avez fait une mise à jour sur un fichier, plutôt que de l'ajouter à votre dossier, vous pouvez ajouter une nouvelle version.
 
 Par exemple vous présenter un document pendant une réunion, une fois les notes et corrections intégrer vous pouvez mettre à jour le document de travail.
 Le lien et le nom du document reste inchangé pour tous les utilisateurs et le contenu a été mis à jour.
 
 - Sélectionner le document
-- Cliquer sur l'icone des 3 petits points sur le bandeau d'action
+- Cliquer sur l'icône des 3 petits points sur le bandeau d'action
 - Cliquer sur "Importer une nouvelle version"
 - Choisissez s'il s'agit de changements mineurs ou majeurs (cela change le numéro de version)
-    - Mineur : modification avec peu d'importance, par exemple une correction orthographique, ou de faute de frappe, l'ajout d'une phrase. C'est le chiffre après le point qui change 2.0 > 2.1
-    - Majeur : modification importante, ajout ou suppresson d'un paragraphe ou d'une section, changement de sens d'une partie du document. C'est le chiffre avant le point qui change 2.0 > 3.0
-- Ajouter un commentaire pour noter dans les grandes lignes quelles changements on été apportés (par exemple : corrections suite à la réunion) (facultatif)
+    - Mineur : modification avec peu d'importance, par exemple, une correction orthographique ou de faute de frappe, l'ajout d'une phrase. C'est le chiffre après le point qui change 2.0 > 2.1
+    - Majeur : modification importante, ajout ou suppression d'un paragraphe ou d'une section, changement de sens d'une partie du document. C'est le chiffre avant le point qui change 2.0 > 3.0
+- Ajouter un commentaire pour noter dans les grandes lignes quels changements ont été apportés (par exemple : corrections suite à la réunion) (facultatif)
 
 
 ??? example "En vidéo : Ajouter une version"
@@ -599,7 +599,7 @@ Vous pouvez également changer de version pendant que vous consulter le document
 Si vous voulez retrouver le contenu précédent vous pouvez restaurer une version antérieure.
 
 - Sélectionner le document
-- Cliquer sur l'icone des 3 petits points sur le bandeau d'action
+- Cliquer sur l'icône des 3 petits points sur le bandeau d'action
 - Cliquer sur "Gérer les versions"
 - Une fenêtre s'ouvre, cliquer sur les trois petits points à côté de la version choisie
 - Cliquer sur "Restaurer"
@@ -624,7 +624,7 @@ Si vous voulez retrouver le contenu précédent vous pouvez restaurer une versio
 Vous pouvez télécharger une ancienne version.
 
 - Sélectionner le document
-- Cliquer sur l'icone des 3 petits points sur le bandeau d'action
+- Cliquer sur l'icône des 3 petits points sur le bandeau d'action
 - Cliquer sur "Gérer les versions"
 - Une fenêtre s'ouvre, cliquer sur les trois petits points à côté de la version choisie
 - Cliquer sur "Télécharger"
@@ -647,14 +647,14 @@ Vous pouvez télécharger une ancienne version.
         - [ ] Lecteur
 
 Vous pouvez supprimer une ancienne version.
-Attention cette action est irrévocable.
+Attention, cette action est irrévocable.
 
 - Sélectionner le document
-- Cliquer sur l'icone des 3 petits points sur le bandeau d'action
+- Cliquer sur l'icône des 3 petits points sur le bandeau d'action
 - Cliquer sur "Gérer les versions"
 - Une fenêtre s'ouvre, cliquer sur les trois petits points à côté de la version choisie
 - Cliquer sur "Supprimer"
-- Valider la supression en cliquant sur "Oui"
+- Valider la suppression en cliquant sur "Oui"
 
 ??? example "En vidéo : Supprimer une version"
       <figure> <video width="100%" controls>
