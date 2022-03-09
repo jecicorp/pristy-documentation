@@ -504,6 +504,44 @@ Il faut être gestionnaire ou collaborateur de l'espace pour effectuer ces modif
 
 ## Éditer hors-ligne
 
+!!! check inline end "Accessible avec le rôle"
+        - [x] Gestionnaire
+        - [x] Collaborateur / Éditeur
+        - [ ] Lecteur
+
+Vous pouvez éditer un fichier hors-ligne.
+
+- Sélectionner le document
+- Cliquer sur l'icone des 3 petits points sur le bandeau d'action
+- Cliquer sur "Éditer hors-ligne"
+
+Vous pouvez aussi faire un clic droit sur le document et cliquer sur "Éditer hors-ligne"
+
+Le document sera alors vérouillé pour tous les utilisateurs. Votre nom sera indiquer.
+
+Quand vous avez fini vos modifications, glisser le nouveau document, comme pour [ajouter une nouvelle version](#Ajouter-une-version).
+
+??? tip "Conseils : Annuler l'édition"
+      Si vous ne faite finalement pas de modification, vous pouvez "Annuler l'édition" sans réimporter le document.
+
+      - Sélectionner le document
+      - Cliquer sur l'icone des 3 petits points sur le bandeau d'action
+      - Cliquer sur "Annuler l'édition"
+
+      Vous pouvez aussi faire un clic droit sur le document et cliquer sur "Annuler l'édition"
+
+
+??? example "À VENIR > En vidéo : "
+    Contenu à venir
+  <!---   
+      <figure> <video width="100%" controls>
+        <source src="https://jeci.pristy.net/alfresco/api/-default-/public/alfresco/versions/1/shared-links/ID/content?attachment=false" type="video/webm">
+      Votre navigateur ne supporte pas le tag vidéo.
+      </video>
+      <figcaption></figcaption>
+      </figure>
+-->
+
 ## Gestion de version
 
 ### Ajouter une version
