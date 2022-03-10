@@ -30,7 +30,7 @@ Une fenêtre s'ouvre :
 - Saisir le mail de la personne avec qui l'on veut partager le contenu
 - Cliquer sur son nom
 - Cliquer sur ajouter
-- Dans la section du dessous choisir le [rôle](#Rôle) à attribuer.
+- Dans la section du dessous choisir le [rôle](#role) à attribuer.
 
 
 
@@ -39,9 +39,9 @@ Une fenêtre s'ouvre :
 
 On peut partager tout ce qui se trouve dans son compte : les espaces de travail, les dossiers, les documents (quel que soit leurs formats).
 
-Pour partager il faut avoir le [rôle](#Rôle) de gestionnaire ou de collaborateur sur l'espace de travail, le dossier, le document que l'on souhaite partager. Cela veut dire qu'un lecteur peut seulement consulter un contenu.
+Pour partager il faut avoir le [rôle](#role) de gestionnaire ou de collaborateur sur l'espace de travail, le dossier, le document que l'on souhaite partager. Cela veut dire qu'un lecteur peut seulement consulter un contenu.
 
-Le partage des espaces de travail et des dossiers est automatiquement hérité à son contenu, c'est-à-dire que si un espace de travail est partagé à un utilisateur tout le contenu de l'espace sera accessible à l'utilisateur, en suivant les mêmes autorisations. Il en va de même pour un dossier. Cet héritage peut être contrôlé voir [Héritage de rôle](#Héritage-de-rôle).
+Le partage des espaces de travail et des dossiers est automatiquement hérité à son contenu, c'est-à-dire que si un espace de travail est partagé à un utilisateur tout le contenu de l'espace sera accessible à l'utilisateur, en suivant les mêmes autorisations. Il en va de même pour un dossier. Cet héritage peut être contrôlé voir [Héritage de rôle](#heritage-de-role).
 
 ## Rôle
 Il existe 3 rôles : Gestionnaire, Collaborateur/Éditeur et Lecteur – chacun de ses rôle s'attribue au moment du partage. Les rôles définissent les autorisations de l'utilisateur à consulter, modifier ou déplacer un dossier ou un document.
@@ -49,7 +49,7 @@ Il existe 3 rôles : Gestionnaire, Collaborateur/Éditeur et Lecteur – chacun 
 
 **Un gestionnaire** à tous les pouvoirs sur son contenu, il peut le créer, le modifier, le déplacer, le partager et l'organiser ou le réorganiser à sa guise.
 
-Le créateur d'un espace, d'un document ou d'un fichier en est automatiquement gestionnaire. S'il s'agit d'une espace ou d'un document, il est également gestionnaire de tout le contenu ajouté (sauf si le comportement a été modifié manuellement dans l'[Héritage de rôle](#Héritage-de-rôle)).
+Le créateur d'un espace, d'un document ou d'un fichier en est automatiquement gestionnaire. S'il s'agit d'une espace ou d'un document, il est également gestionnaire de tout le contenu ajouté (sauf si le comportement a été modifié manuellement dans l'[Héritage de rôle](#heritage-de-role)).
 
 **Un collaborateur / éditeur** peut tout consulter et créer du contenu, mais ne peut pas supprimer ou changer l'emplacement du contenu qu'il n'a pas créée. Il peut consulter les partages attribués et changer les siens pour des droits plus restrictifs.
 Par extension au paragraphe précédent, le collaborateur d'un espace de travail qui a créée un dossier est donc gestionnaire de ce dossier et profite des droits de gestionnaire sur ce dossier.
@@ -63,35 +63,35 @@ Par extension au paragraphe précédent, le collaborateur d'un espace de travail
 ### Action limitée par le rôle attribué à l'espace de travail.
 #### Gestionnaire – actions
 - Espace de travail
-    - [Informations (détails)](#Volet-de-détail)
-    - [Partager](#5-Partager)
-    - [**Quitter l'espace de travail**](#Quitter-un-espace-de-travail)
-    - [Supprimer](#Supprimer-un-espace-de-travail)
-    - [Favori](#Favori0)
+    - [Informations (détails)](../bandeau-actions/#volet-de-detail)
+    - [Partager](../partager/)
+    - [**Quitter l'espace de travail**](../creation-import/#quitter-un-espace-de-travail/)
+    - [Supprimer](../bandeau-actions/#supprimer)
+    - [Favori](../bandeau-actions/#favori)
 - Dossier :
-    - [Informations (détails)](#Volet-de-détail)
-    - [Partager](#5-Partager)
-    - [Télécharger](#Télécharger)
-    - [**Modifier**](#Modifier-du-contenu)
-    - [Favori](#Favori0)
-    - [Déplacer](#Déplacer-du-contenu)
-    - [Copier](#Copier)
-    - [Supprimer](#Supprimer)
+    - [Informations (détails)](../bandeau-actions/#volet-de-detail)
+    - [Partager](../partager/)
+    - [Télécharger](../bandeau-actions/#telecharger)
+    - [**Modifier**](../bandeau-actions/#modifier-du-contenu)
+    - [Favori](../bandeau-actions/#favori)
+    - [Déplacer](../bandeau-actions/#deplacer-du-contenu)
+    - [Copier](../bandeau-actions/#copier)
+    - [Supprimer](../bandeau-actions/#supprimer)
 - Fichier :
-    - [Informations (détails)](#Volet-de-détail)
-    - [Partager](#5-Partager)
-    - [**Obtenir un lien**](#Obtenir-le-lien)
-    - [Télécharger](#Télecharger)
-    - [**Envoyer un mail**](#Envoyer-un-mail)
-    - [**Afficher**](#Afficher)
-    - [**Modifier avec Collabora Online**](#Modifier-avec-Collabora-Online) (uniquement pour les formats modifiables)
-    - Éditer hors-ligne
-    - [**Importer une nouvelle version**](#Gestion-de-version)
-    - [Favori](#Favori0)
-    - [Déplacer](#Déplacer-du-contenu)
-    - [Copier](#Copier)
-    - [Supprimer](#Supprimer)
-    - [**Gérer les versions**](#Gestion-de-version)
+    - [Informations (détails)](../bandeau-actions/#volet-de-detail)
+    - [Partager](../partager/)
+    - [**Obtenir un lien**](../bandeau-actions/#obtenir-le-lien)
+    - [Télécharger](../bandeau-actions/#telecharger)
+    - [**Envoyer un mail**](../bandeau-actions/#envoyer-un-mail)
+    - [**Afficher**](../bandeau-actions/#afficher)
+    - [**Modifier avec Collabora Online**](../bandeau-actions/#modifier-avec-Collabora-Online) (uniquement pour les formats modifiables)
+    - [Éditer hors-ligne](../bandeau-actions/#editer-hors-ligne)
+    - [**Importer une nouvelle version**](../bandeau-actions/#gestion-de-version)
+    - [Favori](../bandeau-actions/#favori)
+    - [Déplacer](../bandeau-actions/#deplacer-du-contenu)
+    - [Copier](../bandeau-actions/#copier)
+    - [Supprimer](../bandeau-actions/#supprimer)
+    - [**Gérer les versions**](../bandeau-actions/#gestion-de-version)
 
 IMAGE :
 Clic_droit_Dossier_Gestionnaire
@@ -100,29 +100,28 @@ Clic_droit_Fichier_non_modifiable_Gestionnaire
 
 #### Collaborateur - actions
 - Espace de travail
-    - [**Quitter l'espace de travail**](#Quitter-un-espace-de-travail)
-    - [Supprimer](#Supprimer-un-espace-de-travail)
-    - [Favori](#Favori0)
+    - [**Quitter l'espace de travail**](../creation-import/#quitter-un-espace-de-travail/)
+    - [Supprimer](../bandeau-actions/#supprimer)
+    - [Favori](../bandeau-actions/#favori)
 - Dossier (non crée par l'utilisateur):
-    - [Informations (détails)](#Volet-de-détail)
-    - [Partager](#5-Partager)
-    - [Télécharger](#Télecharger)
-    - [**Modifier**](#Modifier-du-contenu)
-    - [Favori](#Favori0)
-    - [Copier](#Copier)
+    - [Informations (détails)](../bandeau-actions/#volet-de-detail)
+    - [Partager](../partager/)
+    - [Télécharger](../bandeau-actions/#telecharger)
+    - [**Modifier**](../bandeau-actions/#modifier-du-contenu)
+    - [Favori](../bandeau-actions/#favori)
+    - [Copier](../bandeau-actions/#copier)
 - Fichier (non crée par l'utilisateur) :
-    - [Informations (détails)](#Volet-de-détail)
-    - [Partager](#5-Partager)
-    - [**Obtenir un lien**](#Obtenir-le-lien)
-    - [Télécharger](#Télecharger)
-    - [**Envoyer un mail**](#Envoyer-un-mail)
-    - [**Afficher**](#Afficher)
-    - [**Modifier avec Collabora Online**](#Modifier-avec-Collabora-Online) (uniquement pour les formats modifiables)
-    - Editer hors-ligne
-    - [**Importer une nouvelle version**](#Gestion-de-version)
-    - [Favori](#Favori0)
-    - [Copier](#Copier)
-    - [**Gérer les versions**](#Gestion-de-version) (suppression impossible)
+    - [Informations (détails)](../bandeau-actions/#volet-de-detail)
+    - [Partager](../partager/)
+    - [**Obtenir un lien**](../bandeau-actions/#obtenir-le-lien)
+    - [Télécharger](../bandeau-actions/#telecharger)
+    - [**Envoyer un mail**](../bandeau-actions/#envoyer-un-mail)
+    - [**Afficher**](../bandeau-actions/#afficher)
+    - [**Modifier avec Collabora Online**](../bandeau-actions/#modifier-avec-Collabora-Online) (uniquement pour les formats modifiables)
+    - [**Importer une nouvelle version**](../bandeau-actions/#gestion-de-version)  
+    - [Favori](../bandeau-actions/#favori)
+    - [Copier](../bandeau-actions/#copier)
+    - [**Gérer les versions**](../bandeau-actions/#gestion-de-version) (suppression impossible)
 
 IMAGE :
 Clic_droit_Dossier_Collaborateur :a:
@@ -131,23 +130,23 @@ Clic_droit_Fichier_non_modifiable_Collaborateur :a:
 
 #### Lecteur - actions
 - Espace de travail
-    - [**Quitter l'espace de travail**](#Quitter-un-espace-de-travail)
-    - [Supprimer](#Supprimer-un-espace-de-travail)
-    - [Favori](#Favori0)
+    - [**Quitter l'espace de travail**](../creation-import/#quitter-un-espace-de-travail/)
+    - [Supprimer](../bandeau-actions/#supprimer)
+    - [Favori](../bandeau-actions/#favori)
 - Dossier (non crée par l'utilisateur):
-    - [Informations (détails)](#Volet-de-détail)
-    - [Télécharger](#Télecharger)
-    - [Favori](#Favori0)
-    - [Copier](#Copier)
+    - [Informations (détails)](../bandeau-actions/#volet-de-detail)
+    - [Télécharger](../bandeau-actions/#telecharger)
+    - [Favori](../bandeau-actions/#favori)
+    - [Copier](../bandeau-actions/#copier)
 - Fichier (non crée par l'utilisateur) :
-    - [Informations (détails)](#Volet-de-détail)
-    - [**Obtenir un lien**](#Obtenir-le-lien)
-    - [Télécharger](#Télecharger)
-    - [**Envoyer un mail**](#Envoyer-un-mail)
-    - [**Afficher**](#Afficher)
-    - [Favori](#Favori0)
-    - [Copier](#Copier)
-    - [**Gérer les versions**](#Gestion-de-version) (seul la fonction de téléchargement est disponible)
+- [Informations (détails)](../bandeau-actions/#volet-de-detail)
+- [**Obtenir un lien**](../bandeau-actions/#obtenir-le-lien)
+- [Télécharger](../bandeau-actions/#telecharger)
+- [**Envoyer un mail**](../bandeau-actions/#envoyer-un-mail)
+- [**Afficher**](../bandeau-actions/#afficher)
+- [Favori](../bandeau-actions/#favori)
+- [Copier](../bandeau-actions/#copier)
+- [**Gérer les versions**](../bandeau-actions/#gestion-de-version)(seul la fonction de téléchargement est disponible)
 
 IMAGE :
 Clic_droit_Dossier_Lecteur :a:
@@ -183,7 +182,7 @@ Dans une entreprise composée de 4 employés, 2 cadres et 2 non cadres. 2 employ
 ## Visibilité de l'espace de travail
 La visibilité d'un espace influe sur sa capacité à sortir dans les résultats de recherches.
 
-L'espace **public** non partagé et son contenu sont recherchable par tous les utilisateurs. N'importe quels utilisateurs peut intégrer l'espace de travail.
+L'espace **public** non partagé et son contenu est recherchable par tous les utilisateurs. N'importe quels utilisateurs peut intégrer l'espace de travail.
 Si du contenu de l'espace vous est partagé, la recherche vous indique son emplacement.
 
 VIDEO
