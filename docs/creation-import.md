@@ -273,31 +273,69 @@ Attention un espace supprimer signifie que son contenu sera supprimer pour tous 
 ## Importer du contenu
 
 ### Importer des fichiers
-- Cliquer sur le bouton vert "Nouveau" en haut à gauche, sous le logo Pristy ou de votre entreprise
+- Cliquer sur le bouton vert "Nouveau"
 - Choisissez "Importer le fichier"
+- Votre fichier est importé dans le dossier où vous vous situez.
 
-Votre fichier est importé dans le dossier où vous vous situez.
+??? example "En vidéo : importer un fichier"
+      <figure> <video width="100%" controls>
+      <source src="https://jeci.pristy.net/alfresco/api/-default-/public/alfresco/versions/1/shared-links/gaEhh_dqQquiM148tbCJrA/content?attachment=false" type="video/webm">
+      Votre navigateur ne supporte pas le tag vidéo.
+      </video>
+      <!--03_07_05_Importer_fichier-->
+      <figcaption>Importer un fichier</figcaption>
+      </figure>
 
-VIDEO
-03_07_05_Importer_fichier
 
-Vous pouvez selectionner plusieurs fichiers et ils seront tous importés.
+Vous pouvez sélectionner plusieurs fichiers et ils seront tous importés.
 
-VIDEO
-03_07_05_Importer_2fichiers
+??? example "En vidéo : importer 2 fichier"
+      <figure> <video width="100%" controls>
+      <source src="https://jeci.pristy.net/alfresco/api/-default-/public/alfresco/versions/1/shared-links/rTx_xzFLSzuRakD5VlfOqQ/content?attachment=false" type="video/webm">
+      Votre navigateur ne supporte pas le tag vidéo.
+      </video>
+      <!--03_07_05_Importer_2fichiers-->
+      <figcaption>Importer 2 fichier</figcaption>
+      </figure>
+
 
 ### Importer fichiers vierge / créer un fichier dans un format compatible
 
 Si vous souhaitez créer un fichier qui ne soit pas au format ods ou odt, importer un document vide du format de votre choix. Vous pourrez ensuite l'éditer en ligne.
 
-Les formats compatible à l'édition en ligne sont nombreux : [Formats pris en charge(#Formats-pris-en-charge)
+Les formats compatible à l'édition en ligne sont nombreux : [Formats pris en charge(../formats-pris-en-charge)
 
 ### Importer un dossier :
-- Cliquer sur le bouton vert "Nouveau" en haut à gauche, sous le logo Pristy ou de votre entreprise
+- Cliquer sur le bouton vert "Nouveau"
 - Choisissez "Importer le dossier"
 
 L'arborescence de votre dossier d'origine sera maintenue dans Pristy.
 
-VIDEO
-03_07_06_Importer_Dossier
-03_07_06_Importer_dossier_video
+??? example "En vidéo : Importer un dossier"
+      <figure> <video width="100%" controls>
+      <source src="https://jeci.pristy.net/alfresco/api/-default-/public/alfresco/versions/1/shared-links/6d7fTw3DSuCUT1mwEr3-Fw/content?attachment=false" type="video/webm">
+      Votre navigateur ne supporte pas le tag vidéo.
+      </video>
+      <!--03_07_06_Importer_Dossier-->
+      <figcaption>Importer un dossier</figcaption>
+      </figure>
+
+??? example "En vidéo : Importer un dossier avec des vidéos"
+      <figure> <video width="100%" controls>
+      <source src="https://jeci.pristy.net/alfresco/api/-default-/public/alfresco/versions/1/shared-links/uQ778PEbR1q1IZohRkv8nQ/content?attachment=false" type="video/webm">
+      Votre navigateur ne supporte pas le tag vidéo.
+      </video>
+      <!--03_07_06_Importer_dossier_video-->
+      <figcaption>Importer un dossier avec des vidéos</figcaption>
+      </figure>
+
+---
+!!! summary inline "En lien avec cette page :"
+
+    - [Bandeau d'action](../bandeau-actions/#obtenir-le-lien)
+    - [Formats pris en charge](../format-pris-en-charge/)
+
+!!! info inline end "Pour aller plus loin :"
+
+    - [Partager](../creation-import/partager/)
+    - [Rechercher](../creation-import/rechercher/)
