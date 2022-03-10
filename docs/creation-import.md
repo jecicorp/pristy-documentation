@@ -28,7 +28,7 @@ Il n'est pas possible de créer de dossier ou de fichier dans cette section ; se
 ### Créer un espace
 Pour créer un espace de travail :
 
-- Cliquer sur le bouton vert "Nouveau" en haut à gauche, sous le logo Pristy ou de votre entreprise <figure markdown>![sens](https://jeci.pristy.net/alfresco/api/-default-/public/alfresco/versions/1/shared-links/TMyFN-DIRDqIOqKze_ZUZA/content?attachment=false){width=50%}
+- Cliquer sur le bouton vert "Nouveau" en haut à gauche, sous le logo Pristy ou de votre entreprise <figure markdown>![Emplacement bouton "nouveau"](https://jeci.pristy.net/alfresco/api/-default-/public/alfresco/versions/1/shared-links/TMyFN-DIRDqIOqKze_ZUZA/content?attachment=false){width=50%}
 <!--Bandeau_daction_Nouveau-->
 <figcaption>Emplacement bouton "nouveau"</figcaption>
 </figure>
@@ -161,35 +161,57 @@ Attention un espace supprimer signifie que son contenu sera supprimer pour tous 
 
 ## Créer du contenu
 
-### Créer un dossier :
-- Cliquer sur le bouton vert "Nouveau" en haut à gauche, sous le logo Pristy ou de votre entreprise
+### Créer un dossier
+- Cliquer sur le bouton vert "Nouveau"
 - Choisissez "Créer un dossier"
 - Donner un nom à votre dossier
 - Donner une description à votre dossier (facultatif).
 
-VIDEO
-03_07_01_Creer_Dossier
-03_07_01_Creer_Dossier_Salarie
+<figure markdown>![Nouveau dossier](https://jeci.pristy.net/alfresco/api/-default-/public/alfresco/versions/1/shared-links/1JXFjL_jTIGA1nUOls7pOg/content?attachment=false){width=80%}
+<!--Fenetre_Nouveau_dossier-->
+<figcaption>Nouveau dossier</figcaption>
+</figure>
 
-IMAGE
-Menu_nouveau
-Fenetre_Nouveau_dossier
+??? example "En vidéo : Créer un dossier"
+      <figure> <video width="100%" controls>
+      <source src="https://jeci.pristy.net/alfresco/api/-default-/public/alfresco/versions/1/shared-links/iiGU12dMQPqgZ_A4VUd1OQ/content?attachment=false" type="video/webm">
+      Votre navigateur ne supporte pas le tag vidéo.
+      </video>
+      <!--03_07_01_Creer_Dossier-->
+      <figcaption>Créer un dossier</figcaption>
+      </figure>
 
-### Créer un dossier à partir d'un modele.
-- Cliquer sur le bouton vert "Nouveau" en haut à gauche, sous le logo Pristy ou de votre entreprise
+??? example "Exemple en vidéo : créer un dossier "Salarié""
+      <figure> <video width="100%" controls>
+      <source src="https://jeci.pristy.net/alfresco/api/-default-/public/alfresco/versions/1/shared-links/TBc1BYQQR9u24UFUdmgD0A/content?attachment=false" type="video/webm">
+      Votre navigateur ne supporte pas le tag vidéo.
+      </video>
+      <!--03_07_01_Creer_Dossier_Salarie-->
+      <figcaption>Exemple : Créer un dossier "Salarié"</figcaption>
+      </figure>
+
+### Créer un dossier à partir d'un modèle
+- Cliquer sur le bouton vert "Nouveau"
 - Choisissez "Nouveau dossier à partir d'un modèle"
 - Donner un nom à votre dossier
 - Donner une description à votre dossier (facultatif).
 
-VIDEO
-03_07_02_Creer_dossier_a_partir_model
+<figure markdown>![Nouveau dossier modèle](https://jeci.pristy.net/alfresco/api/-default-/public/alfresco/versions/1/shared-links/-RpX7v6VQzCeOSgIrn67cw/content?attachment=false){width=80%}
+<!--Fenetre_Nouveau_dossier_model-->
+<figcaption>Nouveau dossier modèle</figcaption>
+</figure>
 
-IMAGE
-Menu_nouveau
-Fenetre_Nouveau_dossier_model
+??? example "En vidéo : Créer un dossier à partir d'un modèle"
+      <figure> <video width="100%" controls>
+      <source src="https://jeci.pristy.net/alfresco/api/-default-/public/alfresco/versions/1/shared-links/6zs3e72ASgGRLewRm7hq9A/content?attachment=false" type="video/webm">
+      Votre navigateur ne supporte pas le tag vidéo.
+      </video>
+      <!--03_07_02_Creer_dossier_a_partir_model-->
+      <figcaption>Créer un dossier à partir d'un modèle</figcaption>
+      </figure>
 
 ### Créer un fichier (ods, odt) :
-- Cliquer sur le bouton vert "Nouveau" en haut à gauche, sous le logo Pristy ou de votre entreprise
+- Cliquer sur le bouton vert "Nouveau"
 - Choisissez "Nouveau fichier à partir d'un modèle"
 - Choisir le format de fichier souhaité :
     - Pour un fichier classeur choisir "Nouveau classeur.ods"
@@ -197,27 +219,56 @@ Fenetre_Nouveau_dossier_model
 - Donner un nom à votre fichier
 - Donner une description à votre dossier (facultatif).
 
-VIDEO
-03_07_03_Creer_ODS
-03_07_03_Creer_ODT
+<figure markdown>![Menu nouveau document](https://jeci.pristy.net/alfresco/api/-default-/public/alfresco/versions/1/shared-links/gm_B-x1ZSYitPDIbouQfhg/content?attachment=false){width=80%}
+<!--Menu_nouveau-->
+<figcaption>Menu nouveau document</figcaption>
+</figure>
 
-IMAGE
-Menu_nouveau
-Fenetre_Nouveau_fichier
-Fenetre_Nouveau_fichier_creer
+<figure markdown>![Créer un fichier](https://jeci.pristy.net/alfresco/api/-default-/public/alfresco/versions/1/shared-links/Vr_veICETgOk42z91v_hBg/content?attachment=false){width=80%}
+<!--Fenetre_Nouveau_fichier_creer-->
+<figcaption>Créer un fichier</figcaption>
+</figure>
+
+??? example "En vidéo : Créer un fichier au format ods"
+      <figure> <video width="100%" controls>
+      <source src="https://jeci.pristy.net/alfresco/api/-default-/public/alfresco/versions/1/shared-links/J2LVnDLEQoSgUeAp5X0zEw/content?attachment=false" type="video/webm">
+      Votre navigateur ne supporte pas le tag vidéo.
+      </video>
+      <!--03_07_03_Creer_ODS-->
+      <figcaption>Créer un fichier au format ods</figcaption>
+      </figure>
+
+??? example "En vidéo : Créer un fichier au format odt"
+      <figure> <video width="100%" controls>
+      <source src="https://jeci.pristy.net/alfresco/api/-default-/public/alfresco/versions/1/shared-links/yDLiLL1TR5i1mOea0Xfs7Q/content?attachment=false" type="video/webm">
+      Votre navigateur ne supporte pas le tag vidéo.
+      </video>
+      <!--03_07_03_Creer_ODT-->
+      <figcaption>Créer un fichier au format odt</figcaption>
+      </figure>
 
 ### Créer un fichier à partir d'un modèle pré-conçu:
-- Cliquer sur le bouton vert "Nouveau" en haut à gauche, sous le logo Pristy ou de votre entreprise
+- Cliquer sur le bouton vert "Nouveau"
 - Choisissez "Nouveau fichier à partir d'un modèle"
 - Double cliquer sur le dossier de modèle.
 - Choisir le format de fichier souhaité.
 - Donner un nom à votre fichier
 - Donner une description à votre dossier (facultatif).
 
-VIDEO
-03_07_04_Creer_ODT_a_partir_d_un_model
+<figure markdown>![Créer un nouveau fichier à partir d'un modèle](https://jeci.pristy.net/alfresco/api/-default-/public/alfresco/versions/1/shared-links/eUES6XWZQPWAByCpKO1cgQ/content?attachment=false){width=80%}
+<!--Fenetre_Nouveau_fichier-->
+<figcaption>Créer un nouveau fichier à partir d'un modèle</figcaption>
+</figure>
 
-IMAGE Fenetre_Nouveau_fichier
+??? example "En vidéo : Créer un nouveau fichier à partir d'un modèle"
+      <figure> <video width="100%" controls>
+      <source src="https://jeci.pristy.net/alfresco/api/-default-/public/alfresco/versions/1/shared-links/Y44xDjdaSZ2RHSrPihfiJw/content?attachment=false" type="video/webm">
+      Votre navigateur ne supporte pas le tag vidéo.
+      </video>
+      <!--03_07_04_Creer_ODT_a_partir_d_un_model-->
+      <figcaption>Créer un nouveau fichier à partir d'un modèle exemple : "Modèle de courrier"</figcaption>
+      </figure>
+
 
 ## Importer du contenu
 
