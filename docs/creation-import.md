@@ -1,24 +1,23 @@
 ---
 title: Création et import
-description:
+description: Créer et importer du contenu dans Pristy : créer un espace de travail et son contenu.
 ---
 # Création et import
 
 !!! tips "Métaphore pour mieux comprendre"
-    Il faut imaginer les espaces de travail comme une bibliothèque (le lieu), chaque espace de travail est une bibliothèque (le meuble), chaque dossier est un rayon de bibliothèque, et chaque fichier est un livre.
+    Imaginez les espaces de travail comme une bibliothèque (le lieu), chaque espace de travail est une bibliothèque (le meuble), chaque dossier est un rayon de bibliothèque et chaque fichier est un livre.
 
     ***Voir aussi : [Se repérer dans Pristy](../se-reperer)***
-
 
 ## Espace de travail
 
 Un espace de travail est un dossier maître, il permet de simplifier l'organisation de vos documents.
 Un espace de travail serait comme une section thématique dans une bibliothèque.
-Lorsque vous vous connecter, vous arrivez automatiquement dans la section "Espace de travail" du [Panneau Latéral](../panneau-lateral/#espaces-de-travail).
+Lorsque vous vous connectez, vous arrivez automatiquement dans la section "Espace de travail" du [Panneau Latéral](../panneau-lateral/#espaces-de-travail).
 
 Lors de votre première connexion, soit votre compte sera vide, soit des "Espaces de travail" vous auront déjà été partagé.
 
-Il n'est pas possible de créer de dossier ou de fichier dans cette section ; seulement des espaces de travail (comme on ne range pas un livre dans n'importe qu'elle section d'une bibliothèque).
+Il est impossible de créer de dossier ou de fichier dans cette section ; seulement des espaces de travail (comme on ne range pas un livre dans n'importe quelle section d'une bibliothèque).
 
 <figure markdown>![Espace de travail avec contenu](https://jeci.pristy.net/alfresco/api/-default-/public/alfresco/versions/1/shared-links/1R8jWuwiTRO9LWBomlMMxg/content?attachment=false){width=80%}
 <!--Accueil_Espace_de_travail-->
@@ -35,12 +34,12 @@ Pour créer un espace de travail :
 
 - Choisissez "Créer un espace de travail"
 - Donner un nom à votre espace
-- Donner une description à votre dossier (facultatif).
-    - Par exemple, "Information sur la structure" pour un dossier avec des informations géénrales sur l'entreprise, "Documents sur la gestion des employés" pour un dossier Ressources Humaines, "Documents relatifs à la communications" pour un dossier Communication, etc.
+- Écrire une description à votre dossier (facultatif).
+    - Par exemple, "Information sur la structure" pour un dossier avec des informations générales sur l'entreprise, "Documents sur la gestion des employés" pour un dossier Ressources Humaines, "Documents relatifs à la communication" pour un dossier Communication, etc.
 - Choisissez le niveau d'accès de votre espace de travail :
-    - Public : tous les utilisateurs peuvent voir et consulter le contenu de cet espace, mais seul ses membres peuvent y apporter des modifications. Accessible à tous les utilisateurs.
-    - Modéré : tous les utilisateurs peuvent accéder à l'espace mais seul ses membres peuvent voir le contenu et apporter des modifications. L'utilisateur doit demander l'accès.
-    - Privé : Seul les membres de l'espace peuvent accéder à l'espace. L'utilisateur doit être ajouté par un gestionnaire.
+    - Public : tous les utilisateurs peuvent voir et consulter le contenu de cet espace, mais seules ses membres peuvent y apporter des modifications. Accessible à tous les utilisateurs.
+    - Modéré : tous les utilisateurs accèdent à l'espace, mais seuls ses membres voient le contenu et apporter des modifications. L'utilisateur doit demander l'accès.
+    - Privé : Seul les membres de l'espace accèdent à l'espace. L'utilisateur doit être ajouté par un gestionnaire.
 
     Pour mieux comprendre les notions d'accès rendez-vous dans la section [Partager](../partager) de la documentation
 
@@ -91,9 +90,9 @@ Pour créer un espace de travail :
 
 ### Consulter un espace
 
-Dans la section vos "Espaces de travail" vous trouverez tous les espaces de travail que vous avez créer et que l'on vous a partager. Cliquer simplement dessus pour voir son contenu.
+Dans la section vos "Espaces de travail" vous trouverez tous les espaces de travail que vous avez créé et que l'on vous à partager. Cliquer simplement dessus pour voir son contenu.
 
-Sélectionner le pour accéder au [volet de détails](../bandeau-actions/#volet-de-detail/) avec son nom, sa descriptions, sa visibilité et votre niveau d'accès.
+Sélectionnez-le pour accéder au [volet de détails](../bandeau-actions/#volet-de-detail/) avec son nom, sa description, sa visibilité et votre niveau d'accès.
 
 Si vous en avez les droits, vous pouvez modifier ces informations.
 
@@ -127,9 +126,9 @@ Vous pouvez aussi faire un clic droit sur l'espace et cliquer sur l'option "Quit
 ### Supprimer un espace de travail
 Pour supprimer un espace de travail, il faut en être collaborateur ou gestionnaire.
 
-Attention un espace supprimer signifie que son contenu sera supprimer pour tous les utilisateurs. Si vous souhaitez simplement que l'espace ne fasse plus parti de votre contenu choisissez plutôt de [Quitter l'espace de travail](#Quitter-un-espace-de-travail)
+Attention, un espace supprimé signifie que son contenu sera supprimé pour tous les utilisateurs. Si vous souhaitez simplement que l'espace ne fasse plus partie de votre contenu choisissez plutôt de [Quitter l'espace de travail](#Quitter-un-espace-de-travail)
 
-- Selectionner l'espace depuis
+- Sélectionner l'espace depuis
 - Cliquer sur les trois petits points à gauche du [Bandeau d'action](../bandeau-actions/)
 - Cliquer sur "Supprimer"
 
@@ -153,8 +152,8 @@ Attention un espace supprimer signifie que son contenu sera supprimer pour tous 
       </figure>
 
 !!! summary "À savoir :"
-      - si vous ne vouliez pas supprimer cet espace : pas de panique, il est encore dans votre [corbeille](../panneau-lateral/#corbeille).
-      - si vous voulez créer un nouvel espace portant le même nom, vous devrez au préalable vider la [corbeille](../panneau-lateral/#corbeille). :warning: Attention cette action est définitive.
+      - Si vous ne vouliez pas supprimer cet espace : pas de panique, il est encore dans votre [corbeille](../panneau-lateral/#corbeille).
+      - Si vous voulez créer un nouvel espace portant le même nom, vous devrez au préalable vider la [corbeille](../panneau-lateral/#corbeille). :warning: Attention cette action est définitive.
 
 ***Voir aussi : [Quitter l'espace de travail](#Quitter-un-espace-de-travail), [Corbeille](../panneau-lateral/#corbeille)***
 
@@ -165,7 +164,7 @@ Attention un espace supprimer signifie que son contenu sera supprimer pour tous 
 - Cliquer sur le bouton vert "Nouveau"
 - Choisissez "Créer un dossier"
 - Donner un nom à votre dossier
-- Donner une description à votre dossier (facultatif).
+- Écrire une description à votre dossier (facultatif).
 
 <figure markdown>![Nouveau dossier](https://jeci.pristy.net/alfresco/api/-default-/public/alfresco/versions/1/shared-links/1JXFjL_jTIGA1nUOls7pOg/content?attachment=false){width=80%}
 <!--Fenetre_Nouveau_dossier-->
@@ -194,7 +193,7 @@ Attention un espace supprimer signifie que son contenu sera supprimer pour tous 
 - Cliquer sur le bouton vert "Nouveau"
 - Choisissez "Nouveau dossier à partir d'un modèle"
 - Donner un nom à votre dossier
-- Donner une description à votre dossier (facultatif).
+- Écrire une description à votre dossier (facultatif).
 
 <figure markdown>![Nouveau dossier modèle](https://jeci.pristy.net/alfresco/api/-default-/public/alfresco/versions/1/shared-links/-RpX7v6VQzCeOSgIrn67cw/content?attachment=false){width=80%}
 <!--Fenetre_Nouveau_dossier_model-->
@@ -217,7 +216,7 @@ Attention un espace supprimer signifie que son contenu sera supprimer pour tous 
     - Pour un fichier classeur choisir "Nouveau classeur.ods"
     - Pour un fichier texte choisir "Nouveau document.odt"
 - Donner un nom à votre fichier
-- Donner une description à votre dossier (facultatif).
+- Écrire une description à votre dossier (facultatif).
 
 <figure markdown>![Menu nouveau document](https://jeci.pristy.net/alfresco/api/-default-/public/alfresco/versions/1/shared-links/gm_B-x1ZSYitPDIbouQfhg/content?attachment=false){width=80%}
 <!--Menu_nouveau-->
@@ -247,13 +246,13 @@ Attention un espace supprimer signifie que son contenu sera supprimer pour tous 
       <figcaption>Créer un fichier au format odt</figcaption>
       </figure>
 
-### Créer un fichier à partir d'un modèle pré-conçu:
+### Créer un fichier à partir d'un modèle préconçu:
 - Cliquer sur le bouton vert "Nouveau"
 - Choisissez "Nouveau fichier à partir d'un modèle"
-- Double cliquer sur le dossier de modèle.
+- Double-cliquer sur le dossier de modèle.
 - Choisir le format de fichier souhaité.
 - Donner un nom à votre fichier
-- Donner une description à votre dossier (facultatif).
+- Écrire une description à votre dossier (facultatif).
 
 <figure markdown>![Créer un nouveau fichier à partir d'un modèle](https://jeci.pristy.net/alfresco/api/-default-/public/alfresco/versions/1/shared-links/eUES6XWZQPWAByCpKO1cgQ/content?attachment=false){width=80%}
 <!--Fenetre_Nouveau_fichier-->
@@ -289,21 +288,21 @@ Attention un espace supprimer signifie que son contenu sera supprimer pour tous 
 
 Vous pouvez sélectionner plusieurs fichiers et ils seront tous importés.
 
-??? example "En vidéo : importer 2 fichier"
+??? example "En vidéo : importer 2 fichiers"
       <figure> <video width="100%" controls>
       <source src="https://jeci.pristy.net/alfresco/api/-default-/public/alfresco/versions/1/shared-links/rTx_xzFLSzuRakD5VlfOqQ/content?attachment=false" type="video/webm">
       Votre navigateur ne supporte pas le tag vidéo.
       </video>
       <!--03_07_05_Importer_2fichiers-->
-      <figcaption>Importer 2 fichier</figcaption>
+      <figcaption>Importer 2 fichiers</figcaption>
       </figure>
 
 
-### Importer fichiers vierge / créer un fichier dans un format compatible
+### Importer fichiers vierges / créer un fichier dans un format compatible
 
 Si vous souhaitez créer un fichier qui ne soit pas au format ods ou odt, importer un document vide du format de votre choix. Vous pourrez ensuite l'éditer en ligne.
 
-Les formats compatible à l'édition en ligne sont nombreux : [Formats pris en charge(../formats-pris-en-charge)
+Les formats compatibles à l'édition en ligne sont nombreux : [Formats pris en charge](../formats-pris-en-charge)
 
 ### Importer un dossier :
 - Cliquer sur le bouton vert "Nouveau"
