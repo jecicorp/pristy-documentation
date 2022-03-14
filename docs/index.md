@@ -1,14 +1,15 @@
 ---
 title: Documentation Pristy
-description: Vous trouverez ici toute la documentation, manuel utilisateur, pour l'utilisation de Pristy. Vous êtes débutants ? On part du début. Vous êtes avancé, il y a des conseils qui peuvent vous être utiles. 
+description: Vous trouverez ici toute la documentation, manuel utilisateur, pour l'utilisation de Pristy. Vous êtes débutants ? On part du début. Vous êtes avancé, il y a des conseils qui peuvent vous être utiles.
 ---
 
 # Pristy
 
 Bienvenu sur la documentation de Pristy.
+Il s'agit de la version bêta de cette documentation. Elle va évoluer, s'enrichir et se clarifier en même temps que Pristy grandi. Si vous avez des questions ou des suggestions d'amélioration n'hésitez pas à prendre contact avec nous !
 
 ## Qu'est-ce que Pristy ?
-C'est un logiciel en ligne de gestion électronique de documents (GED)
+Pristy intègre la suite bureautique Collabora Online à la GED (gestion électronique de documents) d'Alfresco et crée une alternative française et libre à Microsoft 365 et Google Drive. Vos documents sont accessibles depuis votre navigateur dans une interface simple d'utilisation et accessible à tous.
 
 ## Que vais-je trouver dans la documentation ?
 Vous trouverez dans cette documentation un description de toutes les fonctionnalitées de Pristy et des conseils d'utilisations.

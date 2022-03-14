@@ -1,202 +1,357 @@
 ---
 title: Partager
-description:
+description: Partager des fichiers dans Pristy : partage en interne avec la fonction "partager", partage externe avec la fonction "obtenir un lien"
 ---
 
 # Partager
-Les fonctions de partage peuvent parraître complexes de prime abord : pas de panique, après avoir lu cette section tout sera, normalement,plus clair.
+Les fonctions de partage peuvent paraître complexes de prime abord : pas de panique, après avoir lu cette section tout sera, normalement, plus clair.
 
 D'abord, il faut distinguer le partage en interne et le partage en externe.
 
 ### En externe
+!!! check inline end "Accessible avec le rôle"
+        - [x] Gestionnaire
+        - [x] Collaborateur / Éditeur
+        - [x] Lecteur
 
-Il suffit d'utiliser au choix la fonction [Obtenir le lien](#Obtenir-le-lien) ou la fonction [Envoyer par mail](#Envoyer-un-mail) cela générera un lien consultable par toute personne à qui vous le partager.
+Il suffit d'utiliser au choix la fonction [Obtenir le lien](../bandeau-actions/#obtenir-le-lien) ou la fonction [Envoyer par mail](../bandeau-actions/#envoyer-un-mail) cela générera un lien consultable par toute personne à qui vous le partager.
 Cela ne fonctionne que pour des documents et ne permet que de la lecture seul (pas de modification).
 
-### En interne
 
-C'est à dire au personne ayant un compte sur Pristy.
+***Voir aussi : [Obtenir le lien](../bandeau-actions/#obtenir-le-lien), [Envoyer par mail](../bandeau-actions/#envoyer-un-mail)***
+
+### En interne
+!!! check inline end "Accessible avec le rôle"
+        - [x] Gestionnaire
+        - [x] Collaborateur / Éditeur
+        - [ ] Lecteur
+
+C'est-à-dire aux personnes ayant un compte sur votre instance de Pristy.
 
 Pour accéder à la fonction il faut :
+
 - Sélectionner l'espace de travail, le dossier ou le document
 - Cliquer sur les 3 points pour accéder à "Plus d'action"
+    <figure markdown>![Bandeau d'actions : plus d'action](https://jeci.pristy.net/alfresco/api/-default-/public/alfresco/versions/1/shared-links/X3GDDAmDRhuPaLaPen74vA/content?attachment=false){width=50%}
+    <!--Bandeau_daction_Plus_daction-->
+    <figcaption>Bandeau d'actions : plus d'action</figcaption>
+    </figure>
 - Cliquer sur "Partager" sur le menu déroulant
+    <figure markdown>![Bandeau d'actions : menu plus d'action](https://jeci.pristy.net/alfresco/api/-default-/public/alfresco/versions/1/shared-links/txLyxDtIRP65n6_Za7scLw/content?attachment=false){width=50%}
+    <!--Bandeau_daction_Menu_Plus_daction-->
+    <figcaption>Bandeau d'actions : menu plus d'action</figcaption>
+    </figure>
 
-Vous pouvez aussi faire un clic droit sur l'espace de travail, le dossier ou le document puis cliquer sur "Partage".
+!!! tip "Utilisez le clic droit"
+      Vous pouvez aussi faire un clic droit sur l'espace de travail, le dossier ou le document puis cliquer sur "Partage".
+      <figure markdown>![Clic-droit partager](https://jeci.pristy.net/alfresco/api/-default-/public/alfresco/versions/1/shared-links/LMpv2rvYRsaPqfty1pXVUQ/content?attachment=false){width=50%}
+      <!--Clic_droit_Dossier_Gestionnaire-->
+      <figcaption>Clic-droit partager</figcaption>
+      </figure>
 
-Une fenètre s'ouvre :
-- Saisir le mail de la personne avec qui on veut partager le contenu
+Une fenêtre s'ouvre :
+    <figure markdown>![Partage, fenetre pop-up](https://jeci.pristy.net/alfresco/api/-default-/public/alfresco/versions/1/shared-links/60VtL3wCRSiGm8oWjuOk0A/content?attachment=false){width=80%}
+    <!--Fenetre_Partage_Accueil-->
+    <figcaption>Partage, fenetre pop-up</figcaption>
+    </figure>
+- Saisir le mail de la personne avec qui l'on veut partager le contenu
 - Cliquer sur son nom
 - Cliquer sur ajouter
-- Dans la section du dessous choisir le [rôle](#Rôle) à attribuer.
+    <figure markdown>![Partage, fenetre pop-up : ajouter un utilisateur](https://jeci.pristy.net/alfresco/api/-default-/public/alfresco/versions/1/shared-links/h_Fm14AlQU6ASRH-KXoKVA/content?attachment=false){width=80%}
+    <!--Fenetre_Partage_Contact-->
+    <figcaption>Partage, fenetre pop-up : ajouter un utilisateur</figcaption>
+    </figure>
+- Dans la section du dessous choisir le [rôle](#role) à attribuer.
+    <figure markdown>![Partage, fenetre pop-up : changer le rôle d'un utilisateur](https://jeci.pristy.net/alfresco/api/-default-/public/alfresco/versions/1/shared-links/uE2DsLqURlWEaPsTrzwC3A/content?attachment=false){width=80%}
+    <!--Fenetre_Partage_Changer_role-->
+    <figcaption>Partage, fenetre pop-up : changer le rôle d'un utilisateur</figcaption>
+    </figure>
 
 
+!!! summary "À savoir avant de partager"
+      On peut partager tout ce qui se trouve dans son compte : les espaces de travail, les dossiers, les documents (quel que soit leurs formats).
 
+      Pour partager il faut avoir le [rôle](#role) de gestionnaire ou de collaborateur sur l'espace de travail, le dossier, le document que l'on souhaite partager. Cela veut dire qu'un lecteur peut seulement consulter un contenu.
 
-#### À savoir avant de partager
-
-On peut partager tout ce qui se trouve dans son compte : les espaces de travail, les dossiers, les documents (quelque soit leurs formats).
-
-Pour partager il faut avoir le [rôle](#Rôle) de gestionnaire ou de collaborateur sur l'espaces de travail, le dossier, le document que l'on souhaite partager. Cela veut dire qu'un lecteur peut seulement consulter un contenu.
-
-Le partage des espaces de travail et des dossiers est automatiquement hérité à son contenu, c'est à dire que si un espace de travail est partagé à un utilisateur tout le contenu de l'espace sera accessible à l'utilisateur, en suivant les mêmes autorisations. Il en va de même pour un dossier. Cet héritage peut être controlé voir [Héritage de rôle](#Héritage-de-rôle).
+      Le partage des espaces de travail et des dossiers est automatiquement hérité à son contenu, c'est-à-dire que si un espace de travail est partagé à un utilisateur tout le contenu de l'espace sera accessible à l'utilisateur, en suivant les mêmes autorisations. Il en va de même pour un dossier. Cet héritage peut être contrôlé voir [Héritage de rôle](#heritage-de-role).
 
 ## Rôle
-Il existe 3 rôles : Gestionnaire, Collaborateur/Éditeur et Lecteur - chacun de ses rôle s'attribue au moment du partage. Les rôles définissent les autorisations de l'utilisateur à consulter, modifier ou déplacer un dossier ou un document.
+Il existe 3 rôles : Gestionnaire, Collaborateur/Éditeur et Lecteur – chacun de ses rôle s'attribue au moment du partage. Les rôles définissent les autorisations de l'utilisateur à consulter, modifier ou déplacer un dossier ou un document.
 
-
+!!! check inline "Rôle"
+        - [x] Gestionnaire
+        - [ ] Collaborateur / Éditeur
+        - [ ] Lecteur
 **Un gestionnaire** à tous les pouvoirs sur son contenu, il peut le créer, le modifier, le déplacer, le partager et l'organiser ou le réorganiser à sa guise.
 
-Le créateur d'un espace, d'un document ou d'un fichier en est automatiquement gestionnaire. S'il s'agit d'une espace ou d'un document il est également gestionnaire de tous le contenu ajouté (sauf si le comportement à été modifié manuellement dans l'[Héritage de rôle](#Héritage-de-rôle)).
+Le créateur d'un espace, d'un document ou d'un fichier en est automatiquement gestionnaire. S'il s'agit d'une espace ou d'un document, il est également gestionnaire de tout le contenu ajouté (sauf si le comportement a été modifié manuellement dans l'[Héritage de rôle](#heritage-de-role).
 
-**Un collaborateur / éditeur** peux tout consulter et créer du contenu mais ne peux pas supprimer ou changer l'emplacement du contenu qu'il n'a pas créer. Il peut consulter les partages attribués et changer les siens pour des droits plus restrictifs.
-Par extension au paragraphe précédent, le collaborateur d'un espace de travail qui a créer un dossier est donc gestionnaire de ce dossier et profite des droits de gestionnaire sur ce dossier.
+---
+!!! check inline "Rôle"
+        - [ ] Gestionnaire
+        - [X] Collaborateur / Éditeur
+        - [ ] Lecteur
+**Un collaborateur / éditeur** peut tout consulter et créer du contenu, mais ne peut pas supprimer ou changer l'emplacement du contenu qu'il n'a pas créée. Il peut consulter les partages attribués et changer les siens pour des droits plus restrictifs.
+Par extension au paragraphe précédent, le collaborateur d'un espace de travail qui a créée un dossier est donc gestionnaire de ce dossier et profite des droits de gestionnaire sur ce dossier.
 
-**Un lecteur** peux uniquement consulter le contenu. Il ne peut pas partager mais peux toujours le téléchargé. Il peut généré un lien qu'il peut partager.
+---
+!!! check inline  "Rôle"
+        - [ ] Gestionnaire
+        - [ ] Collaborateur / Éditeur
+        - [X] Lecteur
+
+**Un lecteur** peut uniquement consulter le contenu. Il ne peut pas partager, mais peut toujours le télécharger. Il peut générer un lien qu'il peut partager.
+
+---
+<br>
 
 ### Héritage de rôle
+!!! check inline end "Accessible avec le rôle"
+        - [x] Gestionnaire
+        - [ ] Collaborateur / Éditeur
+        - [ ] Lecteur
 
+Un rôle est automatiquement hérité.
+Quand un espace de travail est partagé l'utilisateur hérite des même droits sur les dossiers et documents qui le compose.
+Tous les dossiers ou documents ajoutés après le partage profite de cet héritage.
 
+Le(s) gestionnaire(s) de l'espace de travail peux désactiver l'héritage des rôles, d'un espace, d'un dossier ou d'un document.
 
-### Action limité par le rôle attribué à l'espace de travail.
-#### Gestionnaire - actions
+Il peut aussi choisir de rendre gestionnaire d'un dossier un utilisateur collaborateur ou lecteur d'un espace de travail.
+
+??? example "Exemple d'application"
+      Il existe autant de façon de partager des dossiers que d'organisation d'équipe. Voici ici un exemple d'utilisation mettant en avant les possibilité de l'héritage des rôles.
+
+      ---
+      En tant que responsable administratif, je partage les dossier d'information de la paie avec mon responsable RH, chaque salarié à son dossier et ne peux consulter que ce dernier et les informations pratique sur la mutuelle d'entreprise. Dans ces dossier salariés se trouve des informations permettant d'établir le bulletin de paie - par exemple un contrat de travail - et de le payer - par exemple un RIB.
+      Je ne souhaite pas le même niveau de partage pour toutes ces informations.
+
+      Je partage alors l'espace de travail à tous les salariés, mais je désactive l'héritage des rôles. Puis je partage son dossier personnel à chaque salarié en mode lecteur, pour qu'il puisse téléchargé ses bulletins de paie, mais pas agir sur le contenu du dossier.
+      Dans chaque dossier salarié existe un dossier "Information pour la paie". Je partage ce dossier personnel à chaque salarié en donnant les droits collaborateur pour qu'ils puissent ajouter leur informations de paiement.
+
+      Mon responsable RH à lui accès à tous les dossiers de bulletins de paie en collaborateur, pour qu'ils puissent transmettre les bulletins chaque mois aux salariés. Il est en lecteur sur les autres dossiers contenant des informations dont il a besoin sans avoir à agir directement dessus.
+
+      J'active ensuite l'héritage sur le dossier "Mutuelle" pour que chaque salarié est accès aux informations.
+
+      ---
+
+      J'ai aussi un espace partager avec la gérante, sur lequel nous sommes toutes deux gestionnaires. Mais sur le dossier "Assemblées Générales", l'héritage a été désactivé et le dossier m'a été partagé avec les droits d'accès lecteur. Idem pour celui de "Bilan annuel" qui m'a été partagé en tant que collaborateur.
+
+??? example "À VENIR > En vidéo : "
+    Contenu à venir
+  <!---   
+      <figure> <video width="100%" controls>
+        <source src="https://jeci.pristy.net/alfresco/api/-default-/public/alfresco/versions/1/shared-links/ID/content?attachment=false" type="video/webm">
+      Votre navigateur ne supporte pas le tag vidéo.
+      </video>
+      <figcaption></figcaption>
+      </figure>
+-->
+
+### Action limitée par le rôle attribué à l'espace de travail.
+##### Gestionnaire – actions
+!!! check inline "Rôle : action disponible"
+        - [x] Gestionnaire
+        - [ ] Collaborateur / Éditeur
+        - [ ] Lecteur
 - Espace de travail
-    - [Informations (détails)](#Volet-de-détail)
-    - [Partager](#5-Partager)
-    - [**Quitter l'espace de travail**](#Quitter-un-espace-de-travail)
-    - [Supprimer](#Supprimer-un-espace-de-travail)
-    - [Favori](#Favori0)
+    - [Informations (détails)](../bandeau-actions/#volet-de-detail)
+    - [Partager](../partager/)
+    - [**Quitter l'espace de travail**](../creation-import/#quitter-un-espace-de-travail/)
+    - [Supprimer](../bandeau-actions/#supprimer)
+    - [Favori](../bandeau-actions/#favori)
 - Dossier :
-    - [Informations (détails)](#Volet-de-détail)
-    - [Partager](#5-Partager)
-    - [Télécharger](#Télécharger)
-    - [**Modifier**](#Modifier-du-contenu)
-    - [Favori](#Favori0)
-    - [Déplacer](#Déplacer-du-contenu)
-    - [Copier](#Copier)
-    - [Supprimer](#Supprimer)
+    - [Informations (détails)](../bandeau-actions/#volet-de-detail)
+    - [Partager](../partager/)
+    - [Télécharger](../bandeau-actions/#telecharger)
+    - [**Modifier**](../bandeau-actions/#modifier-du-contenu)
+    - [Favori](../bandeau-actions/#favori)
+    - [Déplacer](../bandeau-actions/#deplacer-du-contenu)
+    - [Copier](../bandeau-actions/#copier)
+    - [Supprimer](../bandeau-actions/#supprimer)
 - Fichier :
-    - [Informations (détails)](#Volet-de-détail)
-    - [Partager](#5-Partager)
-    - [**Obtenir un lien**](#Obtenir-le-lien)
-    - [Télécharger](#Télecharger)
-    - [**Envoyer un mail**](#Envoyer-un-mail)
-    - [**Afficher**](#Afficher)
-    - [**Modifier avec Collabora Online**](#Modifier-avec-Collabora-Online) (uniquement pour les formats modifiables)
-    - Editer hors-ligne
-    - [**Importer une nouvelle version**](#Gestion-de-version)
-    - [Favori](#Favori0)
-    - [Déplacer](#Déplacer-du-contenu)
-    - [Copier](#Copier)
-    - [Supprimer](#Supprimer)
-    - [**Gérer les versions**](#Gestion-de-version)
+    - [Informations (détails)](../bandeau-actions/#volet-de-detail)
+    - [Partager](../partager/)
+    - [**Obtenir un lien**](../bandeau-actions/#obtenir-le-lien)
+    - [Télécharger](../bandeau-actions/#telecharger)
+    - [**Envoyer un mail**](../bandeau-actions/#envoyer-un-mail)
+    - [**Afficher**](../bandeau-actions/#afficher)
+    - [**Modifier avec Collabora Online**](../bandeau-actions/#modifier-avec-Collabora-Online) (uniquement pour les formats modifiables)
+    - [Éditer hors-ligne](../bandeau-actions/#editer-hors-ligne)
+    - [**Importer une nouvelle version**](../bandeau-actions/#gestion-de-version)
+    - [Favori](../bandeau-actions/#favori)
+    - [Déplacer](../bandeau-actions/#deplacer-du-contenu)
+    - [Copier](../bandeau-actions/#copier)
+    - [Supprimer](../bandeau-actions/#supprimer)
+    - [**Gérer les versions**](../bandeau-actions/#gestion-de-version)
 
-IMAGE :
-Clic_droit_Dossier_Gestionnaire
-Clic_droit_Fichier_modifiable_Gestionnaire
-Clic_droit_Fichier_non_modifiable_Gestionnaire
+??? example "À VENIR > En image : "
+    Contenu à venir
+  <!---   
+      <figure> <video width="100%" controls>
+        <source src="https://jeci.pristy.net/alfresco/api/-default-/public/alfresco/versions/1/shared-links/ID/content?attachment=false" type="video/webm">
+      Votre navigateur ne supporte pas le tag vidéo.
+      </video>
+      <figcaption></figcaption>
+      </figure>
+      Clic_droit_Dossier_Gestionnaire
+      Clic_droit_Fichier_modifiable_Gestionnaire
+      Clic_droit_Fichier_non_modifiable_Gestionnaire
+-->
 
-#### Collaborateur - actions
+
+
+##### Collaborateur - actions
+!!! check inline "Rôle : action disponible"
+        - [ ] Gestionnaire
+        - [X] Collaborateur / Éditeur
+        - [ ] Lecteur
 - Espace de travail
-    - [**Quitter l'espace de travail**](#Quitter-un-espace-de-travail)
-    - [Supprimer](#Supprimer-un-espace-de-travail)
-    - [Favori](#Favori0)
+    - [**Quitter l'espace de travail**](../creation-import/#quitter-un-espace-de-travail/)
+    - [Supprimer](../bandeau-actions/#supprimer)
+    - [Favori](../bandeau-actions/#favori)
 - Dossier (non crée par l'utilisateur):
-    - [Informations (détails)](#Volet-de-détail)
-    - [Partager](#5-Partager)
-    - [Télécharger](#Télecharger)
-    - [**Modifier**](#Modifier-du-contenu)
-    - [Favori](#Favori0)
-    - [Copier](#Copier)
+    - [Informations (détails)](../bandeau-actions/#volet-de-detail)
+    - [Partager](../partager/)
+    - [Télécharger](../bandeau-actions/#telecharger)
+    - [**Modifier**](../bandeau-actions/#modifier-du-contenu)
+    - [Favori](../bandeau-actions/#favori)
+    - [Copier](../bandeau-actions/#copier)
 - Fichier (non crée par l'utilisateur) :
-    - [Informations (détails)](#Volet-de-détail)
-    - [Partager](#5-Partager)
-    - [**Obtenir un lien**](#Obtenir-le-lien)
-    - [Télécharger](#Télecharger)
-    - [**Envoyer un mail**](#Envoyer-un-mail)
-    - [**Afficher**](#Afficher)
-    - [**Modifier avec Collabora Online**](#Modifier-avec-Collabora-Online) (uniquement pour les formats modifiables)
-    - Editer hors-ligne
-    - [**Importer une nouvelle version**](#Gestion-de-version)
-    - [Favori](#Favori0)
-    - [Copier](#Copier)
-    - [**Gérer les versions**](#Gestion-de-version) (suppression impossible)
+    - [Informations (détails)](../bandeau-actions/#volet-de-detail)
+    - [Partager](../partager/)
+    - [**Obtenir un lien**](../bandeau-actions/#obtenir-le-lien)
+    - [Télécharger](../bandeau-actions/#telecharger)
+    - [**Envoyer un mail**](../bandeau-actions/#envoyer-un-mail)
+    - [**Afficher**](../bandeau-actions/#afficher)
+    - [**Modifier avec Collabora Online**](../bandeau-actions/#modifier-avec-Collabora-Online) (uniquement pour les formats modifiables)
+    - [**Importer une nouvelle version**](../bandeau-actions/#gestion-de-version)  
+    - [Favori](../bandeau-actions/#favori)
+    - [Copier](../bandeau-actions/#copier)
+    - [**Gérer les versions**](../bandeau-actions/#gestion-de-version) (suppression impossible)
 
-IMAGE :
+
+??? example "À VENIR > En image : "
+    Contenu à venir
+  <!---   
+      <figure> <video width="100%" controls>
+        <source src="https://jeci.pristy.net/alfresco/api/-default-/public/alfresco/versions/1/shared-links/ID/content?attachment=false" type="video/webm">
+      Votre navigateur ne supporte pas le tag vidéo.
+      </video>
+      <figcaption></figcaption>
+      </figure>
 Clic_droit_Dossier_Collaborateur :a:
 Clic_droit_Fichier_modifiable_Collaborateur :a:
 Clic_droit_Fichier_non_modifiable_Collaborateur :a:
+--->
 
-#### Lecteur - actions
+##### Lecteur - Bandeau_daction_Plus_daction
+!!! check inline  "Rôle : action disponible"
+        - [ ] Gestionnaire
+        - [ ] Collaborateur / Éditeur
+        - [X] Lecteur
 - Espace de travail
-    - [**Quitter l'espace de travail**](#Quitter-un-espace-de-travail)
-    - [Supprimer](#Supprimer-un-espace-de-travail)
-    - [Favori](#Favori0)
+    - [**Quitter l'espace de travail**](../creation-import/#quitter-un-espace-de-travail/)
+    - [Supprimer](../bandeau-actions/#supprimer)
+    - [Favori](../bandeau-actions/#favori)
 - Dossier (non crée par l'utilisateur):
-    - [Informations (détails)](#Volet-de-détail)
-    - [Télécharger](#Télecharger)
-    - [Favori](#Favori0)
-    - [Copier](#Copier)
+    - [Informations (détails)](../bandeau-actions/#volet-de-detail)
+    - [Télécharger](../bandeau-actions/#telecharger)
+    - [Favori](../bandeau-actions/#favori)
+    - [Copier](../bandeau-actions/#copier)
 - Fichier (non crée par l'utilisateur) :
-    - [Informations (détails)](#Volet-de-détail)
-    - [**Obtenir un lien**](#Obtenir-le-lien)
-    - [Télécharger](#Télecharger)
-    - [**Envoyer un mail**](#Envoyer-un-mail)
-    - [**Afficher**](#Afficher)
-    - [Favori](#Favori0)
-    - [Copier](#Copier)
-    - [**Gérer les versions**](#Gestion-de-version) (seul la fonction de téléchargement est dispo)
+- [Informations (détails)](../bandeau-actions/#volet-de-detail)
+- [**Obtenir un lien**](../bandeau-actions/#obtenir-le-lien)
+- [Télécharger](../bandeau-actions/#telecharger)
+- [**Envoyer un mail**](../bandeau-actions/#envoyer-un-mail)
+- [**Afficher**](../bandeau-actions/#afficher)
+- [Favori](../bandeau-actions/#favori)
+- [Copier](../bandeau-actions/#copier)
+- [**Gérer les versions**](../bandeau-actions/#gestion-de-version)(seul la fonction de téléchargement est disponible)
 
-IMAGE :
+??? example "À VENIR > En image : "
+    Contenu à venir
+  <!---   
+      <figure> <video width="100%" controls>
+        <source src="https://jeci.pristy.net/alfresco/api/-default-/public/alfresco/versions/1/shared-links/ID/content?attachment=false" type="video/webm">
+      Votre navigateur ne supporte pas le tag vidéo.
+      </video>
+      <figcaption></figcaption>
+      </figure>
 Clic_droit_Dossier_Lecteur :a:
 Clic_droit_Fichier_modifiable_Lecteur :a:
 Clic_droit_Fichier_non_modifiable_Lecteur :a:
+--->
 
-### Exemples d'utilisation :
+??? example "Exemples d'utilisation :"
+      Au sein d'un espace de travail, les accès peuvent être  augmentés.
+      Par exemple :
 
+      - Un espace de travail n'est partagé avec personne.
+      - On peut partager un dossier ou un fichier qui le contient.
+      - Il sera accessible via l'url partagé avec lui ou en cherchant le nom de ce dossier ou fichier.
+      - S'il s'agit d'un dossier, tout son contenu aura les mêmes droits que ce dossier.
+      - Nous aurons accès au contenu de l'espace de travail si ce dernier et public. Pour y avoir accès depuis ces espaces de travail, il faudra en demander l'accès.
+      - Conseil : mettez le contenu de ce dossier qui vous intéressé en favoris !
 
-Au sein d'un espace de travail, les accès peuvent être  augmentés.
-Par exemple :
+      Ou
 
-- Un espace de travail n'est partagé avec personne.
-- On peut partager un dossier ou un fichier qui le contient.
-- Il sera accessible via l'url partagé avec lui ou en cherchant le nom de se dossier ou fichier.
-- S'il s'agit d'un dossier Tous son contenu aura les mêmes droits que ce dossier.
-- Nous aurons accès au contenu de l'espace de travail si ce dernier et public. Pour y avoir accès depuis ces espaces de travail, il faudra en demander l'accès.
-- Conseil : mettez le contenu de ce dossier qui vous interresse en favoris !
+      Dans une entreprise composée de 4 employés, 2 cadres et 2 non cadres. 2 employés cadres : Marie Doe et Kate Tie et 2 employés non cadre : John Foster et Lucie Lix
 
-Ou
-
-Dans une entreprise composé de 4 employés, 2 cadres et 2 non cadres. 2 employés cadres : Marie Doe et Kate Tie et 2 employés non cadre : John Foster et Lucie Lix
-
-- Le gérant a partagé un espace de travail avec tous les employés en lecture seul. L'espace "Ressources Humaines"
-- Dans cet espace se trouve un dossier d'informations pour les salariés "Informations générales", et un dossier par employé.
-- Il a retiré les droits hérités des employés sur leurs dossiers personnels. Et ajouté les droits d'éditeur à chaque dossier, employé par employé. (Dans ces dossiers on retrouve le contrat de travail de l'employé, ses bulletins de salaires, l'employé peut lui ajouter les documents comme les justificatifs de frais, rapport de mission, suivi journalier, etc.)
-- Sur le dossier "Informations générales" il n'a rien changé, mais ces derniers contiennent des informations sur les mutuelles. Il a donc retiré les droits hérités des employés sur les dossiers mutuelles et ajouté aux cadres le partage en lecture seul du dossier "Mutuelle Cadre", il a fait de même pour les non cadre et le dossier "Mutuelle non cadre". Pour autant le dossier sur la médecine du travail et toute informations futurs pourront être ajouté dans ce dossier pour tous les employés.
-- L'entreprise débute, mais après quelques temps, le gérant embauche un salarié en charge des ressources humaines, il lui partage donc ce dossier et créer le dossier du nouveau salarié. Puis lui confère aussi les droits d'accès de tous les dossiers des employés pour qu'il puisse reprendre le suivi. Le nouveau responsable RH a alors tous l'historique d'information et le gérant peux toujours suivre le dossier si besoin.
-- L'entreprise grandis encore et une dizaine d'employé s'ajoute alors le gérant demande à son administrateur de créer un groupe "cadre" et un groupe "non cadre" pour simplifier le partage des dossiers respectant cette thématique.
+      - Le gérant a partagé un espace de travail avec tous les employés en lecture seul. L'espace "Ressource Humaines"
+      - Dans cet espace se trouve un dossier d'informations pour les salariés "Informations générales", et un dossier par employé.
+      - Il a retiré les droits hérités des employés sur leurs dossiers personnels. Et ajouté les droits d'éditeur à chaque dossier, employé par employé. (Dans ces dossiers on retrouve le contrat de travail de l'employé, ses bulletins de salaires, l'employé peut lui ajouter les documents comme les justificatifs de frais, rapport de mission, suivi journalier, etc.)
+      - Sur le dossier "Informations générales" il n'a rien changé, mais ces derniers contiennent des informations sur les mutuelles. Il a donc retiré les droits hérités des employés sur les dossiers mutuelles et ajoutées aux cadres le partage en lecture seul du dossier "Mutuelle Cadre", il a fait de même pour les non-cadre et le dossier "Mutuelle non-cadre". Pour autant le dossier sur la médecine du travail et toutes informations futurs pourront être ajoutés dans ce dossier pour tous les employés.
+      - L'entreprise débute, mais après quelque temps, le gérant embauche un salarié en charge des ressources humaines, il lui partage donc ce dossier et créer le dossier du nouveau salarié. Puis lui confère aussi les droits d'accès de tous les dossiers des employés pour qu'il puisse reprendre le suivi. Le nouveau responsable RH a alors tout l'historique d'information et le gérant peut toujours suivre le dossier si besoin.
+      - L'entreprise grandie encore et une dizaine d'employés s'ajoute alors le gérant demande à son administrateur de créer un groupe "cadre" et un groupe "non cadre" pour simplifier le partage des dossiers respectant cette thématique.
 
 
 
 ## Visibilité de l'espace de travail
 La visibilité d'un espace influe sur sa capacité à sortir dans les résultats de recherches.
 
-L'espace **public** non partagé et son contenu sont recherchables par tous les utilisateurs. N'importe quels utilisateurs peut intégrer l'espace de travail.
-Si du contenu de l'espace vous est partagé, la recherche vous indique sont emplacement.
+L'espace **public** non partagé et son contenu est recherchable par tous les utilisateurs. N'importe quels utilisateurs peut intégrer l'espace de travail.
+Si du contenu de l'espace vous est partagé, la recherche vous indique son emplacement.
 
-VIDEO
-IMAGE
+??? example "À VENIR > En image : "
+    Contenu à venir
+  <!---   
+      <figure> <video width="100%" controls>
+        <source src="https://jeci.pristy.net/alfresco/api/-default-/public/alfresco/versions/1/shared-links/ID/content?attachment=false" type="video/webm">
+      Votre navigateur ne supporte pas le tag vidéo.
+      </video>
+      <figcaption></figcaption>
+      </figure>
+      -->
 
 L'espace **modéré** non partagé est recherchable par tous les utilisateurs. N'importe quels utilisateurs peut demander au(x) gestionnaire(s) à intégrer l'espace de travail (depuis l'application).
 Si du contenu de l'espace vous est partagé, la recherche ne vous indique pas son emplacement.
 
-VIDEO
-IMAGE
+??? example "À VENIR > En image : "
+    Contenu à venir
+  <!---   
+      <figure> <video width="100%" controls>
+        <source src="https://jeci.pristy.net/alfresco/api/-default-/public/alfresco/versions/1/shared-links/ID/content?attachment=false" type="video/webm">
+      Votre navigateur ne supporte pas le tag vidéo.
+      </video>
+      <figcaption></figcaption>
+      </figure>
+      -->
 
-L'espace **privé** non partagé n'est pas recherchable. Aucun utilisateurs ne peut demander au(x) gestionnaire(s) à intégrer l'espace de travail (depuis l'application) ou donnaitre l'existence du dossier.
+L'espace **privé** non partagé n'est pas recherchable. Aucun utilisateur ne peut demander au(x) gestionnaire(s) à intégrer l'espace de travail (depuis l'application) ou connaître l'existence du dossier.
 Si du contenu de l'espace vous est partagé, la recherche ne vous indique pas son emplacement.
 
-VIDEO
-IMAGE
+??? example "À VENIR > En image : "
+    Contenu à venir
+  <!---   
+      <figure> <video width="100%" controls>
+        <source src="https://jeci.pristy.net/alfresco/api/-default-/public/alfresco/versions/1/shared-links/ID/content?attachment=false" type="video/webm">
+      Votre navigateur ne supporte pas le tag vidéo.
+      </video>
+      <figcaption></figcaption>
+      </figure>
+      -->
 
 ## Groupe
+
+Cette fonctionnalité va bientôt évoluer, cette section sera détaillé lors de la mise à jour la mettant à jour.

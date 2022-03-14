@@ -1,6 +1,6 @@
 ---
 title: Se repérer dans Pristy
-description: Conseil pour se repérer dans pristy et comprendre les termes employé dans la Documentation
+description: Conseil pour se repérer dans Pristy et comprendre les termes employés dans la Documentation
 ---
 
 # Se repérer dans Pristy
@@ -49,7 +49,7 @@ En cliquant sur les noms de colonnes, vous pouvez **classer vos fichiers et doss
 La zone du dessus de ses encadrés, est appelé en-tête, elle se compose :
 
 - d'un **logo** qui peut être différent de celle des images présentées dans cette documentation (le logo Pristy peut être remplacé par le logo de votre administration ou entreprise).
-- de la zone de recherche (loupe à côter de la mention _rechercher_) voir la section [Rechercher](../rechercher)
+- de la zone de recherche (loupe à côté de la mention _rechercher_) voir la section [Rechercher](../rechercher)
 - à droite de la **zone de recherche** se trouve votre nom utilisateur ici : John Foster
 - à droite du **nom utilisateur** se trouve trois petits points contenant les actions [déconnexion](#se-déconnecter) et [Changer la langue utilisateur](#changer-la-langue-utilisateur).
 
@@ -65,7 +65,7 @@ La zone du dessous de ses encadrés, est appelé bas de page, elle se compose de
 - À droite vous pouvez retrouver :
       * Le **nombre d'éléments** que vous voulez voir afficher par page au choix : 25, 50 ou 100<br/>
       Ici : 25
-      * Le **nombre de pages** disponible. Ce nombre peut varier en fonction du nombre d'éléments afficher.<br/>
+      * Le **nombre de pages** disponible. Ce nombre varie en fonction du nombre d'éléments afficher.<br/>
       Ici : 1 page sur 1
 
 
