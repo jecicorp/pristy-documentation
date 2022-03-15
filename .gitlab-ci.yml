@@ -60,7 +60,7 @@ deploy_prod:
   extends: .deploy
   script:
     - echo "Deploy to miharu.jeci.xyz"
-    - rsync -avz $PWD/site/ "$USER_DEPLOY@miharu.jeci.xyz:/var/www/pristy.fr/documentation/"
+    - rsync -avz $PWD/site/ "$USER_DEPLOY@miharu.jeci.xyz:/var/www/docs.pristy.fr/"
   environment:
     name: pristy-fr-prod
     url: https://pristy.net/documentation
