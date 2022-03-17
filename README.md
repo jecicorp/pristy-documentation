@@ -29,11 +29,12 @@ https://www.mkdocs.org/user-guide/writing-your-docs/#configure-pages-and-navigat
 
 # Mise à jour de contenu :
 Penser à mettre à jour le menu dans
-'''~/mkdocs.yalm/#nav'''
-Et à mettre à jout le plan du site
-'''~/docs/plan-du-site/'''
+'''\~/mkdocs.yalm/#nav'''
 
-#Notes
+Et à mettre à jour le plan du site
+'''\~/docs/plan-du-site/'''
+
+# Notes
 
 - le logo soit être placé dans le dossier 'assets' qui doit être dans le dossier 'docs'
 - le favicon doit se trouvé dans le dossier 'images' du dossier 'assets'
@@ -41,7 +42,9 @@ Et à mettre à jout le plan du site
 
 ---
 
-# Pour garder une cohérence voici une parti des shortcodes employés régulièrement
+# Pour garder une cohérence
+
+Voici une parti des shortcodes employés régulièrements, merci de vous y référez en cas de corrections ou ajouts et d'alimenter cette parti si d'autres sont ajoutés. 
 
 ATTENTION : La mise en page n'est pas rendue dans le READ ME.
 
