@@ -41,13 +41,9 @@ Et à mettre à jout le plan du site
 
 ---
 
-<<<<<<< HEAD
 # Pour garder une cohérence voici une parti des shortcodes employés régulièrement
 
-ATTENTION : La mise en page n'est pas rendue dans le READ ME. 
-=======
-# Pour garder une cohèrence voici une parti des shortcodes employés
->>>>>>> 1d1f215692453a2f0cab01b566466c78428ce9f1
+ATTENTION : La mise en page n'est pas rendue dans le READ ME.
 
 ## Visuels
 
