@@ -6,19 +6,19 @@ description:
 # Plan du site
 
 - [Accueil](../../)
-    * [Sommaire](../#)
+    * [Sommaire](../plan-du-site/)
 - Prise en main
     * [Se repérer dans Pristy](../se-reperer)
-    * [Accès au compte](../acces-compte)
+    * [Se connecter à Pristy](../acces-compte)
     * [Panneau latéral](../panneau-lateral)
-    * [Beandeau d'action](../bandeau-actions)
+    * [Bandeau d'action](../bandeau-actions)
 - Gérer son contenu
     * [Création et import](../creation-import)
     * [Partager](../partager)
-    * [Rechercher](../rechercher)
+    * [Rechercher](../rechercher) (à venir)
     * [Édition en ligne](../edition-en-ligne)
 - Fonction options
     * [Enregistrer sous (save as)](../options/save-as)
     * [OCR (nouveauté !)](../options/OCR)
 - Divers
-    * [Format pris en charge](../format-pris-en-charge)
+    * [Format pris en charge](../format-pris-en-charge) (à venir)
