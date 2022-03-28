@@ -5,20 +5,20 @@ description: Vous trouverez ici toute la documentation, manuel utilisateur, pour
 
 # Pristy
 
-Bienvenu sur la documentation de Pristy.
-Il s'agit de la version bêta de cette documentation. Elle va évoluer, s'enrichir et se clarifier en même temps que Pristy grandi. Si vous avez des questions ou des suggestions d'amélioration n'hésitez pas à prendre contact avec nous !
+Bienvenue sur la documentation de Pristy.
+Il s'agit de la version bêta de cette documentation. Elle va évoluer, s'enrichir et se clarifier en même temps que Pristy grandit. Si vous avez des questions ou des suggestions d'amélioration n'hésitez pas à prendre contact avec nous !
 
 ## Qu'est-ce que Pristy ?
-Pristy intègre la suite bureautique Collabora Online à la GED (gestion électronique de documents) d'Alfresco et crée une alternative française et libre à Microsoft 365 et Google Drive. Vos documents sont accessibles depuis votre navigateur dans une interface simple d'utilisation et accessible à tous.
+Pristy intègre la suite bureautique Collabora Online à la GED (gestion électronique de documents) Alfresco et crée une alternative française et libre à Microsoft 365 et Google Drive. Vos documents sont accessibles depuis votre navigateur dans une interface simple d'utilisation et accessible à tous.
 
 ## Que vais-je trouver dans la documentation ?
-Vous trouverez dans cette documentation un description de toutes les fonctionnalitées de Pristy et des conseils d'utilisations.
+Vous trouverez dans cette documentation une description de toutes les fonctionnalités de Pristy et des conseils d'utilisation.
 
-Si des informations vous manques, ou que cela manque de précision n'hésitez pas à écrire à Lucie : lucie(at)jeci.fr
+Si des informations vous manquent, ou que cela manque de précision n'hésitez pas à écrire à Lucie : lucie(at)jeci.fr
 
 ## Où acheter Pristy ?
 
-Pour acheter Pristy rendez-vous sur [pristy.fr](https://pristy.fr/fr/) ou contacter nous pour obtenir un devis.
+Pour acheter Pristy rendez-vous sur [pristy.fr](https://pristy.fr/fr/) ou contactez nous pour obtenir un devis.
 
 Vous pouvez aussi nous demander une démo, pour cela prenez contact avec nous [pristy.fr/fr/contact](https://pristy.fr/fr/contact)
 

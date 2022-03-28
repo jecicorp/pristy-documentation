@@ -46,7 +46,7 @@ En cliquant sur les noms de colonnes, vous pouvez **classer vos fichiers et doss
 
 ## En-tête (header)
 
-La zone du dessus de ses encadrés, est appelé en-tête, elle se compose :
+La zone au dessus de ces encadrés est appelé en-tête, elle se compose :
 
 - d'un **logo** qui peut être différent de celle des images présentées dans cette documentation (le logo Pristy peut être remplacé par le logo de votre administration ou entreprise).
 - de la zone de recherche (loupe à côté de la mention _rechercher_) voir la section [Rechercher](../rechercher)
@@ -55,7 +55,7 @@ La zone du dessus de ses encadrés, est appelé en-tête, elle se compose :
 
 ## Bas de page (footer)
 
-La zone du dessous de ses encadrés, est appelé bas de page, elle se compose de différentes informations sur le contenu du dossier dans lequel on se trouve :
+La zone sous ces encadrés est appelé bas de page, elle se compose de différentes informations sur le contenu du dossier dans lequel on se trouve :
 
 - À gauche : **Affichage** correspond au nombre d'éléments afficher sur la page. (ce nombre peut varier en fonction du nombre d'éléments afficher.)<br/>
   Ici : affichage fichier 1 à 4.<br/>

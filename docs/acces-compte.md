@@ -11,7 +11,7 @@ Cette étape suppose que vous avez fait une demande de compte et que l'administr
 
 Si vous avez tous cela, vous pouvez suivre les instructions suivant pour vous connecter à votre espace Pristy :
 
-- Accéder à votre accès Pristy via l'url qui vous a été fourni, il ressemble à https://votre-entreprise.pristy.net.
+- Accéder à votre accès Pristy via l'url qui vous a été fournie, elle ressemble à https://votre-entreprise.pristy.net.
 - Utiliser les identifiants fournis par votre administrateur.
 - Saisir votre nom utilisateur dans la partie *nom utilisateur*
 - Saisir votre mot de passe dans la partie *mot de passe*

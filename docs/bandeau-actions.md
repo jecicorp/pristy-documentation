@@ -4,7 +4,7 @@ description: Informations sur les fonctions disponibles dans le bandeau d'action
 ---
 
 # Bandeau d'action
-Le bandeau d'action est la barre grise située entre l'entête de la page (qui contient, le logo Pristy ou celui de votre entreprise, la section de recherche et le votre nom utilisateur) et vos documents.
+Le bandeau d'action est la barre grise située entre l'entête de la page (qui contient, le logo Pristy ou celui de votre entreprise, la section de recherche et votre nom utilisateur) et vos documents.
 *Pour visualiser l'emplacement du bandeau d'action consulter : [Se repérer dans Pristy](../acces-compte/#se-reperer-dans-pristy)*
 
 Pour actionner le bandeau, il faut sélectionner un ou plusieurs documents ou fichiers.
@@ -13,7 +13,7 @@ Les actions possibles sont différentes :
 
 * en fonction de la nature du fichier : un dossier, un document non modifiable (pdf, image, etc.), un document modifiable (classeur, document texte)
 * en fonction du rôle attribué dans l'espace de travail
-* en fonction du nombre de fichiers sélectionné
+* en fonction du nombre de fichiers sélectionnés
 
 !!! tip "Conseil"
       Si vous voulez faire une modification sur un fichier unique vous pouvez simplement faire un clic-droit dessus et vous trouverez le même menu déroulant, qu'en sélectionnant le fichier et en cliquant sur l'icône 3 petits points du bandeau d'action, mais avec **quelques clics en moins**.
@@ -76,7 +76,7 @@ Les autres rôles ont accès à tout ou partie de ses actions.
       - [x] Lecteur
 
 - Sélectionner un dossier ou un fichier
-- Cliquer sur le "i" ans le bandeau de sélection
+- Cliquer sur le "i" dans le bandeau de sélection
 
 ou
 
@@ -149,7 +149,7 @@ Consulter la section [Supprimer un espace de travail](../creation-import/#suppri
 
 Vous pouvez ajouter en favoris des espaces, des documents et des fichiers.
 - Sélectionner l'espace, le(s) dossier(s) ou le(s) fichier(s)
-- Cliquer sur l'icone des 3 petits point du bandeau d'action
+- Cliquer sur l'icone des 3 petits points du bandeau d'action
 - Choisir "Favori"
 
 Vos espaces favoris sont regroupés dans [Espaces favoris](../panneau-lateral/#espaces-favoris), situé sur le [Panneau latéral](../panneau-lateral)
@@ -214,7 +214,7 @@ Vous pouvez télécharger les dossiers et les fichiers.
 Vous pouvez déplacer des dossiers et des fichiers dans d'autres dossiers ou espaces de travail.
 
 - Sélectionner le(s) dossier(s) ou fichier(s)
-- Cliquer sur l'icône des 3 petits point du bandeau d'action
+- Cliquer sur l'icône des 3 petits points du bandeau d'action
 - Choisir "Déplacer"
 
 !!! summary "À savoir :"
@@ -241,7 +241,7 @@ Vous pouvez déplacer des dossiers et des fichiers dans d'autres dossiers ou esp
       Votre navigateur ne supporte pas le tag vidéo.
       </video>
       <!--04_04_02_Deplacer_autre_espace-->
-      <figcaption>Déplace un dossier</figcaption>
+      <figcaption>Déplacer un dossier</figcaption>
       </figure>
 
       <figure> <video width="80%" controls>
@@ -258,7 +258,7 @@ Vous pouvez déplacer des dossiers et des fichiers dans d'autres dossiers ou esp
       Votre navigateur ne supporte pas le tag vidéo.
       </video>
       <!--04_04_03_Deplacer_avec_recherche_1-->
-      <figcaption>déplacer avec la recherche</figcaption>
+      <figcaption>Déplacer avec la recherche</figcaption>
       </figure>
 
       <figure> <video width="80%" controls>
@@ -266,7 +266,7 @@ Vous pouvez déplacer des dossiers et des fichiers dans d'autres dossiers ou esp
       Votre navigateur ne supporte pas le tag vidéo.
       </video>
       <!--04_04_03_Deplacer_avec_recherche_2-->
-      <figcaption>déplacer avec la recherche</figcaption>
+      <figcaption>Déplacer avec la recherche</figcaption>
       </figure>
 
 ??? summary "À savoir : déplacer plusieurs dossiers ou fichiers"
@@ -289,7 +289,7 @@ Vous pouvez déplacer des dossiers et des fichiers dans d'autres dossiers ou esp
 Vous pouvez copier des dossiers et des fichiers dans d'autres dossiers ou espace de travail
 
 - Sélectionner le(s) dossier(s) ou fichier(s)
-- Cliquer sur l'icône des 3 petits point du bandeau d'action
+- Cliquer sur l'icône des 3 petits points du bandeau d'action
 - Choisir "Copier"
 
 !!! summary "À savoir"
@@ -318,7 +318,7 @@ Vous pouvez copier des dossiers et des fichiers dans d'autres dossiers ou espace
 
 
 !!! danger "Attention"
-      :warning: Attention si vous copiez le dossier dans un emplacement dans lequel il se situe déjà, **un nouveau dossier ne sera pas créé, mais les fichiers seront à l'intérieur seront eux dupliqués**.
+      :warning: Attention si vous copiez le dossier dans un emplacement dans lequel il se situe déjà, **un nouveau dossier ne sera pas créé, mais les fichiers à l'intérieur seront eux dupliqués**.
 
       La copie d'un fichier copié dans un emplacement où il se situe déjà sera renommé avec "-1" à la fin du nom.
 
@@ -360,7 +360,7 @@ Vous pouvez aussi faire un clic droit sur le dossier puis cliquer sur "Obtenir l
       </figure>
 
 !!! tip "Conseils :"
-      Pour partager un fichier à un utilisateur de l'espace de travail afin qu'il y ait accès au sein dossier. Ou pour partager un dossier, sélectionner l'url dans la barre d'url est copié le, puis coller le dans un échange, ou par tout autre moyen que vous jugez utiles.
+      Pour partager un fichier à un utilisateur de l'espace de travail afin qu'il y ait accès au sein du dossier ou pour partager un dossier, sélectionner l'url dans la barre d'url, le copier puis le coller dans un échange, ou par tout autre moyen que vous jugez utiles.
 
 
 
@@ -388,7 +388,7 @@ Vous pouvez aussi faire un clic droit sur le dossier puis cliquer sur "Envoyer u
 </figure>
 
 !!! summary "À savoir : ajouter le document en pièce jointe"
-      Vous pouvez aussi ajouter le document partager en pièce jointe en cliquant sur la case "Ajouter le document en pièce jointe"
+      Vous pouvez aussi ajouter le document partagé en pièce jointe en cliquant sur la case "Ajouter le document en pièce jointe"
 
 ??? example "À VENIR > En vidéo : "
     Contenu à venir
@@ -402,7 +402,7 @@ Vous pouvez aussi faire un clic droit sur le dossier puis cliquer sur "Envoyer u
 -->
 
 ??? tip "Conseils :"
-      Pour partager un fichier à un utilisateur de l'espace de travail afin qu'il y ait accès au sein dossier. Ou pour partager un dossier, sélectionner l'url dans la barre d'url est copié le, puis coller le dans le corps de texte du mail.
+      Pour partager un fichier à un utilisateur de l'espace de travail afin qu'il y ait accès au sein du dossier ou pour partager un dossier, sélectionner l'url dans la barre d'url et le copier, puis le coller dans le corps de texte du mail.
 
 ## Afficher
 
@@ -426,7 +426,7 @@ Si le document est un format modifiable, il permet d'accéder directement à l'�
 ## Modifier avec Collabora Online
 *(uniquement pour les formats modifiables)*
 
-Si le document est un format modifiable dans Collabora il permet d'accéder directement à l'[édition en ligne](../edition-en-ligne), dans Collabora Online, notre suite bureautique en ligne intégrer.
+Si le document est un format modifiable dans Collabora il permet d'accéder directement à l'[édition en ligne](../edition-en-ligne), dans Collabora Online, notre suite bureautique en ligne intégrée.
 
 <figure markdown>![Bandeau_daction_Modifier_en_ligne](https://jeci.pristy.net/alfresco/api/-default-/public/alfresco/versions/1/shared-links/9bTx8ZOJRUK1pLRxhY5UBw/content?attachment=false){width=80%}
 <!--Bandeau_daction_Modifier_en_ligne-->
@@ -558,8 +558,8 @@ Quand vous avez fini vos modifications, glisser le nouveau document, comme pour 
 
 Vous avez fait une mise à jour sur un fichier, plutôt que de l'ajouter à votre dossier, vous pouvez ajouter une nouvelle version.
 
-Par exemple vous présenter un document pendant une réunion, une fois les notes et corrections intégrer vous pouvez mettre à jour le document de travail.
-Le lien et le nom du document reste inchangé pour tous les utilisateurs et le contenu a été mis à jour.
+Par exemple vous présentez un document pendant une réunion, une fois les notes et corrections intégrées vous pouvez mettre à jour le document de travail.
+Le lien et le nom du document restent inchangés pour tous les utilisateurs et le contenu a été mis à jour.
 
 - Sélectionner le document
 - Cliquer sur l'icône des 3 petits points sur le bandeau d'action
@@ -583,7 +583,7 @@ Le lien et le nom du document reste inchangé pour tous les utilisateurs et le c
       Vous pouvez aussi glisser la nouvelle version sur le document à mettre à jour.
 
 
-Vous pouvez également changer de version pendant que vous consulter le document. Suivre la même méthode
+Vous pouvez également changer de version pendant que vous consulter le document. Suivre la même méthode.
 
 ??? example "En vidéo : Ajouter une version depuis la visionneuse"
       <figure> <video width="100%" controls>

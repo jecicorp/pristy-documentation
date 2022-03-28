@@ -6,7 +6,7 @@ description:
 ## Accéder à l'aide collabora online
 
 Collabora Online est une suite bureautique intégrer à Pristy.
-Elle a donc son aide dédié.
+Elle a donc son aide dédiée.
 
 Pour y accéder, il faut être dans un document modifiable dans Collabora puis cliquer sur le bandeau "Aide" puis sur le bandeau "Aide en ligne".
 
@@ -14,7 +14,7 @@ L'aide de Collabora s'affiche alors en pop-up.
 
 !!! tip "Conseil"
       Si vous chercher une fonctionnalité en particulier. Vous pouvez utiliser la fonction ctrl+f est rechercher un terme.
-      
+
 ??? example "À VENIR > En vidéo : "
     Contenu à venir
   <!---   

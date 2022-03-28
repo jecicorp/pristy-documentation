@@ -4,7 +4,7 @@ description: Partager des fichiers dans Pristy : partage en interne avec la fonc
 ---
 
 # Partager
-Les fonctions de partage peuvent paraître complexes de prime abord : pas de panique, après avoir lu cette section tout sera, normalement, plus clair.
+Les fonctions de partage peuvent paraître complexes de prime abord : pas de panique, après avoir lu cette section tout sera plus clair.
 
 D'abord, il faut distinguer le partage en interne et le partage en externe.
 
@@ -15,7 +15,7 @@ D'abord, il faut distinguer le partage en interne et le partage en externe.
         - [x] Lecteur
 
 Il suffit d'utiliser au choix la fonction [Obtenir le lien](../bandeau-actions/#obtenir-le-lien) ou la fonction [Envoyer par mail](../bandeau-actions/#envoyer-un-mail) cela générera un lien consultable par toute personne à qui vous le partager.
-Cela ne fonctionne que pour des documents et ne permet que de la lecture seul (pas de modification).
+Cela ne fonctionne que pour des documents et ne permet que la lecture seul (pas de modification).
 
 
 ***Voir aussi : [Obtenir le lien](../bandeau-actions/#obtenir-le-lien), [Envoyer par mail](../bandeau-actions/#envoyer-un-mail)***
@@ -69,11 +69,11 @@ Une fenêtre s'ouvre :
 
 
 !!! summary "À savoir avant de partager"
-      On peut partager tout ce qui se trouve dans son compte : les espaces de travail, les dossiers, les documents (quel que soit leurs formats).
+      On peut partager tout ce qui se trouve dans son compte : les espaces de travail, les dossiers, les documents (quel que soit leur format).
 
       Pour partager il faut avoir le [rôle](#role) de gestionnaire ou de collaborateur sur l'espace de travail, le dossier, le document que l'on souhaite partager. Cela veut dire qu'un lecteur peut seulement consulter un contenu.
 
-      Le partage des espaces de travail et des dossiers est automatiquement hérité à son contenu, c'est-à-dire que si un espace de travail est partagé à un utilisateur tout le contenu de l'espace sera accessible à l'utilisateur, en suivant les mêmes autorisations. Il en va de même pour un dossier. Cet héritage peut être contrôlé voir [Héritage de rôle](#heritage-de-role).
+      Le partage des espaces de travail et des dossiers est automatiquement hérité à son contenu, c'est-à-dire que si un espace de travail est partagé à un utilisateur tout le contenu de l'espace sera accessible à l'utilisateur, en suivant les mêmes autorisations. Il en va de même pour un dossier. Cet héritage peut être contrôlé, voir [Héritage de rôle](#heritage-de-role).
 
 ## Rôle
 Il existe 3 rôles : Gestionnaire, Collaborateur/Éditeur et Lecteur – chacun de ses rôle s'attribue au moment du partage. Les rôles définissent les autorisations de l'utilisateur à consulter, modifier ou déplacer un dossier ou un document.
@@ -82,7 +82,7 @@ Il existe 3 rôles : Gestionnaire, Collaborateur/Éditeur et Lecteur – chacun 
         - [x] Gestionnaire
         - [ ] Collaborateur / Éditeur
         - [ ] Lecteur
-**Un gestionnaire** à tous les pouvoirs sur son contenu, il peut le créer, le modifier, le déplacer, le partager et l'organiser ou le réorganiser à sa guise.
+**Un gestionnaire** a tous les pouvoirs sur son contenu, il peut le créer, le modifier, le déplacer, le partager et l'organiser ou le réorganiser à sa guise.
 
 Le créateur d'un espace, d'un document ou d'un fichier en est automatiquement gestionnaire. S'il s'agit d'une espace ou d'un document, il est également gestionnaire de tout le contenu ajouté (sauf si le comportement a été modifié manuellement dans l'[Héritage de rôle](#heritage-de-role).
 
@@ -123,19 +123,19 @@ Il peut aussi choisir de rendre gestionnaire d'un dossier un utilisateur collabo
       Il existe autant de façon de partager des dossiers que d'organisation d'équipe. Voici ici un exemple d'utilisation mettant en avant les possibilité de l'héritage des rôles.
 
       ---
-      En tant que responsable administratif, je partage les dossier d'information de la paie avec mon responsable RH, chaque salarié à son dossier et ne peux consulter que ce dernier et les informations pratique sur la mutuelle d'entreprise. Dans ces dossier salariés se trouve des informations permettant d'établir le bulletin de paie - par exemple un contrat de travail - et de le payer - par exemple un RIB.
+      En tant que responsable administratif, je partage les dossiers d'information de la paie avec mon responsable RH, chaque salarié a son dossier et ne peut consulter que ce dernier et les informations pratiques sur la mutuelle d'entreprise. Dans ces dossiers salariés se trouvent des informations permettant d'établir le bulletin de paie - par exemple un contrat de travail - et de le payer - par exemple un RIB.
       Je ne souhaite pas le même niveau de partage pour toutes ces informations.
 
-      Je partage alors l'espace de travail à tous les salariés, mais je désactive l'héritage des rôles. Puis je partage son dossier personnel à chaque salarié en mode lecteur, pour qu'il puisse téléchargé ses bulletins de paie, mais pas agir sur le contenu du dossier.
+      Je partage alors l'espace de travail à tous les salariés, mais je désactive l'héritage des rôles. Puis je partage son dossier personnel à chaque salarié en mode lecteur, pour qu'il puisse télécharger ses bulletins de paie, mais pas agir sur le contenu du dossier.
       Dans chaque dossier salarié existe un dossier "Information pour la paie". Je partage ce dossier personnel à chaque salarié en donnant les droits collaborateur pour qu'ils puissent ajouter leur informations de paiement.
 
-      Mon responsable RH à lui accès à tous les dossiers de bulletins de paie en collaborateur, pour qu'ils puissent transmettre les bulletins chaque mois aux salariés. Il est en lecteur sur les autres dossiers contenant des informations dont il a besoin sans avoir à agir directement dessus.
+      Mon responsable RH a lui accès à tous les dossiers de bulletins de paie en collaborateur, pour qu'il puisse transmettre les bulletins chaque mois aux salariés. Il est en lecteur sur les autres dossiers contenant des informations dont il a besoin sans avoir à agir directement dessus.
 
-      J'active ensuite l'héritage sur le dossier "Mutuelle" pour que chaque salarié est accès aux informations.
+      J'active ensuite l'héritage sur le dossier "Mutuelle" pour que chaque salarié ait accès aux informations.
 
       ---
 
-      J'ai aussi un espace partager avec la gérante, sur lequel nous sommes toutes deux gestionnaires. Mais sur le dossier "Assemblées Générales", l'héritage a été désactivé et le dossier m'a été partagé avec les droits d'accès lecteur. Idem pour celui de "Bilan annuel" qui m'a été partagé en tant que collaborateur.
+      J'ai aussi un espace partagé avec la gérante, sur lequel nous sommes toutes deux gestionnaires. Mais sur le dossier "Assemblées Générales", l'héritage a été désactivé et le dossier m'a été partagé avec les droits d'accès lecteur. Idem pour celui de "Bilan annuel" qui m'a été partagé en tant que collaborateur.
 
 ??? example "À VENIR > En vidéo : "
     Contenu à venir
@@ -284,15 +284,15 @@ Clic_droit_Fichier_non_modifiable_Lecteur :a:
 --->
 
 ??? example "Exemples d'utilisation :"
-      Au sein d'un espace de travail, les accès peuvent être  augmentés.
+      Au sein d'un espace de travail, les accès peuvent être augmentés.
       Par exemple :
 
       - Un espace de travail n'est partagé avec personne.
-      - On peut partager un dossier ou un fichier qui le contient.
-      - Il sera accessible via l'url partagé avec lui ou en cherchant le nom de ce dossier ou fichier.
+      - On peut partager un dossier ou un fichier qu'il contient.
+      - Il sera accessible via l'url partagée avec quelqu'un ou en cherchant le nom de ce dossier ou fichier.
       - S'il s'agit d'un dossier, tout son contenu aura les mêmes droits que ce dossier.
       - Nous aurons accès au contenu de l'espace de travail si ce dernier et public. Pour y avoir accès depuis ces espaces de travail, il faudra en demander l'accès.
-      - Conseil : mettez le contenu de ce dossier qui vous intéressé en favoris !
+      - Conseil : mettez le contenu de ce dossier qui vous intéresse en favoris !
 
       Ou
 
@@ -301,16 +301,16 @@ Clic_droit_Fichier_non_modifiable_Lecteur :a:
       - Le gérant a partagé un espace de travail avec tous les employés en lecture seul. L'espace "Ressource Humaines"
       - Dans cet espace se trouve un dossier d'informations pour les salariés "Informations générales", et un dossier par employé.
       - Il a retiré les droits hérités des employés sur leurs dossiers personnels. Et ajouté les droits d'éditeur à chaque dossier, employé par employé. (Dans ces dossiers on retrouve le contrat de travail de l'employé, ses bulletins de salaires, l'employé peut lui ajouter les documents comme les justificatifs de frais, rapport de mission, suivi journalier, etc.)
-      - Sur le dossier "Informations générales" il n'a rien changé, mais ces derniers contiennent des informations sur les mutuelles. Il a donc retiré les droits hérités des employés sur les dossiers mutuelles et ajoutées aux cadres le partage en lecture seul du dossier "Mutuelle Cadre", il a fait de même pour les non-cadre et le dossier "Mutuelle non-cadre". Pour autant le dossier sur la médecine du travail et toutes informations futurs pourront être ajoutés dans ce dossier pour tous les employés.
+      - Sur le dossier "Informations générales" il n'a rien changé, mais ces derniers contiennent des informations sur les mutuelles. Il a donc retiré les droits hérités des employés sur les dossiers mutuelles et ajoutées aux cadres le partage en lecture seul du dossier "Mutuelle Cadre", il a fait de même pour les non-cadre et le dossier "Mutuelle non-cadre". Pour autant le dossier sur la médecine du travail et toutes informations futures pourront être ajoutés dans ce dossier pour tous les employés.
       - L'entreprise débute, mais après quelque temps, le gérant embauche un salarié en charge des ressources humaines, il lui partage donc ce dossier et créer le dossier du nouveau salarié. Puis lui confère aussi les droits d'accès de tous les dossiers des employés pour qu'il puisse reprendre le suivi. Le nouveau responsable RH a alors tout l'historique d'information et le gérant peut toujours suivre le dossier si besoin.
-      - L'entreprise grandie encore et une dizaine d'employés s'ajoute alors le gérant demande à son administrateur de créer un groupe "cadre" et un groupe "non cadre" pour simplifier le partage des dossiers respectant cette thématique.
+      - L'entreprise grandit encore et une dizaine d'employés s'ajoutent alors le gérant demande à son administrateur de créer un groupe "cadre" et un groupe "non cadre" pour simplifier le partage des dossiers respectant cette thématique.
 
 
 
 ## Visibilité de l'espace de travail
 La visibilité d'un espace influe sur sa capacité à sortir dans les résultats de recherches.
 
-L'espace **public** non partagé et son contenu est recherchable par tous les utilisateurs. N'importe quels utilisateurs peut intégrer l'espace de travail.
+L'espace **public** non partagé et son contenu sont recherchables par tous les utilisateurs. N'importe quel utilisateur peut intégrer l'espace de travail.
 Si du contenu de l'espace vous est partagé, la recherche vous indique son emplacement.
 
 ??? example "À VENIR > En image : "
