@@ -43,8 +43,8 @@ Pour agrandir ou réduire le panneau, cliquer sur l'icône hamburger (trois trai
 
 ## Espaces de travail
 
-Imaginer les espaces de travail comme une bibliothèque (le lieu), chaque espace de travail est une bibliothèque (le meuble), chaque dossier est un rayon de bibliothèque et chaque fichier est un livre. <br/>
-Dans Espaces de travail, vous avez accès à _vos_ espaces de travail ainsi qu'à ceux qui ont été partagé avec vous. <br/>
+Imaginez les espaces de travail comme une bibliothèque (le lieu), chaque espace de travail est une bibliothèque (le meuble), chaque dossier est un rayon de bibliothèque et chaque fichier est un livre. <br/>
+Dans Espaces de travail, vous avez accès à _vos_ espaces de travail ainsi qu'à ceux qui ont été partagés avec vous. <br/>
 Vous pouvez les trier par nom et voir vos droits ainsi que sa visibilité sur ce dernier.
 
 ??? example "En vidéo : Espaces de travail"
@@ -62,21 +62,21 @@ Vous pouvez les trier par nom et voir vos droits ainsi que sa visibilité sur ce
       Pour continuer la métaphore, dans une bibliothèque :
 
       - Les Espaces favoris, correspond à la salle de travail où vous emmenez les livres que vous consultez
-      - Les Fichiers personnels, sont les livres que vous avez empruntés (où ce que vous avez publié)
+      - Les Fichiers personnels, sont les livres que vous avez empruntés (où ce que vous avez publiés)
       - Mes publications sont les livres que vous recommandez à vos proches
       - Les fichiers récents sont les livres que vous avez empruntés récemment.
       - Les favoris, correspond à la salle de travail où vous consulter les livres ;
       - La corbeille, n'a peut-être pas d'équivalent dans une bibliothèque, mais je ne doute pas vous visualisez son utilité.
 
 !!! note "Le saviez-vous ?"
-    Dans Alfresco l'espace de travail est appelé site.
+    Dans Alfresco, l'espace de travail est appelé site.
 
 ***Pour aller plus loin : [Espace de travail : création, gestion](../creation-import/#espace-de-travail)
 | [Partager](../partager/)***
 
 ## Espaces favoris
 
-C'est l'endroit où sont regroupés vos espaces favoris. Ce que vous créez son ajouté par défaut. Vous pouvez également retrouver ceux ajoutés par le biais de l'action [Favori](../bandeau-actions/#favori). <br/>
+C'est l'endroit où sont regroupés vos espaces favoris. Ceux que vous créez sont ajoutés par défaut. Vous pouvez également retrouver ceux ajoutés par le biais de l'action [Favori](../bandeau-actions/#favori). <br/>
 Vous avez aussi la possibilité de tri, de voir la visibilité et les droits comme dans les espaces de travail.
 
 ??? example "En vidéo : Espaces favoris"
@@ -95,7 +95,7 @@ Vous pouvez retrouver vos dossiers et fichiers favoris, dans la section [Favoris
 
 ## Fichiers personnels
 
-C'est ici que vous avez accès à tous vos fichiers et dossiers qui ne sont pas dans un espace de travail et que vous avez créé ou importé (depuis cet emplacement). Vous pouvez les trier par nom et consulter les dernières modifications.
+C'est ici que vous avez accès à tous vos fichiers et dossiers qui ne sont pas dans un espace de travail et que vous avez créés ou importés (depuis cet emplacement). Vous pouvez les trier par nom et consulter les dernières modifications.
 
 ??? example "En vidéo : Fichiers personnels"
       <figure> <video width="100%" controls>
@@ -155,7 +155,7 @@ Ici, vous retrouverez tous les fichiers et dossiers favoris. C'est-à-dire ceux 
 
 ## Corbeille
 
-Dans Corbeille, vous retrouverez tous les fichiers, dossiers et espaces de travail que vous avez supprimé. Vous pouvez soit :
+Dans Corbeille, vous retrouverez tous les fichiers, dossiers et espaces de travail que vous avez supprimés. Vous pouvez soit :
 
 - restaurer le contenu
 

@@ -5,7 +5,7 @@ description: Créer et importer du contenu dans Pristy : créer un espace de tra
 # Création et import
 
 !!! tips "Métaphore pour mieux comprendre"
-    Imaginez les espaces de travail comme une bibliothèque (le lieu), chaque espace de travail est une bibliothèque (le meuble), chaque dossier est un rayon de bibliothèque et chaque fichier est un livre.
+    Imaginez Pristy comme une bibliothèque (le lieu), chaque espace de travail est une bibliothèque (le meuble), chaque dossier est un rayon de bibliothèque et chaque fichier est un livre.
 
     ***Voir aussi : [Se repérer dans Pristy](../se-reperer)***
 
@@ -15,7 +15,7 @@ Un espace de travail est un dossier maître, il permet de simplifier l'organisat
 Un espace de travail serait comme une section thématique dans une bibliothèque.
 Lorsque vous vous connectez, vous arrivez automatiquement dans la section "Espace de travail" du [Panneau Latéral](../panneau-lateral/#espaces-de-travail).
 
-Lors de votre première connexion, soit votre compte sera vide, soit des "Espaces de travail" vous auront déjà été partagé.
+Lors de votre première connexion, soit votre compte sera vide, soit des "Espaces de travail" vous auront déjà été partagés.
 
 Il est impossible de créer de dossier ou de fichier dans cette section ; seulement des espaces de travail (comme on ne range pas un livre dans n'importe quelle section d'une bibliothèque).
 
@@ -90,7 +90,7 @@ Pour créer un espace de travail :
 
 ### Consulter un espace
 
-Dans la section vos "Espaces de travail" vous trouverez tous les espaces de travail que vous avez créé et que l'on vous à partager. Cliquer simplement dessus pour voir son contenu.
+Dans la section vos "Espaces de travail", vous trouverez tous les espaces de travail que vous avez créés et que l'on vous a partager. Cliquez simplement dessus pour voir son contenu.
 
 Sélectionnez-le pour accéder au [volet de détails](../bandeau-actions/#volet-de-detail/) avec son nom, sa description, sa visibilité et votre niveau d'accès.
 
@@ -211,7 +211,7 @@ Attention, un espace supprimé signifie que son contenu sera supprimé pour tous
 
 ### Créer un fichier (ods, odt) :
 - Cliquer sur le bouton vert "Nouveau"
-- Choisissez "Nouveau fichier à partir d'un modèle"
+- Choisir "Nouveau fichier à partir d'un modèle"
 - Choisir le format de fichier souhaité :
     - Pour un fichier classeur choisir "Nouveau classeur.ods"
     - Pour un fichier texte choisir "Nouveau document.odt"
