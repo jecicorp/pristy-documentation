@@ -14,7 +14,7 @@ theme:
   language: 'fr'
   icon:
     repo: fontawesome/brands/gitlab
-  favicon: assets/images/favicon.ico
+  favicon: assets/images/favicon.png
   logo: assets/logo-pristy-square.png
   font:
     text: Open Sans
