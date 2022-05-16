@@ -86,6 +86,7 @@ nav:
   - Divers:
     - 'format-pris-en-charge.md'
     - 'plan-du-site.md'
+  - Pristy.fr : "https://pristy.fr/fr/"
 
 plugins:
   - search:
