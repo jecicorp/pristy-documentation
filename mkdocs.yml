@@ -98,6 +98,7 @@ plugins:
 # https://squidfunk.github.io/mkdocs-material/extensions/codehilite/
 # https://squidfunk.github.io/mkdocs-material/extensions/pymdown/
 markdown_extensions:
+  - abbr
   - smarty
   - meta
   - sane_lists
