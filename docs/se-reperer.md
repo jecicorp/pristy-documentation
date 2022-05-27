@@ -24,7 +24,7 @@ Pour se repérer nous ferons référence à différentes zones de Pristy :
 
 La zone entre les différents encadrés du visuel ci-dessus est l'endroit où vous pouvez retrouver vos espaces de travail et leur contenu de dossiers et fichiers.
 
-Au-dessus de la liste des espaces de travail se trouve des noms des colonnes Nom, Description, Mon rôle, Visibilité) et une case à cocher.
+Au-dessus de la liste des espaces de travail se trouve des noms des colonnes (Nom, Description, Mon rôle, Visibilité) et une case à cocher.
 Au-dessus de la liste des fichiers se trouve le nom des colonnes (Type, Nom, Taille, Modifie, Modifié par) et une case à cocher.
 
 En cliquant sur les noms de colonnes, vous pouvez **classer vos fichiers et dossiers par ces informations respectives**.
@@ -70,7 +70,12 @@ La zone sous ces encadrés est appelé bas de page, elle se compose de différen
 
 
 ---
-Ces informations pourront également vous aider :
+!!! summary inline "En lien avec cette page :"
 
-* [Rechercher](../rechercher)
-* [Espace de travail](creation-import/#espace-de-travail)
+    - [Rechercher](../rechercher/)
+    - [Espace de travail](../creation-import/#espace-de-travail)
+
+!!! info inline end "Pour aller plus loin :"
+
+    - [Volet de détails](../bandeau-actions/#volet-de-detail)
+    - [Gérer son contenu](../creation-import/)

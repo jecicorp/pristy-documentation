@@ -11,6 +11,8 @@ Il s'agit de la version bêta de cette documentation. Elle va évoluer, s'enrich
 ## Qu'est-ce que Pristy ?
 Pristy intègre la suite bureautique Collabora Online à la GED (gestion électronique de documents) Alfresco et crée une alternative française et libre à Microsoft 365 et Google Drive. Vos documents sont accessibles depuis votre navigateur dans une interface simple d'utilisation et accessible à tous.
 
+*[GED]: Gestion Électronique de Documents
+
 ## Que vais-je trouver dans la documentation ?
 Vous trouverez dans cette documentation une description de toutes les fonctionnalités de Pristy et des conseils d'utilisation.
 

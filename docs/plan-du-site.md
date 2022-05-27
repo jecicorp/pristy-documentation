@@ -15,7 +15,7 @@ description:
 - Gérer son contenu
     * [Création et import](../creation-import)
     * [Partager](../partager)
-    * [Rechercher](../rechercher) (à venir)
+    * [Rechercher](../rechercher)
     * [Édition en ligne](../edition-en-ligne)
 - Fonction options
     * [Enregistrer sous (save as)](../options/save-as)
