@@ -10,13 +10,13 @@ Formats pris en charge parmi les plus utilisé : OpenDocument (ods, odt, etc.), 
 # Format médias
 
 - Image : JPEG, PNG, GIF, BMP et SVG
-- Media : MP4, MP3, WAV, OGG et WEBM
+- Média : MP4, MP3, WAV, OGG et WEBM
 - Text : TXT, XML, JS, HTML, JSON et TS
 
 
 ## Format texte
 
-Dans le détail voici les formats pris en charge :
+Dans le détail, voici les formats pris en charge :
 
 ### Format [OpenDocuments](https://fr.wikipedia.org/wiki/OpenDocument) (libre)
 
@@ -49,7 +49,7 @@ Pristy avec Collabora Online permet à tous ces fichiers d'être ouvert en lectu
       | Documents Calc                             | sxc       |                     | x             |
       | Documents Impress                          | sxi       |                     | x             |
       | Documents Draw                             | sxd       |                     | x             |
-      | Documents maître de texte                  | sxg       |                     | x             |
+      | Documents maîtres de texte                  | sxg       |                     | x             |
       | Modèles de documents texte                 | stw       |                     | x             |
       | Modèles de documents de feuilles de calcul | stc       | x                   |               |
       | Modèles de documents de présentation       | sti       |                     | x             |
@@ -60,13 +60,13 @@ Pristy avec Collabora Online permet à tous ces fichiers d'être ouvert en lectu
 
 Pristy avec Collabora Online permet à tous ces fichiers d'être ouvert en lecture et en écriture.
 
-#### Format Office historique (2003 et précédent )
+#### Format Office historique (2003 et précédent)
 
 | Nom du Format                           | Extension  | Lecture et Écriture | Lecture seule |
 | --------------------------------------- | ---------- | ------------------- | ------------- |
 | Traitement de texte (MS Word)           | doc et dot | x                   |               |
 | Feuille de calcul / Classeur (MS Excel) | xls        | x                   |               |
-| Présentation (MS Power Point)           | ppt        | x                   |               |
+| Présentation (MS PowerPoint)           | ppt        | x                   |               |
 
 #### Format Office
 | Nom du Format                  | Extension | Lecture et Écriture | Lecture seule |
@@ -118,7 +118,6 @@ Pristy avec Collabora Online permet à tous ces fichiers d'être ouvert en lectu
 | Pages Document           | pages     |                     | x             |
 | Numbers Spreadsheet File | numbers   |                     | x             |
 | Keynote Presentation     | key       |                     | x             |
-|                          |           |                     |               |
 
 ### Format COREL
 
