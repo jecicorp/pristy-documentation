@@ -10,11 +10,11 @@ description: Rechercher du contenu ajouté à Pristy.
 La recherche se fera sur le contenu et espaces dont vous êtes membres et ceux qui sont publics.
 
 !!! note "À savoir"
-      En tapant le symbole * (étoile) dans la barre de recherche vous pouvez chercher tous les documents disponible pour vous sur Pristy.
+      En tapant le symbole "*" (étoile) dans la barre de recherche, vous pouvez chercher tous les documents disponibles pour vous sur Pristy.
 
 ### Faire une recherche simple
-Pour faire une recherche saisir le ou les mot(s) recherché(s) dans la barre de recherche.
-La barre de recherche est situé en haut à droite - à côté du nom utilisateur dans la boite grise où est écrit "Rechercher".
+Pour faire une recherche, saisir le ou les mot(s) recherché(s) dans la barre de recherche.
+La barre de recherche est située en haut à droite - à côté du nom utilisateur dans la boite grise où est écrit "Rechercher".
 Cette barre est disponible depuis n'importe où dans Pristy.
 
 - Cliquer dans la barre de recherche
@@ -24,9 +24,9 @@ Cette barre est disponible depuis n'importe où dans Pristy.
 La recherche se lance dans tous les fichiers et dossiers présents dans tous vos espaces de travail.
 
 ### Faire une recherche plus précise
-Vous pouvez restreindre la recherche depuis la barre de recherche pour chercher plus spécifiquement un espace de travail, un dossier ou un documents (pdf, traitement de texte, classeur, etc.)
+Vous pouvez restreindre la recherche depuis la barre de recherche pour chercher plus spécifiquement un espace de travail, un dossier ou un document (PDF, traitement de texte, classeur, etc.)
 
-=== "Rechercher un documents"
+=== "Rechercher un document"
 
     - Cliquer dans la barre de recherche
     - Saisissez un ou plusieurs mots
@@ -44,7 +44,7 @@ Vous pouvez restreindre la recherche depuis la barre de recherche pour chercher 
 
     - Cliquer dans la barre de recherche
     - Saisissez un ou plusieurs mots
-    - Cocher la case "Espace de travail "
+    - Cocher la case "Espace de travail"
     - Appuyer sur la touche "entré" de votre clavier pour lancer la recherche
 
 ## Zones de recherche
@@ -58,50 +58,50 @@ Il y a trois espaces dans le résultat de recherche :
 
 ### Résultats de recherche
 
-Affiche les résultats en fonction de la recherche effectué et des éventuel trie et filtre appliqué.
-Les résultats de recherche s'applique sur tous le contenu d'un document (et pas uniquement son titre).
+Affiche les résultats en fonction de la recherche effectuée et des éventuels trie et filtre appliqué.
+Les résultats de recherche s'appliquent sur tout le contenu d'un document (et pas uniquement son titre).
 
 Sous le nom du document est affiché l'heure et la date de sa dernière modification et par qui la modification a été effectuée puis sa taille.
 
-En dessous est indiqué (si les droits nécessaires sont acquis) l'emplacement du document ou du dossier.
+En dessous, est indiqué (si les droits requis sont acquis) l'emplacement du document ou du dossier.
 
 !!! note "Conseil d'utilisation"
-      En cliquant sur le nom de l'objet on y accède - mais on n'accède pas à son emplacement.
+      En cliquant sur le nom de l'objet, on y accède – mais on n'accède pas à son emplacement.
 
-      En cliquant sur le dossier ou espace "emplacement" on accède à l'emplacement et on peut ensuite accéder au document recherché.
+      En cliquant sur le dossier ou espace "emplacement" on accède à l'emplacement et l'on peut ensuite accéder au document recherché.
 
 ### Trier les résultats
 
-Les résultats peuvent être trier par différente catégories de façon ascendante ou descendante.
+Les résultats peuvent être triés par différentes catégories de façons ascendante ou descendante.
 
 La configuration de base du trie est par Pertinence.
 
 Le choix de la catégorie de trie se fait en cliquant sur l'option de trie active.
-Le choix d'un classement ascendant (fleche vers le bas) ou descendant (fleche vers le haut) se fait en cliquant sur la flèche à droite de la zone de trie.
+Le choix d'un classement ascendant (flèche vers le bas) ou descendant (flèche vers le haut) se fait en cliquant sur la flèche à droite de la zone de trie.
 
 Choix de trie possible :
 
 | Nom | Ascendant | Descendant |
 | --- | --- | --- |
-| Pertinence | les résultats le plus probables de la recherche | les résultats les moins probables de la recherche |
+| Pertinence | les résultats les plus probables de la recherche | les résultats les moins probables de la recherche |
 | Nom de fichier | par ordre alphabétique (chiffre, a:z) | inverse ordre alphabétique (z:a, chiffres) |
 | Titre (s'applique sur les Titres (métadonnée) des dossiers)| par ordre alphabétique du titre puis du nom | inverse ordre alphabétique du titre puis du nom |
 | Date de modification | modification la plus récente | modification la plus ancienne |
-| Modificateur (dernière personne à avoir effectuer une modification) | par compte utilisateur puis compte administrateurs ; par ordre alphabétique (chiffre, a:z) | par compte utilisateur puis compte administrateurs ; inverse ordre alphabétique (z:a, chiffres)|
+| Modificateur (dernière personne à avoir effectué une modification) | par compte utilisateur puis compte administrateurs ; par ordre alphabétique (chiffre, a:z) | par compte utilisateur puis compte administrateurs ; inverse ordre alphabétique (z:a, chiffres)|
 | Date de création | création la plus récente | création la plus ancienne |
-| Taille | documents du plus lourds au plus légers |  documents du plus légers au plus lourds |
+| Taille | documents du plus lourds aux plus légers |  documents du plus légers aux plus lourds |
 | Type | par ordre alphabétique du nom de l'extension standard (doc > pdf > odp, ods, odt, txt, xml) | inverse ordre alphabétique (cas particulier puis extensions standards) |
 
 ### Filtrer les résultats
 
-Les resultats peuvent être filtrer. Cela permet de réduire le champ de recherche.
-Si la section "Filtre de recherche" ne s'affiche pas cliquer sur le logo fichier situé au dessus de la flèche.
+Les résultats peuvent être filtrés. Cela permet de réduire le champ de recherche.
+Si la section "Filtre de recherche" ne s'affiche pas, cliquer sur le logo fichier situé au-dessus de la flèche.
 
-Pour supprimer les filtres cliquer sur "Réinitialiser tout" (en haut de la zone de filtre).
+Pour supprimer les filtres, cliquer sur "Réinitialiser tout" (en haut de la zone de filtre).
 
 #### Filtrer par taille
 
-Il existe 4 section "taille" :
+Il existe 4 sections "taille" :
 
 - Petite (moins de 1 Mo)
 - Moyenne (entre 1 Mo et 52 Mo)
@@ -122,30 +122,30 @@ Sélectionner le ou les catégories à filtrer. Vous pouvez chercher en écrivan
 
 #### Filtrer par Créateur
 
-En fonction des créateurs présent dans les résultats de recherches.
+En fonction des créateurs présents dans les résultats de recherches.
 Sélectionner le ou les catégories à filtrer. Vous pouvez chercher en écrivant dans "Filtrer par catégorie".
 
 #### Filtrer par Modificateur
 
-En fonction des modificateurs présent dans les résultats de recherches.
+En fonction des modificateurs présents dans les résultats de recherches.
 Sélectionner le ou les catégories à filtrer. Vous pouvez chercher en écrivant dans "Filtrer par catégorie".
 
 #### Filtrer par Emplacement (espace de travail)
 
-En fonction des espace de travail présent dans les résultats de recherches.
+En fonction des espaces de travail présents dans les résultats de recherches.
 Sélectionner le ou les catégories à filtrer. Vous pouvez chercher en écrivant dans "Filtrer par catégorie".
 
 #### Filtrer par Date de modification (période)
 
-Par période : aujourd'hui, cette semaine, ce mois, au cours des 6 derniers mois, cette année.
+Par période : aujourd'hui, cette semaine, ce mois, au cours des six derniers mois, cette année.
 Sélectionner le ou les catégories à filtrer. Vous pouvez chercher en écrivant dans "Filtrer par catégorie".
 
 ## Option liée
 
 
-!!! tip "Le plus de l'options OCR"
-      Si vous avez souscrit à une offre l'[option OCR](../options/OCR/), le texte des fichiers scannés fera parti des résultats de recherche !
-      Pour trouver tous les documents scannés rapidement cocher "Administrator" dans la section [Modificateur](../rechercher/#filtrer-par-modificateur).
+!!! tip "Le plus de l'option OCR"
+      Si vous avez souscrit à une offre l'[option OCR](../options/OCR/), le texte des fichiers scannés fera partie des résultats de recherche !
+      Pour trouver tous les documents scannés rapidement, cocher "Administrator" dans la section [Modificateur](../rechercher/#filtrer-par-modificateur).
 
 
 ---
