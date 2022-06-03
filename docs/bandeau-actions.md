@@ -3,6 +3,20 @@ title: Bandeau d'actions
 description: Informations sur les fonctions disponibles dans le bandeau d'action.
 ---
 
+<!--
+  Copyright 2022 - Jeci SARL - https://jeci.fr
+
+  Permission is granted to copy, distribute and/or modify this document
+  under the terms of the GNU Free Documentation License, Version 1.3
+  or any later version published by the Free Software Foundation;
+  with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts.
+  A copy of the license is included in the section entitled "GNU
+  Free Documentation License".
+
+  You should have received a copy of the GNU Free Documentation License
+  along with this program.  If not, see http://www.gnu.org/licenses/.
+-->
+
 # Bandeau d'action
 Le bandeau d'action est la barre grise située entre l'entête de la page (qui contient, le logo Pristy ou celui de votre entreprise, la section de recherche et votre nom utilisateur) et vos documents.
 *Pour visualiser l'emplacement du bandeau d'action consulter : [Se repérer dans Pristy](../acces-compte/#se-reperer-dans-pristy)*
