@@ -3,6 +3,20 @@ title: Partager
 description: Partager des fichiers dans Pristy : partage en interne avec la fonction "partager", partage externe avec la fonction "obtenir un lien"
 ---
 
+<!--
+  Copyright 2022 - Jeci SARL - https://jeci.fr
+
+  Permission is granted to copy, distribute and/or modify this document
+  under the terms of the GNU Free Documentation License, Version 1.3
+  or any later version published by the Free Software Foundation;
+  with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts.
+  A copy of the license is included in the section entitled "GNU
+  Free Documentation License".
+
+  You should have received a copy of the GNU Free Documentation License
+  along with this program.  If not, see http://www.gnu.org/licenses/.
+-->
+
 # Partager
 Les fonctions de partage peuvent paraître complexes de prime abord : pas de panique, après avoir lu cette section tout sera plus clair.
 
