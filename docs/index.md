@@ -39,4 +39,10 @@ Pour acheter Pristy rendez-vous sur [pristy.fr](https://pristy.fr/fr/) ou contac
 Vous pouvez aussi nous demander une démo, pour cela prenez contact avec nous [pristy.fr/fr/contact](https://pristy.fr/fr/contact)
 
 
+## Est-ce que je peux participer à l'écriture de la documentation ?
+
+Bien sûr ! Cette documentation, comme [Pristy](pristy.fr/fr/logiciels-libres/), est un logiciel libre.
+Pour participer, rendez-vous sur le [projet GitHub](https://github.com/jecicorp/pristy-documentation).
+
+
 ### [Essayer Pristy :material-account-plus:](https://pristy.fr/demo){ .md-button .md-button--primary }
