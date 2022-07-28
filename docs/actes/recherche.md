@@ -54,13 +54,13 @@ Sur la liste des fichiers, en cliquant sur l'entête, on active les tris.
 
 `Filtre` : Un filtre examine les données et n'extrait que les informations correspondant à la requête.
 
-Il s'applique ici sur le nom du fichier (ID) et sur le type,  {++les deux filtres sont cumulables, les filtres sont cumulables avec le tri++}.
+Il s'applique ici sur le nom du fichier (ID) et sur le type.  {++Les deux filtres sont cumulables entre eux et avec le tri++}.
 
 ### Nom de fichiers (ID)
 
-Sur le nom de fichier, vous pouvez trier en tapant n'importe quelle lettre, mot ou phrase dans la barre de filtre.
+Sur le nom de fichier, vous pouvez filtrer en tapant n'importe quelle lettre, mot ou phrase dans la barre de filtre.
 
-La casse de phrase n'est pas prise en compte, un seul terme peut-être filtré.
+La casse de la phrase n'est pas prise en compte, un seul terme peut-être filtré.
 
 ### Type
 
@@ -73,9 +73,9 @@ On peut sélectionner le type de document que l'on veut afficher :
 
 `Recherche` : Permet de trouver un terme présent dans le titre, corps, nom du document, etc.
 
-Dans la barre intitulée "recherche" taper le mot rechercher.
+Dans la barre intitulée "recherche", tapez le mot rechercher.
 
-La casse de phrase n'est pas prise en compte, un seul terme peut être recherché (ou une suite de terme présente dans un document).
+La casse de la phrase n'est pas prise en compte, un seul terme peut être recherché (ou une suite de terme présente dans un document).
 
 {++La recherche est cumulable avec les filtres et le tri.++}
 

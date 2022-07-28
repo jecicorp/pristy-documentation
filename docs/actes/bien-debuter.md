@@ -23,7 +23,7 @@ description: Comment utiliser de l'application métier Pristy Publication des Ac
 
 Cette étape suppose que vous avez fait une demande de compte et que l'administrateur vous a fourni un *url de connexion*, votre *nom utilisateur* et votre *mot de passe*.
 
-Si vous avez tous cela, vous pouvez suivre les instructions suivant pour vous connecter à votre espace Pristy :
+Si vous avez tous cela, vous pouvez suivre les instructions suivantes pour vous connecter à votre espace Pristy :
 
 - Accéder à votre accès Pristy via l'url qui vous a été fournie, elle ressemble à https://votre-entreprise.pristy.net/actes
 - Utiliser les identifiants fournis par votre administrateur.
