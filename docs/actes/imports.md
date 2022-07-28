@@ -60,7 +60,7 @@ Une fois des actes ajoutés, chaque séance affiche un tableau qui regroupe de g
 
 | Les vignettes | Le nom du document | La nature (type) de fichier avec l'affichage de son code | La taille du fichier | Sa date de Publication | Les boutons d'action |
 | :--- | :--- | :---- | :--- | :--- | :--- |
-| Première page du document | [Tri](../recherche/#tri) possible de A à Z et de Z à A) | DE (Délibération), AR (Actes réglementaires), [AI (Actes individuels)](../utilisation/#actes-individuels), CC (Contrats conventions et avenants), BF (Documents budgétaires et financiers), AU (Autres) | [Tri](../recherche/#tri) possible du plus petit au plus grand (et inversement) | [Tri](../recherche/#tri) possible du plus ancien au plus récent (et inversement) | En gris "[télécharger](#telecharger-un-acte)", en vert "[modifier](#modifier-un-acte)", en rouge "[supprimer]#supprimer-un-acte" |
+| Première page du document | [Tri](../recherche/#tri) possible de A à Z et de Z à A) | DE (Délibération), AR (Actes réglementaires), [AI (Actes individuels)](../utilisation/#actes-individuels), CC (Contrats conventions et avenants), BF (Documents budgétaires et financiers), AU (Autres) | [Tri](../recherche/#tri) possible du plus petit au plus grand (et inversement) | [Tri](../recherche/#tri) possible du plus ancien au plus récent (et inversement) | En gris "[télécharger](#telecharger-un-acte)", en vert "[modifier](#modifier-un-acte)", en rouge "[supprimer](#supprimer-un-acte)" |
 
 En haut à droite du tableau se trouve un barre de [filtre](../recherche/#Filtre), elle permet de chercher les termes des noms des documents.  
 
@@ -165,7 +165,7 @@ Il est aujourd'hui impossible de supprimer plusieurs actes en même temps.
 ### Télécharger un acte
 
 Pour télécharger un acte, cliquez sur le logo "télécharger" en gris à la droite de son nom.
-S'il contient une annexe, il nous est alors proposé de télécharger l'acte ou son annexe.
+S'il contient une annexe, il nous est alors proposé de télécharger l'acte et/ou ses annexes.
 
 En mode "[consultation](#consulter-un-acte)" cliquez sur le logo "télécharger" jaune à droite de la zone de zoom.
 

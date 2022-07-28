@@ -47,7 +47,7 @@ Par publication, nous entendons aussi publicité des actes administratifs.
       </figure>
 ## Conseil avant la sortie de la nouvelle interface
 
-Comme vous pouvez le voir pour Pristy Actes, nous présentons une nouvelle interface, vous pourrez retrouver dedans vos espaces de travail, dossiers, fichiers. Elle remplacera app content.
+Comme vous pouvez le voir pour Pristy Actes, nous présentons une nouvelle interface que vous pourrez retrouver dans vos espaces de travail, dossiers, fichiers. Elle remplacera app content.
 
 Avant sa sortie officielle à la rentrée 2022, voici quelques conseils d'utilisations.
 

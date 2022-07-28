@@ -33,7 +33,7 @@ Ces documents ne sont accessibles que depuis la page dédiée, et n'apparaissent
 
 ## Actes Individuels
 
-Les actes individuels ne sont pas publiés, si vous choisissez ce type seule les personnes autorisés (utilisateur connecté ayant accès à l'espace) peuvent le consulter.
+Les actes individuels ne sont pas publiés. Si vous choisissez ce type, seul les personnes autorisées (utilisateur connecté ayant accès à l'espace) peuvent le consulter.
 
 <!--
 Il est aussi possible de partager ce document avec un lien direct, à une personne extérieure.
@@ -59,7 +59,7 @@ Pour obtenir le lien :
 
 ^^Attention^^, la visibilité est différente en fonction du type de visiteur.
 
-Vous y verriez : la vignette consultable de chaque acte, son nom (avec fonction de tri et de filtre), la séance à laquelle l'acte est affilié (avec fonction de tri), la date de publication (date d'import) du document (avec fonction de tri), le type de document (avec fonction de tri et de filtre).
+Vous y verrez : la vignette consultable de chaque acte, son nom (avec fonction de tri et de filtre), la séance à laquelle l'acte est affilié (avec fonction de tri), la date de publication (date d'import) du document (avec fonction de tri), le type de document (avec fonction de tri et de filtre).
 
 | Les vignettes | Le nom du document | La date de la séance où l'acte a été voté | Sa date de publication dans la plateforme | La nature (type) de fichier en toutes lettres |
 | :--- | :--- | :--- | :--- | :---- |
@@ -86,7 +86,7 @@ Si vous utilisez la navigation privée ou que vous vous déconnectez (tel un adm
       </figure>
 
 !!! important "Personnalisable"
-      Cette page a été pensé pour être intègré à votre site web.
+      Cette page a été pensé pour être intégré à votre site web.
 
 !!! info "Recherche et filtre"
       Il est possible de rechercher et de filtrer les contenu. Pour en savoir plus rendez-vous sur [Recherche, Filtre et Tri](../recherche/)
