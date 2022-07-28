@@ -42,22 +42,24 @@ theme:
     - search.suggest
     - search.share
     - toc.integrate
+    - navigation.expand
 
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
       primary: amber
-      accent: pink
+      accent: light blue
       toggle:
         icon: material/weather-sunny
         name: Passer au mode foncé
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       primary: amber
-      accent: pink
+      accent: light blue
       toggle:
         icon: material/weather-night
         name: Passer au mode clair
+
 extra:
   search:
     language: 'fr, en'
@@ -85,18 +87,25 @@ nav:
   - Accueil:
     - 'index.md'
     - Plan du site: 'plan-du-site.md'
-  - 'Prise en main':
-    - 'se-reperer.md'
-    - 'acces-compte.md'
-    - 'panneau-lateral.md'
-    - 'bandeau-actions.md'
-  - 'Gérer son contenu':
-    - 'creation-import.md'
-    - 'partager.md'
-    - 'rechercher.md'
-    - 'edition-en-ligne.md'
-  - Fonction options:
-    - 'options/save-as.md'
+  - 'Pristy app content':
+    - 'Prise en main':
+      - 'aca/se-reperer.md'
+      - 'aca/acces-compte.md'
+      - 'aca/panneau-lateral.md'
+      - 'aca/bandeau-actions.md'
+    - 'Gérer son contenu':
+      - 'aca/creation-import.md'
+      - 'aca/partager.md'
+      - 'aca/rechercher.md'
+      - 'aca/edition-en-ligne.md'
+      - 'aca/save-as.md'
+  - 'Actes Administratifs':
+    - 'actes/presentation.md'
+    - 'actes/bien-debuter.md'
+    - 'actes/imports.md'
+    - 'actes/publication.md'
+    - 'actes/recherche.md'
+  - 'Options':
     - 'options/OCR.md'
   - Divers:
     - 'format-pris-en-charge.md'
@@ -143,5 +152,6 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
+  - footnotes
 
 use_directory_urls: true
