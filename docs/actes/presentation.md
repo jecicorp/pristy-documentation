@@ -18,14 +18,14 @@ description: Présentation de l'application métier Pristy Publication des Actes
 -->
 
 # Présentation de l'application
-Pristy Publication des Actes Administratifs (Pristy Actes) est une application métier destination des Collectivités Territoriales.
+Pristy Publication des Actes Administratifs (Pristy Actes) est une application métier à destination des Collectivités Territoriales.
 
 Elle s'intègre dans Pristy Espaces (nouvelle interface - courant septembre 2022) et peut aussi être commandée seule.
 
 Par publication, nous entendons aussi publicité des actes administratifs.
 
 !!! help "Donnez votre avis !"
-      Cette application à pour but de respecter la [loi de "engagement et proximité"](https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000039764719/). Tout commentaire est le bienvenu.
+      Cette application à pour but de respecter la [loi "engagement dans la vie locale et à la proximité de l'action publique"](https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000039764719/). Tout commentaire est le bienvenu.
 ## Simple d'utilisation
 
 !!! example "En vidéo : Démo longue"
