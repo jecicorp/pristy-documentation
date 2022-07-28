@@ -44,7 +44,7 @@ Et à mettre à jour le plan du site
 
 # Pour garder une cohérence
 
-Voici une parti des shortcodes employés régulièrements, merci de vous y référez en cas de corrections ou ajouts et d'alimenter cette parti si d'autres sont ajoutés. 
+Voici une parti des shortcodes employés régulièrements, merci de vous y référez en cas de corrections ou ajouts et d'alimenter cette parti si d'autres sont ajoutés.
 
 ATTENTION : La mise en page n'est pas rendue dans le READ ME.
 
@@ -67,14 +67,16 @@ ATTENTION : La mise en page n'est pas rendue dans le READ ME.
 
 ??? example "À VENIR > En vidéo : "
     Contenu à venir
-  <!---   
+      <!---   
       <figure> <video width="100%" controls>
         <source src="https://jeci.pristy.net/alfresco/api/-default-/public/alfresco/versions/1/shared-links/ID/content?attachment=false" type="video/webm">
       Votre navigateur ne supporte pas le tag vidéo.
       </video>
+      <!--Nom_du_fichier->
+
       <figcaption></figcaption>
       </figure>
--->
+      -->
 
 ### Images :
 
