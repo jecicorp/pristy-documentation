@@ -41,8 +41,8 @@ Vous pouvez aussi nous demander une démo, pour cela prenez contact avec nous [p
 
 ## Est-ce que je peux participer à l'écriture de la documentation ?
 
-Bien sûr ! Cette documentation, comme [Pristy](pristy.fr/fr/logiciels-libres/), est un logiciel libre.
+Bien sûr ! Cette documentation, comme [Pristy](https://pristy.fr/fr/logiciels-libres/), est un logiciel libre.
 Pour participer, rendez-vous sur le [projet GitHub](https://github.com/jecicorp/pristy-documentation).
 
 
-### [Essayer Pristy :material-account-plus:](https://pristy.fr/demo){ .md-button .md-button--primary }
+### [Essayer Pristy :material-account-plus:](https://pristy.fr/fr/contact){ .md-button .md-button--primary }

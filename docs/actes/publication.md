@@ -59,8 +59,6 @@ Pour obtenir le lien :
 
 ^^Attention^^, la visibilité est différente en fonction du type de visiteur.
 
-Vous y verrez : la vignette consultable de chaque acte, son nom (avec fonction de tri et de filtre), la séance à laquelle l'acte est affilié (avec fonction de tri), la date de publication (date d'import) du document (avec fonction de tri), le type de document (avec fonction de tri et de filtre).
-
 | Les vignettes | Le nom du document | La date de la séance où l'acte a été voté | Sa date de publication dans la plateforme | La nature (type) de fichier en toutes lettres |
 | :--- | :--- | :--- | :--- | :---- |
 | Première page du document | [Tri](../recherche/#tri) possible de A à Z et de Z à A) | [Tri](../recherche/#tri) possible du plus ancien au plus récent (et inversement) | [Tri](../recherche/#tri) possible du plus ancien au plus récent (et inversement) | Délibération, Actes réglementaires, [Actes individuels](../utilisation/#actes-individuels), Contrats conventions et avenants, Documents budgétaires et financiers, Autres |
@@ -77,7 +75,7 @@ Si vous utilisez la navigation privée ou que vous vous déconnectez (tel un adm
 ??? example "En vidéo : Page de consulation"
 
       <figure> <video width="100%" controls>
-        <source src="https://jeci.pristy.net/alfresco/api/-default-/public/alfresco/versions/1/shared-links/https://jeci.pristy.net/pristy/#/preview/s/jyhFRmqFRHeACZpMOASQLA/content?attachment=false" type="video/webm">
+        <source src="https://jeci.pristy.net/alfresco/api/-default-/public/alfresco/versions/1/shared-links/jyhFRmqFRHeACZpMOASQLA/content?attachment=false" type="video/webm">
       Votre navigateur ne supporte pas le tag vidéo.
       </video>
       <!--Page-consultation-->

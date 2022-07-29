@@ -28,7 +28,16 @@ Par publication, nous entendons aussi publicité des actes administratifs.
       Cette application à pour but de respecter la [loi "engagement dans la vie locale et à la proximité de l'action publique"](https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000039764719/). Tout commentaire est le bienvenu.
 ## Simple d'utilisation
 
-!!! example "En vidéo : Démo longue"
+!!! example "En vidéo : Démo courte"
+      <figure> <video width="100%" controls>
+      <source src="https://jeci.pristy.net/alfresco/api/-default-/public/alfresco/versions/1/shared-links/Eor8bmotQUG4hyQe1AmQQA/content?attachment=false" type="video/webm">
+      Votre navigateur ne supporte pas le tag vidéo.
+      </video>
+      <!--Demo-courte-->
+      <figcaption>Démo courte : ajout de délibération dans une séance</figcaption>
+      </figure>
+
+??? example "En vidéo : Démo longue"
       <figure> <video width="100%" controls>
       <source src="https://jeci.pristy.net/alfresco/api/-default-/public/alfresco/versions/1/shared-links/zs4WXtq-TOS_YLLLrtTQoQ/content?attachment=false" type="video/webm">
       Votre navigateur ne supporte pas le tag vidéo.
@@ -37,17 +46,9 @@ Par publication, nous entendons aussi publicité des actes administratifs.
       <figcaption>Démo longue : rapide passage sur toutes les fonctionnalités proposé au 31 juillet 2022</figcaption>
       </figure>
 
-??? example "En vidéo : Démo courte"
-      <figure> <video width="100%" controls>
-      <source src="https://jeci.pristy.net/alfresco/api/-default-/public/alfresco/versions/1/shared-links/Eor8bmotQUG4hyQe1AmQQA/content?attachment=false" type="video/webm">
-      Votre navigateur ne supporte pas le tag vidéo.
-      </video>
-      <!--Demo-courte-->
-      <figcaption>Démo courte : ajout de délibération dans une séance</figcaption>
-      </figure>
 ## Conseil avant la sortie de la nouvelle interface
 
-Comme vous pouvez le voir pour Pristy Actes, nous présentons une nouvelle interface que vous pourrez retrouver dans vos espaces de travail, dossiers, fichiers. Elle remplacera app content.
+Pristy Actes, présente une nouvelle interface. Vous pourrez la retrouver bientôt en placement d'app content (espaces de travail, consultations des dossiers et fichiers)
 
 Avant sa sortie officielle à la rentrée 2022, voici quelques conseils d'utilisations.
 
