@@ -21,18 +21,26 @@ description:
 
 - [Accueil](../../)
     * [Sommaire](../plan-du-site/)
-- Prise en main
-    * [Se repérer dans Pristy](../se-reperer)
-    * [Se connecter à Pristy](../acces-compte)
-    * [Panneau latéral](../panneau-lateral)
-    * [Bandeau d'action](../bandeau-actions)
-- Gérer son contenu
-    * [Création et import](../creation-import)
-    * [Partager](../partager)
-    * [Rechercher](../rechercher)
-    * [Édition en ligne](../edition-en-ligne)
-- Fonction options
-    * [Enregistrer sous (save as)](../options/save-as)
+- Pristy app content
+    - Prise en main
+        * [Se repérer dans Pristy](../aca/se-reperer)
+        * [Se connecter à Pristy](../aca/acces-compte)
+        * [Panneau latéral](../aca/panneau-lateral)
+        * [Bandeau d'action](../aca/bandeau-actions)
+    - Gérer son contenu
+        * [Création et import](../aca/creation-import)
+        * [Partager](../aca/partager)
+        * [Rechercher](../aca/rechercher)
+        * [Édition en ligne](../aca/edition-en-ligne)
+        * [Enregistrer sous (save as)](../aca/options/save-as)
+- Actes Administratifs
+      * [Présentation](../actes/presentation)
+      * [Bien débuter](../actes/bien-debuter)
+      * [Ajouter actes et annexes](../actes/imports)
+      * [Publication et publicité](../actes/publication)
+      * [Recherche, Filtre et Tri](../actes/recherche)
+
+- Options
     * [OCR (nouveauté !)](../options/OCR)
 - Divers
     * [Format pris en charge](../format-pris-en-charge) (à venir)

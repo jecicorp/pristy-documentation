@@ -62,6 +62,9 @@ Une fois des actes ajoutés, chaque séance affiche un tableau qui regroupe de g
 | :--- | :--- | :---- | :--- | :--- | :--- |
 | Première page du document | [Tri](../recherche/#tri) possible de A à Z et de Z à A) | DE (Délibération), AR (Actes réglementaires), [AI (Actes individuels)](../utilisation/#actes-individuels), CC (Contrats conventions et avenants), BF (Documents budgétaires et financiers), AU (Autres) | [Tri](../recherche/#tri) possible du plus petit au plus grand (et inversement) | [Tri](../recherche/#tri) possible du plus ancien au plus récent (et inversement) | En gris "[télécharger](#telecharger-un-acte)", en vert "[modifier](#modifier-un-acte)", en rouge "[supprimer](#supprimer-un-acte)" |
 
+!!! tip "Survoler le label"
+      En survolant le label raccourcie vous pourrez voir son nom complet.
+
 En haut à droite du tableau se trouve un barre de [filtre](../recherche/#Filtre), elle permet de chercher les termes des noms des documents.  
 
 ## Importer Actes et Annexes
@@ -107,7 +110,7 @@ Pour chaque acte importé, vous pouvez accoler une ou plusieurs annexe(s) :
 -   Ajouter un ou plusieurs annexe(s) dans la box d'import
 -   Cliquer sur "Envoyer"
 
-Vos annexes sont ajoutées, si vous cliquez dessus, il s'ouvre à la suite de l'acte annexé. Ainsi, chaque document est contextualisé.
+Vos annexes sont ajoutées. En cliquant dessus, il s'ouvre à la suite de l'acte lié. Ainsi, chaque document est contextualisé.
 
 ??? example "En vidéo : Ajouter une annexe"
 

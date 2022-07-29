@@ -25,7 +25,7 @@ Cette étape suppose que vous avez fait une demande de compte et que l'administr
 
 Si vous avez tous cela, vous pouvez suivre les instructions suivantes pour vous connecter à votre espace Pristy :
 
-- Accéder à votre accès Pristy via l'url qui vous a été fournie, elle ressemble à https://votre-entreprise.pristy.net/actes
+- Accéder à votre instance Pristy via l'url qui vous a été fournie, elle ressemble à https://votre-entreprise.pristy.net/actes
 - Utiliser les identifiants fournis par votre administrateur.
 - Saisir votre nom utilisateur dans la partie *identifiant*
 - Saisir votre mot de passe dans la partie *mot de passe*
@@ -38,7 +38,7 @@ Si vous avez tous cela, vous pouvez suivre les instructions suivantes pour vous 
       </video>
 
 !!! note "Identifiants perdus ou oubliés"
-      Si vous ne les avez pas reçus ou si vous les avez égarés, il faudra en (re)faire la demande.
+      Si vous ne les avez pas reçus ou si vous les avez égarés, il faudra en (re)faire la demande auprès de votre administrateur.
 
 ## Se déconnecter
 

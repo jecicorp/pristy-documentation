@@ -20,7 +20,7 @@ copyright: licensed under CC BY 4.0
 
 repo_url: https://gitlab.beezim.fr/jeci/pristy/pristy-documentation
 edit_uri: edit/staging/docs/
-repo_name: Version bêta
+repo_name: Version accès anticipé
 
 
 # https://squidfunk.github.io/mkdocs-material/
@@ -47,14 +47,14 @@ theme:
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: amber
+      primary: cyan
       accent: light blue
       toggle:
         icon: material/weather-sunny
         name: Passer au mode foncé
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: amber
+      primary: cyan
       accent: light blue
       toggle:
         icon: material/weather-night
@@ -111,6 +111,7 @@ nav:
     - 'format-pris-en-charge.md'
     - 'plan-du-site.md'
   - Pristy.fr : "https://pristy.fr/fr/"
+  - Contact : "https://pristy.fr/fr/contact"
 
 plugins:
   - search:
